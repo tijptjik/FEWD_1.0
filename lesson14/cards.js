@@ -14,8 +14,8 @@ function card(){
 // Internalise
 
 function card(){
-	ranks = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
-	suits = ['Hearts','Spades','Clubs','Diamonds']
+	var ranks = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
+	var suits = ['Hearts','Spades','Clubs','Diamonds']
 	this.suit = suits[Math.floor(Math.random() * suits.length)];
 	this.rank = ranks[Math.floor(Math.random() * ranks.length)];
 	this.show = function(){
@@ -60,13 +60,13 @@ var deck = {
 }
 
 function card(){
-	this.suit = rnd(deck.suits);
-	this.rank = rnd(deck.ranks);
+	this.suit = choice(deck.suits);
+	this.rank = choice(deck.ranks);
 	this.show = function(){
 		return this.suit + this.rank;
 	}
 }
 
-function rnd(arr){
+function choice(arr){
       return arr[Math.floor(Math.random() * arr.length)]
 }
