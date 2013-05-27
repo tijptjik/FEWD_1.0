@@ -188,8 +188,6 @@ Codepen demo by Kit
 * [How I Read Programming Books](http://www.simplyahmazing.com/2013/01/how-i-read-programming-books.html)
 * [10 Ways To Improve Your Programming Skills](http://www.antoarts.com/10-ways-to-improve-your-programming-skills/?utm_source=dlvr.it&utm_medium=tumblr&utm_campaign=kodefuguru)
 
-**Cheatsheet**: Functions Cheat Sheet
-
 
 
 ## Functions
@@ -203,12 +201,23 @@ Codepen demo by Kit
 ## Javascript Object
 <aside class="notes">Mart (?? Min)</aside>
 
-**!!!!! Mart, you need to edit this slide for your own use !!!**
+* Object Oriented Programming VS Procedural Programming
+* An object store its own values (states)
+* An object also has behaviours (method/function)
+```
+var Mart = {
+  name: 'Mart van de Ven',
+  age: '18'
+};
 
-* How will you introduce objects?
-* How will you define objects?
-* What real/concrete example will you use to help understanding?
-* What analogy will you use to explain Objects in JS?
+Mart.sayHello = function() {
+  console.log('Hello');
+};
+
+Mart.tellYourAge = function() {
+  console.log(Mart.age);
+};
+```
 
 
 
@@ -283,20 +292,21 @@ var person = {
 
 **Accessing the object value by index method**
 
-* Creating
+Creating
 ```
 var test = {a: "hi"};
 ```
 
-* Accessing
+Accessing
 ```
 test["a"]; // returns "hi"
 ```
 
-* Assigning
+Assigning
 ```
 test["a"] = "bye"; // test["a"] now stores “bye”
 ```
+
 
 
 ## Javascript Object
@@ -304,17 +314,17 @@ test["a"] = "bye"; // test["a"] now stores “bye”
 
 **Accessing the object value by dot method**
 
-* Creating
+Creating
 ```
 var test = {a: "hi"};
 ```
 
-* Accessing
+Accessing
 ```
 test.a; // returns “hi”
 ```
 
-* Assigning
+Assigning
 ```
 test.a = "bye"; // test["a"] now stores “bye”
 ```
@@ -368,7 +378,7 @@ var car = {
 {"name": "Mart van de Ven"}
 ```
 
-* Wrap the key as string!
+Wrap the key as string!
 
 
 
