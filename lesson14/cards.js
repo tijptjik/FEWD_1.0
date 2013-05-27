@@ -25,13 +25,13 @@ function card(){
 
 // Lesson in Global Namespaces
 
-var cardGame = {}
+var deck = {}
 
 function card(){
-	cardGame.ranks = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
-	cardGame.suits = ['Hearts','Spades','Clubs','Diamonds']
-	this.suit = cardGame.suits[Math.floor(Math.random() * cardGame.suits.length)];
-	this.rank = cardGame.ranks[Math.floor(Math.random() * cardGame.ranks.length)];
+	deck.ranks = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
+	deck.suits = ['Hearts','Spades','Clubs','Diamonds']
+	this.suit = deck.suits[Math.floor(Math.random() * deck.suits.length)];
+	this.rank = deck.ranks[Math.floor(Math.random() * deck.ranks.length)];
 	this.show = function(){
 		return this.suit + this.rank;
 	}
@@ -39,15 +39,34 @@ function card(){
 
 // ... Or just do it once ...
 
-var cardGame = {
+var deck = {
 	ranks : ['A','2','3','4','5','6','7','8','9','10','J','Q','K'],
-	cardGame.suits : ['Hearts','Spades','Clubs','Diamonds']
+	suits : ['Hearts','Spades','Clubs','Diamonds']
 }
 
 function card(){
-	this.suit = cardGame.suits[Math.floor(Math.random() * cardGame.suits.length)];
-	this.rank = cardGame.ranks[Math.floor(Math.random() * cardGame.ranks.length)];
+	this.suit = deck.suits[Math.floor(Math.random() * deck.suits.length)];
+	this.rank = deck.ranks[Math.floor(Math.random() * deck.ranks.length)];
 	this.show = function(){
 		return this.suit + this.rank;
 	}
+}
+
+// ... Refactor this code ...
+
+var deck = {
+	ranks : ['A','2','3','4','5','6','7','8','9','10','J','Q','K'],
+	suits : ['Hearts','Spades','Clubs','Diamonds']
+}
+
+function card(){
+	this.suit = rnd(deck.suits);
+	this.rank = rnd(deck.ranks);
+	this.show = function(){
+		return this.suit + this.rank;
+	}
+}
+
+function rnd(arr){
+      return arr[Math.floor(Math.random() * arr.length)]
 }
