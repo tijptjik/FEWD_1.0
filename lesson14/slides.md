@@ -203,12 +203,7 @@ Codepen demo by Kit
 ## Javascript Object
 <aside class="notes">Mart (?? Min)</aside>
 
-**!!!!! Mart, you need to edit this slide for your own use !!!**
-
-* How will you introduce objects?
-* How will you define objects?
-* What real/concrete example will you use to help understanding?
-* What analogy will you use to explain Objects in JS?
+### The Greatest Container of them All
 
 
 
@@ -249,7 +244,7 @@ var obj = {};
 * Person Object
 ```
 var person = {
-  age: 20,
+  age: 28,
   name: "Mart van de Ven"
 };
 ```
@@ -262,7 +257,7 @@ var person = {
 **Key-Value pairs**
 ```
 var person = {
-  age: 20,
+  age: 28,
   name: "Mart van de Ven",
   key1: value1,
   key2: value2,
@@ -297,6 +292,7 @@ test["a"]; // returns "hi"
 ```
 test["a"] = "bye"; // test["a"] now stores “bye”
 ```
+
 
 
 ## Javascript Object
