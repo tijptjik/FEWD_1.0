@@ -204,6 +204,7 @@ Codepen demo by Kit
 * Object Oriented Programming VS Procedural Programming
 * An object store its own values (states)
 * An object also has behaviours (method/function)
+
 ```
 var Mart = {
   name: 'Mart van de Ven',
@@ -250,12 +251,14 @@ Mart.tellYourAge = function() {
 
 **Syntax**
 
-* Empty object = {}
+Empty object = {}
+
 ```
 var obj = {};
 ```
 
-* Person Object
+Person Object
+
 ```
 var person = {
   age: 20,
@@ -269,6 +272,7 @@ var person = {
 <aside class="notes"></aside>
 
 **Key-Value pairs**
+
 ```
 var person = {
   age: 20,
@@ -293,16 +297,19 @@ var person = {
 **Accessing the object value by index method**
 
 Creating
+
 ```
 var test = {a: "hi"};
 ```
 
 Accessing
+
 ```
 test["a"]; // returns "hi"
 ```
 
 Assigning
+
 ```
 test["a"] = "bye"; // test["a"] now stores “bye”
 ```
@@ -315,16 +322,19 @@ test["a"] = "bye"; // test["a"] now stores “bye”
 **Accessing the object value by dot method**
 
 Creating
+
 ```
 var test = {a: "hi"};
 ```
 
 Accessing
+
 ```
 test.a; // returns “hi”
 ```
 
 Assigning
+
 ```
 test.a = "bye"; // test["a"] now stores “bye”
 ```
