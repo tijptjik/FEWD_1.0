@@ -25,12 +25,13 @@ Homework or any other concept for reviews
 
 
 ## The DOM and Selectors
-<aside class="notes"></aside>
+<aside class="notes">Mart</aside>
 
 **Document Object Model**
 
 * The structure of HTML documents
 * How a document should be accessed and manipulated (by JavaScript)
+
 
 
 ## The DOM and Selectors
@@ -55,7 +56,7 @@ Homework or any other concept for reviews
 
 
 ## The DOM and Selectors
-<aside class="notes">XXX (30 Min)
+<aside class="notes">Mart (30 Min)
 This lab is a visual of what is the DOM and how it can be manipulated real time.
 It is used to help visual learners understand the theory.
 
@@ -74,7 +75,7 @@ One of the best ways to do this is to open up websites and manipulate them using
 
 
 ## The DOM and Selectors
-<aside class="notes">XXX (20 Min)
+<aside class="notes">Mart (20 Min)
 Students work in groups to map out the DOM tree of a web site using the console.
 
 suggested website:
@@ -90,14 +91,14 @@ Be sure the add context attributes like ids, classes, and roles. Draw a final on
 
 
 ## The DOM and Selectors
-<aside class="notes">XXX (30 Min)</aside>
+<aside class="notes">Mart (30 Min)</aside>
 
 **In Class Lab** : Code Along DOM Selectors
 
 
 
 ## Intro to jQuery
-<aside class="notes"></aside>
+<aside class="notes">Kit</aside>
 
 **Review**
 
@@ -162,21 +163,21 @@ $("body");       // Select by tag name
 
 
 ## Intro to jQuery
-<aside class="notes">XXX (30 Min)</aside>
+<aside class="notes">Kit (30 Min)</aside>
 
 **In Class Lab** : jQuery DOM Manipulation
 
 
 
 ## Intro to jQuery
-<aside class="notes">XXX (?? Min)</aside>
+<aside class="notes">Kit (?? Min)</aside>
 
 **In Class Lab** : DOM Insertion (Optional)
 
 
 
 ## Intro to jQuery
-<aside class="notes">XXX (45 Min)</aside>
+<aside class="notes">Kit (45 Min)</aside>
 
 **In Class Lab** : Changing Cookie Monster
 

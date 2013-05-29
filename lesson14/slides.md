@@ -52,7 +52,7 @@ function functionName(arg1, arg2) {
 ```
 
 * keyword: function (just like var when declaring variable)
-* function name: calculateTax
+* function name: functionName
 * input arguments: arg1, arg2 (Mutiple values are allowed)
 * body of fucntion: the code inside {} is executed when the function is called (similar to the {} in "if" and "for" statement.)
 
@@ -112,7 +112,7 @@ function functionName(arg1, arg2) {
 ```
 
 * keyword: function, return
-* function name: calculateTax
+* function name: functionName
 * input arguments: arg1, arg2 (Mutiple values are allowed)
 * body of fucntion: the code inside {} is executed when the function is called (similar to the {} in "if" and "for" statement.)
 * return value: returnValue
