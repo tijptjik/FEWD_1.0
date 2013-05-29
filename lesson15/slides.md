@@ -90,13 +90,6 @@ Be sure the add context attributes like ids, classes, and roles. Draw a final on
 
 
 
-## The DOM and Selectors
-<aside class="notes">Mart (30 Min)</aside>
-
-**In Class Lab** : Code Along DOM Selectors
-
-
-
 ## Intro to jQuery
 <aside class="notes">Kit</aside>
 
@@ -159,6 +152,15 @@ $("body");       // Select by tag name
   * Edit multiple properties at once
 * css(propertyName)
   * Similar to .html(), when second arguments is not given, it returns the current value of the css property in question
+
+
+
+
+## The DOM and Selectors
+<aside class="notes">Mart (30 Min)</aside>
+
+**In Class Lab** : Code Along DOM Selectors
+
 
 
 
