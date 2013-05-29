@@ -172,7 +172,14 @@ $("body");       // Select by tag name
 ## Intro to jQuery
 <aside class="notes">Kit (?? Min)</aside>
 
-**In Class Lab** : DOM Insertion (Optional)
+**In Class Lab** : DOM Insertion
+
+* [Reference](http://api.jquery.com/category/manipulation/)
+* Q1: before()
+* Q2: after()
+* Q3: wrap()
+* Q4: append()
+* Q5: prepend()
 
 
 
