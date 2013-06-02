@@ -19,7 +19,7 @@ Kit Yuen & Mart van de Ven
 
 
 ## Review
-<aside class="notes">Kit (20 Min)
+<aside class="notes">Kit (10 Min)
 Homework or any other concept for reviews
 </aside>
 
@@ -28,7 +28,7 @@ Homework or any other concept for reviews
 
 
 ## More on selectors
-<aside class="notes"></aside>
+<aside class="notes">Kit (40 Min)</aside>
 
 ```
 <body>
@@ -96,7 +96,7 @@ Homework or any other concept for reviews
 
 
 ## DOM insertion
-<aside class="notes"></aside>
+<aside class="notes">Mart (30 Min)</aside>
 
 * .text()
   * get or set the text in the set of elements.
@@ -143,7 +143,7 @@ $("a").wrap('<div class="link">');
 
 
 ## Attribute manipulation
-<aside class="notes"></aside>
+<aside class="notes">Mart (30 Min)</aside>
 
 ```
 <img src="xxx" width="xxx" height="xxx" alt="xxx">
@@ -246,7 +246,7 @@ $('[name="instructor"]').val('Mart');
 
 
 ## Hide and show
-<aside class="notes"></aside>
+<aside class="notes">Kit (20 Min)</aside>
 
 **Hide and show HTML element by toggling _display_**
 
@@ -283,7 +283,7 @@ $('h1').hide('slow');
 
 
 ## Practice
-<aside class="notes"></aside>
+<aside class="notes">Both (50 Min)</aside>
 
 **In Class Lab** : Code Along Hide / show exercises
 **In Class Lab** : Exercise My_jQuery
