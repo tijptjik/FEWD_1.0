@@ -77,6 +77,7 @@ Homework or any other concept for reviews
   * :nth-last-of-type(n)
   * :nth-child(odd)
   * :nth-child(even)
+  * :nth-child(2n+1)
 
 
 
