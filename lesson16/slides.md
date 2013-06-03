@@ -53,11 +53,11 @@ Homework or any other concept for reviews
     <p>How about this one?</p> 
   </div>
   <p>And not this one?</p>
-  <p>Don’t select me!</p>
+  <p>Don't select me!</p>
 </body>
 ```
 
-* How to select the last <p> tag?
+* How to select the last p tag?
 
 
 
@@ -127,18 +127,16 @@ Homework or any other concept for reviews
 **Example on .wrap()**
 
 ```
-<a href= "http://www.google.com">Google</a>
+<a href="http://www.google.com">Google</a>
 ```
 
 ```
 $("a").wrap('<div class="link">');
 ```
 
-```
-<div class= “link”>
-  <a href= “google.com”>Google</a>
-</div>
-```
+    <div class="link">
+      <a href="http://www.google.com">Google</a>
+    </div>
 
 
 
@@ -184,7 +182,7 @@ $("#logo").attr("src"); // Returns "smiley.jpg"
 ```
 
 ```  
-$(“a”).attr(“href”, “mysite.com”);
+$("a").attr("href", "mysite.com");
 // the html will be changed to: 
 // <a href="mysite.com">Google</a>
 ```
@@ -264,9 +262,7 @@ $('[name="instructor"]').val('Mart');
 
 **Example**
 
-```
-<h1>This should disappear slowly</h1>
-```
+    <h1>This should disappear slowly</h1>
 
 ```
 $('h1').hide('slow');
@@ -285,6 +281,8 @@ $('h1').hide('slow');
 ## Practice
 <aside class="notes">Both (50 Min)</aside>
 
-**In Class Lab** : Code Along Hide / show exercises
-**In Class Lab** : Exercise My_jQuery
-**In Class Lab** : Exercise Grocery List
+**In Class Lab**
+
+* Code Along Hide / show exercises
+* Exercise My_jQuery
+* Exercise Grocery List
