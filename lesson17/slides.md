@@ -19,9 +19,7 @@ Kit Yuen & Mart van de Ven
 
 
 ## Review
-<aside class="notes">Kit (20 Min)
-Homework or any other concept for reviews
-</aside>
+<aside class="notes">Kit (20 Min) Homework or any other concept for reviews </aside>
 
 **Review**
 
@@ -32,8 +30,8 @@ Homework or any other concept for reviews
 
 **What is an event?**
 
-* In simple words, an event means sth happens. It could be
-  * The mouse left button is clicked
+* In simple terms, and event occurs when 'something' happens. For example,
+  * The left mouse button is clicked
   * The ENTER key is pressed on the keyboard
 * Real life examples
   * The clock rings in the morning
@@ -53,7 +51,7 @@ Homework or any other concept for reviews
 ## Events
 <aside class="notes"></aside>
 
-**SYNTAS**
+**SYNTAX**
 
 ```
 $('SUBJECT').EVENTNAME(HANDLER);
@@ -153,7 +151,7 @@ $("#fire-alarm").ring(function(event) {
 
 
 
-##Implemnet the same logic for multiple events
+##Implement the same logic for multiple events
 <aside class="notes"></aside>
 
 ```
@@ -172,7 +170,7 @@ $("body").mouseup(function(event) {
 
 
 
-##Implemnet the same logic for multiple events
+##Implement the same logic for multiple events
 <aside class="notes"></aside>
 
 **.on("event1, event2, event3, ...", function(event){})**
@@ -193,7 +191,7 @@ $("body").on("mousedown mouseup", function(event) {
 **What is a form?**
 
 * A submission form for a website to collect data from visitors
-* Common html tags inside the form <form> tag
+* Common HTML tags inside the form <form> tag
   * <input>
   * <textarea>
   * <select>
@@ -203,7 +201,7 @@ $("body").on("mousedown mouseup", function(event) {
 ## Form events
 <aside class="notes"></aside>
 
-**List of available <input>**
+**List of available \<input\>**
 
 ```
 <!-- Simple textbox -->
