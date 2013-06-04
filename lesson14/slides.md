@@ -207,29 +207,13 @@ Codepen demo by Kit
 * An object stores its own values (states)
 * An object can also has behaviours (method/function)
 
-```
-var Mart = {
-  name: 'Mart van de Ven',
-  age: '18'
-};
-
-Mart.sayHello = function() {
-  console.log('Hello');
-};
-
-Mart.tellYourAge = function() {
-  console.log(Mart.age);
-};
-```
-
-
 
 ## Javascript Object
 <aside class="notes"></aside>
 
 **Definition of Object**
 
-* An "object" in computer science is a collection of data and functions that work with that data.
+* An `object` in CompSci is a collection of data and functions that work with that data.
 * Objects allow us to organize similar data effectively.
 
 
@@ -356,6 +340,13 @@ var car = {
   mileage: 89000
 }
 ```
+
+
+
+## Javascript Object
+<aside class="notes">Mart (25 Min)</aside>
+
+### Properties are variables created inside an object and methods are functions created inside an object.
 
 
 
