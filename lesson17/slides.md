@@ -112,17 +112,23 @@ $("#fire-alarm").ring(function(event) {
 <aside class="notes"></aside>
 
 ```
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Events</title>
-    <script src="jquery.js"></script>
   </head>
   <body>
     <button id="btn">Click me</button>
   </body>
 </html>
 ```
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+
+
+## Mouse events
+<aside class="notes"></aside>
 
 ```
 $('#btn').click(function(event){
@@ -192,9 +198,9 @@ $("body").on("mousedown mouseup", function(event) {
 
 * A submission form for a website to collect data from visitors
 * Common HTML tags inside the form <form> tag
-  * <input>
-  * <textarea>
-  * <select>
+  * &lt;input&gt;
+  * &lt;textarea&gt;
+  * &lt;select&gt;
 
 
 
@@ -203,46 +209,44 @@ $("body").on("mousedown mouseup", function(event) {
 
 **List of available \<input\>**
 
-```
-<!-- Simple textbox -->
-<input type="text"><br>
+    <!-- Simple textbox -->
+    <input type="text"><br>
 
-<!-- Simple checkbox -->
-<input type="checkbox" value="good">Good<br>
+    <!-- Simple checkbox -->
+    <input type="checkbox" value="good">Good<br>
 
-<!-- Simple radio buttons -->
-<!-- For single option, make sure they have the same name attr. -->
-<input type="radio" name="gender" value="M">Male<br>
-<input type="radio" name="gender" value="F">Female<br>
+    <!-- Simple radio buttons -->
+    <!-- For single option, make sure they have the same name attr. -->
+    <input type="radio" name="gender" value="M">Male<br>
+    <input type="radio" name="gender" value="F">Female<br>
 
-<!-- Selection list -->
-<select>
-  <option value="M">Male</option>
-  <option value="F">Female</option>
-</select>
-<br>
+    <!-- Selection list -->
+    <select>
+      <option value="M">Male</option>
+      <option value="F">Female</option>
+    </select>
+    <br>
 
-<!-- Text area -->
-<textarea></textarea>
+    <!-- Text area -->
+    <textarea></textarea>
 
-<!-- Others -->
-<input type="password">
-<input type="image">
-<input type="hidden">
-<input type="submit">
-<input type="reset">
-```
+    <!-- Others -->
+    <input type="password">
+    <input type="image">
+    <input type="hidden">
+    <input type="submit">
+    <input type="reset">
 
 
 
 ## Form events
 <aside class="notes"></aside>
 
-* submit()
+* .submit()
   * Form has been submitted (user clicked "submit" / pressed return)
-* change()
+* .change()
   * The user changed something in the element
-* select()
+* .select()
   * User has selected a text in an in text input or textarea
 
 
@@ -250,9 +254,9 @@ $("body").on("mousedown mouseup", function(event) {
 ## Form events
 <aside class="notes"></aside>
 
-* focus()
+* .focus()
   * User has placed his cursor on an element or the element is selected
-* blur()
+* .blur()
   * The element has lost focus (eg. user has clicked somewhere else)
 
 
@@ -263,9 +267,9 @@ $("body").on("mousedown mouseup", function(event) {
 **Getter and Setter for form elements**
 
 * GETTER
-  * $(<selector>).val();
+  * $(SELECTOR).val();
 * SETTER
-  * $(<selector>).val("new value");
+  * $(SELECTOR).val("new value");
 
 
 
@@ -287,11 +291,11 @@ $("form").submit(function(event) {
 ## Keyboard events
 <aside class="notes">Kit</aside>
 
-* keydown()
+* .keydown()
   * Key has been pressed
-* keyup()
+* .keyup()
   * Key has been released
-* keypress()
+* .keypress()
   * Key has been "pressed" (up and down)
 
 
@@ -358,7 +362,6 @@ function intervalExample() {
 }
 
 var timerId = setInterval(intervalExample, 1000);
-
 
 // Will print forever! We can stop it with:
 clearInterval(timerId);
