@@ -42,9 +42,9 @@ Kit Yuen & Mart van de Ven
 ## Events
 <aside class="notes"></aside>
 
-**What will you do when the clocks in the morning?**
+**What will you do when the clock rings in the morning?**
 
-**What will you do when fire alarm rings?**
+**What will you do when the fire alarm rings?**
 
 
 
@@ -95,15 +95,15 @@ $("#fire-alarm").ring(function(event) {
 
 
 ## Mouse events
-<aside class="notes"></aside>
+<aside class="notes">Mart</aside>
 
 * .click()
   * User has pressed and released the mouse button
 * .mousedown()
   * Mouse button is pressed over the element
-* mouseup()
+* .mouseup()
   * Mouse button is released over the element
-* mousemove()
+* .mousemove()
   * User has moved the mouse over the element.
 
 
@@ -125,7 +125,7 @@ $("#fire-alarm").ring(function(event) {
 ```
 
 ```
-('#btn').click(function(event){
+$('#btn').click(function(event){
   console.log(event);
 })
 ```
@@ -186,7 +186,7 @@ $("body").on("mousedown mouseup", function(event) {
 
 
 ## Form events
-<aside class="notes"></aside>
+<aside class="notes">Kit</aside>
 
 **What is a form?**
 
@@ -211,8 +211,9 @@ $("body").on("mousedown mouseup", function(event) {
 <input type="checkbox" value="good">Good<br>
 
 <!-- Simple radio buttons -->
-<input type="radio" value="M">Male<br>
-<input type="radio" value="F">Female<br>
+<!-- For single option, make sure they have the same name attr. -->
+<input type="radio" name="gender" value="M">Male<br>
+<input type="radio" name="gender" value="F">Female<br>
 
 <!-- Selection list -->
 <select>
@@ -242,7 +243,7 @@ $("body").on("mousedown mouseup", function(event) {
 * change()
   * The user changed something in the element
 * select()
-  * User has selected a new choice in an element
+  * User has selected a text in an in text input or textarea
 
 
 
@@ -284,14 +285,14 @@ $("form").submit(function(event) {
 
 
 ## Keyboard events
-<aside class="notes"></aside>
+<aside class="notes">Kit</aside>
 
 * keydown()
   * Key has been pressed
 * keyup()
   * Key has been released
 * keypress()
-  * Key has been “pressed” (up and down)
+  * Key has been "pressed" (up and down)
 
 
 
@@ -315,12 +316,12 @@ $('textarea').keypress(function(event){
 ## Keyboard events
 <aside class="notes"></aside>
 
-**In Class Lab** : coa__KeyboardEvents
+**In Class Lab** : coa_KeyboardEvents
 
 
 
 ## Timer events
-<aside class="notes"></aside>
+<aside class="notes">Kit</aside>
 
 **Timers let us execute code after a period of time, or over and over again at a set interval.**
 
