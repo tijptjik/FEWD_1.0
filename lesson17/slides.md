@@ -15,6 +15,7 @@ Kit Yuen & Mart van de Ven
 * Form events
 * Keyboard events
 * Timer events
+* Register an event for newly inserted HTML
 
 
 
@@ -54,7 +55,7 @@ Kit Yuen & Mart van de Ven
 **SYNTAX**
 
 ```
-$('SUBJECT').EVENTNAME(HANDLER);
+$(SUBJECT).EVENTNAME(HANDLER);
 
 ```
 
@@ -116,19 +117,14 @@ $("#fire-alarm").ring(function(event) {
 <html>
   <head>
     <title>Events</title>
+    <!-- Uncomment the the following line -->
+    <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script-->
   </head>
   <body>
     <button id="btn">Click me</button>
   </body>
 </html>
 ```
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-
-
-
-## Mouse events
-<aside class="notes"></aside>
 
 ```
 $('#btn').click(function(event){
@@ -179,7 +175,7 @@ $("body").mouseup(function(event) {
 ##Implement the same logic for multiple events
 <aside class="notes"></aside>
 
-**.on("event1, event2, event3, ...", function(event){})**
+**.on("event1 event2 event3 ...", function(event){})**
 
 ```
 $("body").on("mousedown mouseup", function(event) {
@@ -286,6 +282,8 @@ $("form").submit(function(event) {
 });
 ```
 
+*[jQuery API - event.preventDefault()](http://api.jquery.com/event.preventDefault/)
+
 
 
 ## Keyboard events
@@ -384,6 +382,114 @@ clearInterval(timerId);
 <aside class="notes"></aside>
 
 **In Class Lab** : Create a timer in codepen
+
+
+
+## Timer events
+<aside class="notes"></aside>
+
+**In Class Lab** : Create a timer in codepen
+
+```
+<!doctype html>
+<html>
+  <head>
+    <title>Events</title>
+    <!-- Uncomment the the following line -->
+    <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script-->
+  </head>
+  <body>
+    <button id="start">Start</button>
+    <p>
+      <span id="hour">0</span>:
+      <span id="min">0</span>:
+      <span id="sec">0</span>
+    </p>
+    <button id="stop">Stop</button>
+  </body>
+</html>
+```
+
+
+
+## Timer events
+<aside class="notes"></aside>
+
+**In Class Lab** : Create a timer in codepen
+
+```
+$('#start').click(function(event){
+  clock();
+})
+
+function clock() {
+  var hour = $('#hour').text();
+  var min = $('#min').text();
+  var sec = $('#sec').text();
+  
+  sec++;
+  if (sec == 60) {
+    sec = 0;
+    min++;
+    
+    if (min == 60) {
+      min = 0;
+      hour++;
+      
+      if (hour == 24) {
+        hour = 0;
+      }
+    }
+  }
+  
+  $('#hour').text(hour);
+  $('#min').text(min);
+  $('#sec').text(sec);
+}
+
+var timerId;
+
+$(document).ready(function(){
+  // CODE HERE
+  // Make the clock run automatically
+});
+```
+
+
+
+## Register an event for newly inserted HTML
+<aside class="notes"></aside>
+
+* With jQuery functions like .append(), .insertAfter(), we could create new HTML markup on the DOM.
+* As this new HTML markup is created on the fly, the event handlers are not attached on them.
+* A workaround is implementing a delegated event on the parent using the .on().
+* [jQuery API - .on()](http://api.jquery.com/on/)
+
+
+
+## Register an event for newly inserted HTML
+<aside class="notes"></aside>
+
+**SYNTAX**
+
+```
+$(PARENT).on(EVENTNAME, CHILD, HANDLER);
+```
+
+
+
+## Register an event for newly inserted HTML
+<aside class="notes"></aside>
+
+**Example**
+
+```
+$('#colors').on('click', '.color', function(event){
+  // CODE
+});
+```
+
+* In this case, when the click event is triggered on _#colors_, the handler function is called only for the _.color_ children.
 
 
 
