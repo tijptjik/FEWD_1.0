@@ -10,6 +10,7 @@ Kit Yuen & Mart van de Ven
 <aside class="notes"></aside>
 
 * Code, code and CODE!
+* Using jQuery selector
 * Regular Expression
 * More notes on validation
 
@@ -26,6 +27,34 @@ Kit Yuen & Mart van de Ven
 <aside class="notes"></aside>
 
 **2nd: Calculator User Input**
+
+
+
+## Using jQuery selector
+<aside class="notes"></aside>
+
+* Selecting a jQuery object from DOM is costly
+
+**DON'T DO**
+
+```
+$('#abc').css('color', 'red');
+$('#abc').hide();
+$('#abc').click(function(){ CODE });
+$('#abc').mouseup(function(){ CODE });
+$('#abc').mousedown(function(){ CODE });
+```
+
+**DO**
+
+```
+var abc = $('#abc');
+abc.css('color', 'red');
+abc.hide();
+abc.click(function(){ CODE });
+abc.mouseup(function(){ CODE });
+abc.mousedown(function(){ CODE });
+```
 
 
 
