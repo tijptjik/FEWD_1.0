@@ -16,10 +16,12 @@ Kit Yuen & Mart van de Ven
 
 
 
+#### Why Web Development is Awesome
+
+
+
 ## Why Web Development is Awesome
-<aside class="notes">Answer the high-level question what's so good about being a developer
-Mart 5 Min
-</aside>
+<aside class="notes">Mart 5 Min: Answer the high-level question what's so good about being a developer</aside>
 
 * Personal Development
 * Community
@@ -27,29 +29,32 @@ Mart 5 Min
 
 
 
-## Why FEWD with GA is Awesome
-<aside class="notes">How does General Assembly tie in to those wonderful and lofty practices 
-Allison 5 Min
-</aside>
+#### Why FEWD with GA is Awesome
+
+
+
+## PEOPLE BEFORE THE MACHINE
+<aside class="notes">Allison 5 Min: How does General Assembly tie in to those wonderful and lofty practices</aside>
 
 While we value powerful ideas and innovative start-ups, the lifeblood of any community is the individuals involved. We believe in empathy and reciprocity — and that community can enable individual pursuits. 
 
 
 
-## Why FEWD with GA is Awesome
-<aside class="notes">
-Allison
-</aside>
+## LEARNING BY DOING
+<aside class="notes">Allison</aside>
 
 We believe that self-actualization is gained through applied, hands- on experience. We are here not to seek or to hope for the future, but actively construct it with our hands. If we get it wrong, we modify and try again; real progress only comes through reflection and relentless iteration. 
 
 
 
-## Why FEWD with GA is Awesome
-<aside class="notes">
-Allison</aside>
+## JOURNEY OVER DESTINATION
+<aside class="notes">Allison</aside>
 
 General Assembly is about the shared experience of fellow builders taking risks — about embracing failure as much as success. When great companies fail, they’re gone forever. When great people fail, they learn from their experiences and go on to pursue new ventures with a greater chance of success.
+
+
+
+#### Web Technology Primer
 
 
 
@@ -63,40 +68,35 @@ Kit 3 Min
 
 
 ## Web Technology Primer
-<aside class="notes">Give insight into how HTML is the structural backbone of a web property
-Kit 3 Min</aside>
-
+<aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
 
 **HTML5 for STRUCTURE**
 
 
+
 ## Web Technology Primer
-<aside class="notes">Give insight into how CSS is the presentation language for the web
-Kit 3 Min
-</aside>
+<aside class="notes">Kit 3 Min: Give insight into how CSS is the presentation language for the web</aside>
 
 **CSS3 for STYLE**
 
 
+
 ## Web Technology Primer
-<aside class="notes">Explain what sets JS apart as an actual programming language vs HTML/CSS and what this enables</aside>
+<aside class="notes">Mart 3 Min: Explain what sets JS apart as an actual programming language vs HTML/CSS and what this enables</aside>
 
 **JAVASCRIPT for INTERACTION**
 
 
+
 ## Web Technology Primer
-<aside class="notes">Answer why of all the languages out there javascript is the best language to pick up
-Mart 3 Min
-</aside>
+<aside class="notes">Answer why of all the languages out there javascript is the best language to pick up</aside>
 
 **JAVASCRIPT as the PROGRAMMING LINGUA FRANCA**
 
 
 
-## JavaScript
-<aside>
-Mart 3 Min</aside>
-**JAVASCRIPT as the PROGRAMMING LINGUA FRANCA**
+## JAVASCRIPT as the PROGRAMMING LINGUA FRANCA
+<aside class="notes">Mart 3 Min</aside>
 
 * FutureProof 
 * Transferable Programming Concepts / Syntax 
@@ -109,11 +109,12 @@ Mart 3 Min</aside>
 
 
 ## JavaScript
-<aside></aside>
+<aside class="notes"></aside>
 
 **TOP LANGUAGES**
 
 ![Top Languages](assets/images/top.png)
+
 
 
 ## What we'll learn : a practical example
@@ -125,12 +126,12 @@ Kit Code & Mart Talk 30 Min
 
 
 
-## Opportunities after the Class
-<aside class="notes">
-5 Min
-</aside>
+#### Opportunities after the Class
 
-**POWERED BY WEB DEVELOPMENT**
+
+
+##POWERED BY WEB DEVELOPMENT
+<aside class="notes">Mart 5 Min</aside>
 
 * Liberty to work, to work at liberty
   * Global employability 
@@ -140,10 +141,9 @@ Kit Code & Mart Talk 30 Min
 * Learn from and collaborate with the open source community. 
 
 
+
 ## About the course
-<aside class="notes">
-Kit 3 Min
-</aside>
+<aside class="notes">Kit 3 Min</aside>
 
 **STOP TALKING, START MAKING**
 
@@ -158,9 +158,9 @@ Kit 3 Min
 
 
 
-## About the course (To be edited later)
-<aside class="notes"></aside>
-Allison 3 Min
+## About the course
+<aside class="notes">Allison 3 Min</aside>
+
 **COMMUNITY**
 
 * Outcome focused: build a website from scratch
@@ -173,9 +173,7 @@ Allison 3 Min
 
 
 ## About the course
-<aside class="notes">
-Allison 2 Min
-</aside>
+<aside class="notes">Allison 2 Min</aside>
 
 **THE DETAILS**
 
@@ -189,10 +187,9 @@ Allison 2 Min
 18th
 
 
-## About the course (To be edited later)
-<aside class="notes">
-Mart 1 Min
-</aside>
+
+## About the course
+<aside class="notes">Mart 1 Min</aside>
 
 **SYSTEM REQUIREMENTS**
 
@@ -201,8 +198,8 @@ Mart 1 Min
 * Chrome Browser
 * Sublime Text Editor 
 
-## Q&A
-<aside class="notes">
-All - 20 Min
-</aside>
+
+
+#### Q & A
+<aside class="notes">All - 20 Min</aside>
 
