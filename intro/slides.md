@@ -65,6 +65,8 @@ Kit 3 Min
 
 **THE INTERNET MACHINE**
 
+![How Internet Works](assets/images/http.jpg)
+
 
 
 ## Web Technology Primer
@@ -72,12 +74,16 @@ Kit 3 Min
 
 **HTML5 for STRUCTURE**
 
+![How Internet Works](assets/images/web_blocks.gif)
+
 
 
 ## Web Technology Primer
 <aside class="notes">Kit 3 Min: Give insight into how CSS is the presentation language for the web</aside>
 
 **CSS3 for STYLE**
+
+![Style your HTML](http://xhtml.com/1E6E854A-1A84-400B-A98C-905B2B251CE3/background-color-box-model.gif)
 
 
 
