@@ -19,7 +19,9 @@ Kit Yuen & Mart van de Ven
 ## Scalable and Modular Architecture for CSS
 <aside class="notes">Mart - 15 Min</aside>
 
-
+**CSS is simple... It’s simple to
+understand. But CSS is not
+simple to use or maintain.**
 
 ## When to use data-
 <aside class="notes">Kit - 3 Min</aside>

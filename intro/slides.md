@@ -65,6 +65,8 @@ Kit 3 Min
 
 **THE INTERNET MACHINE**
 
+![How Internet Works](assets/images/http.jpg)
+
 
 
 ## Web Technology Primer
@@ -72,12 +74,16 @@ Kit 3 Min
 
 **HTML5 for STRUCTURE**
 
+![How Internet Works](assets/images/web_blocks.gif)
+
 
 
 ## Web Technology Primer
 <aside class="notes">Kit 3 Min: Give insight into how CSS is the presentation language for the web</aside>
 
 **CSS3 for STYLE**
+
+![Style your HTML](http://xhtml.com/1E6E854A-1A84-400B-A98C-905B2B251CE3/background-color-box-model.gif)
 
 
 
@@ -120,6 +126,32 @@ Kit 3 Min
 ## What we'll learn : a practical example
 <aside class="notes">Develop a simple postit note demo to showcase the functionality and role of HTML and CSS
 Kit Code & Mart Talk 30 Min
+
+STEP1 : HTML
+STEP2 : HEAD vs BODY
+STEP3 : STRUCTURE OF HTML CONTENT
+STEP4 : ADDING CONTENTS TO THE POST-IT NOT
+STEP4 : LINKING UP CSS FILE
+STEP5 : CORRESPOND TO HTML TAGS
+STEP6 : DEFINING PROPERTIES
+STEP7 : ADDING WEB FONTS
+STEP8 : SETTING TYPEFACE PROPERTIES
+STEP9 : CORRESPOND TO ID
+STEP10 : CORRESPOND TO CLASS
+STEP11 : EVERYTHING IS A BOX
+STEP12 : EVERYTHING HAS SPATIAL PROPERTIES
+STEP13 : INSIDE THE FLOW, OUTSIDE THE FLO
+STEP14 : FANCY CSS3 PROPERTIES KILL PHOTOSHOP
+STEP15 : DUPLICATING THE HTML AND ADDING QUOTE
+STEP16 : PSEUDO-CLASSES
+STEP16 : STYLES FOR STATE
+STEP17 : ADDITIONAL ENTROPY BY DISPLACING THE POST-ITS
+STEP18 : PSEUDO-SELECTORS
+STEP19 : SCATTERED ROTATION PATTERN
+STEP20 : BROWSER PRE-FIXES + TRANSFORM 
+STEP21 : DON'T MOVE ANYONE ELS
+STEP22 : TRANSITION GRACEFULLY
+
 </aside>
 
 **POSTIT!**
