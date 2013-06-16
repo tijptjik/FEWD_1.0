@@ -142,9 +142,21 @@ Extending modules with sub-modules made easy.
 - To store custom web analytics tagging data
 - To store data about the health, ammo, or lives of an element in a JavaScript game
 
+
+
 ## Quick explanation of javascript: void(0)
 <aside class="notes">Kit - 3 Min</aside>
 
+Normally, when you click a link, the browser loads a new page (or refreshes the same page).
+
+void is a reserved Javascript keyword. It evaluates the expression and always returns undefined.
+
+```
+<a href="javascript:void(0);">Click here to do nothing</a>
+<a href="javascript:void(document.body.style.backgroundColor='green');">Click here for green background</a>
+```
+
+When a browser follows a javascript: URI, it evaluates the code in the URI and then replaces the contents of the page with the returned value, unless the returned value is undefined. The void operator can be used to return undefined. For example:
 
 
 ## Object Oriented Javascript
