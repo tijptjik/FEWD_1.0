@@ -1,3 +1,18 @@
 [submodule "slides"]
 	path = slides
 	url = git://github.com/tijptjik/reveal.js.git
+[submodule "final/project/matt"]
+	path = final/project/matt
+	url = git://github.com/DearHunter/final.git
+[submodule "final/project/leo"]
+	path = final/project/leo
+	url = git://github.com/sycamo/angular-syca.git
+[submodule "final/project/maureen"]
+	path = final/project/maureen
+	url = git://github.com/coedcode/FEWDfinal.git
+[submodule "final/project/denis"]
+	path = final/project/denis
+	url = git://github.com/denistsoi/GA_finals_template.git
+[submodule "final/project/eric"]
+	path = final/project/eric
+	url = git://github.com/erictsoi/ga_final.git
