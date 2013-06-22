@@ -16,3 +16,6 @@
 [submodule "final/project/eric"]
 	path = final/project/eric
 	url = git://github.com/erictsoi/ga_final.git
+[submodule "final/project/sean"]
+	path = final/project/sean
+	url = https://github.com/seantsang/SeanMacBookPro.git
