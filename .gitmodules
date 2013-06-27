@@ -5,8 +5,8 @@
 	path = final/project/matt
 	url = git://github.com/DearHunter/final.git
 [submodule "final/project/leo"]
-	path = final/project/leo
-	url = git://github.com/sycamo/angular-syca.git
+	path = final/project/leoi
+	url = git://github.com/sycamo/sycamore.git
 [submodule "final/project/maureen"]
 	path = final/project/maureen
 	url = git://github.com/coedcode/FEWDfinal.git
@@ -18,4 +18,4 @@
 	url = git://github.com/erictsoi/ga_final.git
 [submodule "final/project/sean"]
 	path = final/project/sean
-	url = https://github.com/seantsang/SeanMacBookPro.git
+	url = git://github.com/seantsang/SeanMacBookPro.git

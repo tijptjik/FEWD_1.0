@@ -141,48 +141,6 @@ Extending modules with sub-modules made easy.
 - To store the initial height or opacity of an element which might be required in later JavaScript animation calculations
 - To store custom web analytics tagging data
 - To store data about the health, ammo, or lives of an element in a JavaScript game
-- [Custom Attributes in HTML 5](http://www.javascriptkit.com/dhtmltutors/customattributes.shtml)
-
-
-
-## Why use data-
-<aside class="notes">Kit</aside>
-
-DON'T
-```
-<div id="mydiv" brand="toyota" model="prius">
-  John is very happy with his Toyota Prius, because he saves on gas.
-</div>
-```
-
-DO
-```
-<div id="mydiv" data-brand="toyota" data-model="prius">
-  John is very happy with his Toyota Prius, because he saves on gas.
-</div>
-```
-
-
-
-## Why use data-
-<aside class="notes">Kit</aside>
-
-- The data-* can be validated in HTML5
-- You can make use of the .dataset to retreive the data other than getAttribute()
-
-```
-var mydiv=document.getElementById('mydiv')
-
-//Using DOM's getAttribute() property (not limited to data-*)
-var brand=mydiv.getAttribute("data-brand") //returns "toyota"
-mydiv.setAttribute("data-brand", "mazda") //changes "data-brand" to "mazda"
-mydiv.removeAttribute("data-brand") //removes "data-brand" attribute entirely
-
-//Using JavaScript's dataset property (only for data-*)
-var brand=mydiv.dataset.brand //returns "toyota"
-mydiv.dataset.brand='mazda' //changes "data-brand" to "mazda"
-mydiv.dataset.brand=null //removes "data-brand" attribute
-```
 
 
 
@@ -198,21 +156,7 @@ void is a reserved Javascript keyword. It evaluates the expression and always re
 <a href="javascript:void(document.body.style.backgroundColor='green');">Click here for green background</a>
 ```
 
-
-
-## Quick explanation of javascript: void(0)
-<aside class="notes">Kit</aside>
-
-Another reason to use void(0) is that the undefined is a global variable but not a reserved keyword
-
-```
-alert(undefined); //alerts "undefined"
-var undefined = "hello";
-alert(undefined); //alerts "hello"
-
-alert(void(0)); // always return a real undefined
-```
-
+When a browser follows a javascript: URI, it evaluates the code in the URI and then replaces the contents of the page with the returned value, unless the returned value is undefined. The void operator can be used to return undefined. For example:
 
 
 ## Object Oriented Javascript
@@ -220,12 +164,30 @@ alert(void(0)); // always return a real undefined
 
 
 
+## OOJS : Duck Typing
+<aside class="notes"></aside>
+
+### "If it looks like a duck and quacks like a duck, it's a duck".
+
+`Duck typing` is a style of dynamic typing in which an object's current set of methods and properties determines the valid semantics, rather than its inheritance from a particular class or implementation of a specific interface.
+
+## OOJS :
+<aside class="notes"></aside>
+
+
+
+## OOJS :
+<aside class="notes"></aside>
+
+
+
+## OOJS :
+<aside class="notes"></aside>
+
+
+
 ## Facebook Integration : Authentication
 <aside class="notes">Kit - 40 Min</aside>
-
-* [Getting Started with Facebook Login for Web](https://developers.facebook.com/docs/facebook-login/getting-started-web/)
-* [FB.getLoginStatus](https://developers.facebook.com/docs/reference/javascript/FB.getLoginStatus/)
-* [Uncaught ReferenceError: FB is not defined when using FB.getLoginStatus](http://stackoverflow.com/questions/15143671/uncaught-referenceerror-fb-is-not-defined-when-using-fb-getloginstatus) 
 
 
 
