@@ -105,6 +105,7 @@ Kit 3 Min
 #### The Front End Web Stack
 
 
+
 ## FEWD STACK
 <aside class="notes"></aside>
 **HTML5 for STRUCTURE**
@@ -204,9 +205,6 @@ STEP22 : TRANSITION GRACEFULLY
 
 
 
-#### Opportunities after the Class
-
-
 ## POWERED BY WEB DEVELOPMENT
 <aside class="notes">Mart 5 Min</aside>
 
@@ -222,8 +220,6 @@ STEP22 : TRANSITION GRACEFULLY
 ## The GA Community
 <aside class="notes">Allison 3 Min</aside>
 
-**COMMUNITY**
-
 * Practical, dynamic content 
 * Strong, diverse community of makers
 * Personalized instruction and support
@@ -237,13 +233,12 @@ STEP22 : TRANSITION GRACEFULLY
 
 **STOP TALKING, START MAKING**
 
-* Outcome focused: code a website from scratch
-* Project driven: make something you're actually passionate about
-* Theory is delivered to make sense of best practices
-* Learn through hands-on exercises, quizzes, and homework
+* **Outcome focused**, code a website from scratch
+* **Project driven**, make something you're actually passionate about
+* **Theory** is delivered to make sense of best practices
+* Learn through **hands-on** exercises, quizzes, and homework
 * Office Hours
 * Private instruction
-
 
 
 
@@ -252,14 +247,14 @@ STEP22 : TRANSITION GRACEFULLY
 
 **THE DETAILS**
 
-* June 24th – Sept 2nd, 2013
+* Instructors: Kit Yuen & Mart v/d Ven
+* July 15th – Sept 23nd, 2013
 * Meets Monday and Thursday from 7-10pm at CoCoon
 * Tuition is $25,000HKD
 * Payment plans are available
 * No pre-requisites
 * Maximum class size of 15 people
-* Registration ends June 
-18th
+* Registration ends July 12th
 
 
 
@@ -272,6 +267,11 @@ STEP22 : TRANSITION GRACEFULLY
 * OSX/Linux is preferred, Windows is also OK.
 * Chrome Browser
 * Sublime Text Editor 
+
+
+
+## FEWD Alumni: Denis Tsoi
+<aside class="notes">Denis 10 Min</aside>
 
 
 
