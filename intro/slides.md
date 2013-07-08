@@ -1,6 +1,13 @@
 ![General Assembly](assets/images/ga.png)
-# Introduction to FEWD
 <aside class="notes">
+What's front-end web development all about? Ever wonder what you can build with HTML, CSS, JavaScript, and APIs? We're going to define these programming languages, frameworks, tools, and show examples of each in action.  We'll also discuss resources available to get started in front-end web development. Stick around for happy hour and meet current students, instructors, and the General Assembly team. 
+
+This class provides a beginner's overview and examples of:
+* Developer's tool set, what you need to get started.  
+* HTML and CSS
+* JavaScript and APIs
+* Resources to help you learn how to code. 
+* Projects built by GA's Front End Web Development students. 
 
 * Why Web Development is Awesome (Personal Development, Community)
 * Why FEWD with GA is Awesome
@@ -10,47 +17,52 @@
 * Course details
 
 </aside>
-
-### Instructors
-Kit Yuen & Mart van de Ven 
-
-
-
-#### Why Web Development is Awesome
+# Front-End Web Development
+## Let's Break It Down
 
 
 
-## Why Web Development is Awesome
-<aside class="notes">Mart 5 Min: Answer the high-level question what's so good about being a developer</aside>
-
-* Personal Development
-* Community
-* Be a Maker
+#### About General Assembly
+<aside class="notes">Allison 2 Min: What is General Assembly</aside>
 
 
 
-#### Why FEWD with GA is Awesome
+#### General Assembly's Core Values
+<aside class="notes">Allison 3 Min: How does General Assembly operate</aside>
 
 
 
 ## PEOPLE BEFORE THE MACHINE
-<aside class="notes">Allison 5 Min: How does General Assembly tie in to those wonderful and lofty practices</aside>
 
-While we value powerful ideas and innovative start-ups, the lifeblood of any community is the individuals involved. We believe in empathy and reciprocity — and that community can enable individual pursuits. 
+> While we value powerful ideas and innovative start-ups, the lifeblood of any community is the individuals involved. We believe in empathy and reciprocity — and that community can enable individual pursuits. 
 
 
 
 ## LEARNING BY DOING
 <aside class="notes">Allison</aside>
 
-We believe that self-actualization is gained through applied, hands- on experience. We are here not to seek or to hope for the future, but actively construct it with our hands. If we get it wrong, we modify and try again; real progress only comes through reflection and relentless iteration. 
+> We believe that self-actualization is gained through applied, hands- on experience. We are here not to seek or to hope for the future, but actively construct it with our hands. If we get it wrong, we modify and try again; real progress only comes through reflection and relentless iteration. 
 
 
 
 ## JOURNEY OVER DESTINATION
 <aside class="notes">Allison</aside>
 
-General Assembly is about the shared experience of fellow builders taking risks — about embracing failure as much as success. When great companies fail, they’re gone forever. When great people fail, they learn from their experiences and go on to pursue new ventures with a greater chance of success.
+> General Assembly is about the shared experience of fellow builders taking risks — about embracing failure as much as success. When great companies fail, they’re gone forever. When great people fail, they learn from their experiences and go on to pursue new ventures with a greater chance of success.
+
+
+
+
+#### Why get into Web Development? 
+
+
+
+## The perks of being a web dev
+<aside class="notes">Mart 5 Min: Answer the high-level question what's so good about being a developer</aside>
+
+* **Personal development**, one line at a time
+* **Community**, for support and inspiration
+* **Dream up a project**, build it yourself
 
 
 
@@ -58,27 +70,50 @@ General Assembly is about the shared experience of fellow builders taking risks 
 
 
 
-## Web Technology Primer
 <aside class="notes">Give a high-level idea of how web technologies work together to provide the internet
 Kit 3 Min
 </aside>
 
 **THE INTERNET MACHINE**
 
-![How Internet Works](assets/images/http.jpg)
+![How Internet Works](assets/images/internet.png)
 
 
 
-## Web Technology Primer
 <aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
 
+![How Internet Works](assets/images/html5.png)
+
+
+
+## Tooling Up
+<aside class="notes"></aside>
+**Text Editor**
+
+![Sublime Text](assets/images/sublime.png)
+
+
+
+## Tooling Up
+<aside class="notes"></aside>
+**Web Server**
+
+![Apache & NginX](assets/images/servers.png)
+
+
+
+#### The Front End Web Stack
+
+
+## FEWD STACK
+<aside class="notes"></aside>
 **HTML5 for STRUCTURE**
 
-![How Internet Works](assets/images/web_blocks.gif)
+![How Internet Works](assets/images/blocks.gif)
 
 
 
-## Web Technology Primer
+## FEWD STACK
 <aside class="notes">Kit 3 Min: Give insight into how CSS is the presentation language for the web</aside>
 
 **CSS3 for STYLE**
@@ -87,17 +122,17 @@ Kit 3 Min
 
 
 
-## Web Technology Primer
+## FEWD STACK
 <aside class="notes">Mart 3 Min: Explain what sets JS apart as an actual programming language vs HTML/CSS and what this enables</aside>
 
 **JAVASCRIPT for INTERACTION**
 
+![JavaScript for Interaction](assets/images/javascript.png)
 
 
-## Web Technology Primer
+
+## JAVASCRIPT as the PROGRAMMING LINGUA FRANCA
 <aside class="notes">Answer why of all the languages out there javascript is the best language to pick up</aside>
-
-**JAVASCRIPT as the PROGRAMMING LINGUA FRANCA**
 
 
 
@@ -123,7 +158,7 @@ Kit 3 Min
 
 
 
-## What we'll learn : a practical example
+## All together now: HTML + CSS + JS
 <aside class="notes">Develop a simple postit note demo to showcase the functionality and role of HTML and CSS
 Kit Code & Mart Talk 30 Min
 
@@ -154,53 +189,61 @@ STEP22 : TRANSITION GRACEFULLY
 
 </aside>
 
-**POSTIT!**
+**Favourite Quotes Post It Board!**
+
+
+
+## Front End Web Development Resources
+<aside class="notes">Mart 5 Min</aside>
+
+* [CodeAcademy: First Steps](http://www.codecademy.com/)
+* [Mozilla Developer Network: Reference ](https://developer.mozilla.org/en-US/)
+* [Smashing Magazine: Trends](http://www.smashingmagazine.com/)
+* [GitHub: Social Coding](https://github.com/)
+* [General Assembly: FEWD Course](https://generalassemb.ly/education/front-end-web-development)
 
 
 
 #### Opportunities after the Class
 
 
-
-##POWERED BY WEB DEVELOPMENT
+## POWERED BY WEB DEVELOPMENT
 <aside class="notes">Mart 5 Min</aside>
 
 * Liberty to work, to work at liberty
   * Global employability 
   * Many multinationals, NGOs and Governments have their own web departments 
-* Transforming from a a thinker to a creator
+* Transforming from a a thinker a to creator
 * Lead the charge for any initative with a web strategy.  
 * Learn from and collaborate with the open source community. 
 
 
 
-## About the course
-<aside class="notes">Kit 3 Min</aside>
-
-**STOP TALKING, START MAKING**
-
-* Theory 
-* Hands-on exercises
-* Assessments
-* Quizzes
-* Final Projects
-* Homework
-* Office Hours
-* Private instruction
-
-
-
-## About the course
+## The GA Community
 <aside class="notes">Allison 3 Min</aside>
 
 **COMMUNITY**
 
-* Outcome focused: build a website from scratch
 * Practical, dynamic content 
 * Strong, diverse community of makers
 * Personalized instruction and support
 * 3 free classes to supplement your coursework
 * Permanent access to all course resources
+
+
+
+## GA's FEWD Course
+<aside class="notes">Kit 3 Min</aside>
+
+**STOP TALKING, START MAKING**
+
+* Outcome focused: code a website from scratch
+* Project driven: make something you're actually passionate about
+* Theory is delivered to make sense of best practices
+* Learn through hands-on exercises, quizzes, and homework
+* Office Hours
+* Private instruction
+
 
 
 
