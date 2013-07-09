@@ -1,4 +1,4 @@
-![General Assembly](/assets/images/ga.png?raw=true)
+![General Assembly](http://tijptjik.github.io/FEWD/assetsimages/ga.png)
 <aside class="notes">
 What's front-end web development all about? Ever wonder what you can build with HTML, CSS, JavaScript, and APIs? We're going to define these programming languages, frameworks, tools, and show examples of each in action.  We'll also discuss resources available to get started in front-end web development. Stick around for happy hour and meet current students, instructors, and the General Assembly team. 
 
@@ -76,13 +76,13 @@ Kit 3 Min
 
 **THE INTERNET MACHINE**
 
-![How Internet Works](/assets/images/internet.png?raw=true)
+![How Internet Works](http://tijptjik.github.io/FEWD/assetsimages/internet.png)
 
 
 
 <aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
 
-![How Internet Works](/assets/images/html5.png?raw=true)
+![How Internet Works](http://tijptjik.github.io/FEWD/assetsimages/html5.png)
 
 
 
@@ -90,7 +90,7 @@ Kit 3 Min
 <aside class="notes"></aside>
 **Text Editor**
 
-![Sublime Text](/assets/images/sublime.png?raw=true)
+![Sublime Text](http://tijptjik.github.io/FEWD/assetsimages/sublime.png)
 
 
 
@@ -98,7 +98,7 @@ Kit 3 Min
 <aside class="notes"></aside>
 **Web Server**
 
-![Apache & NginX](/assets/images/servers.png?raw=true)
+![Apache & NginX](http://tijptjik.github.io/FEWD/assetsimages/servers.png)
 
 
 
@@ -110,7 +110,7 @@ Kit 3 Min
 <aside class="notes"></aside>
 **HTML5 for STRUCTURE**
 
-![How Internet Works](/assets/images/blocks.gif?raw=true)
+![How Internet Works](http://tijptjik.github.io/FEWD/assetsimages/blocks.gif)
 
 
 
@@ -128,7 +128,7 @@ Kit 3 Min
 
 **JAVASCRIPT for INTERACTION**
 
-![JavaScript for Interaction](/assets/images/javascript.png?raw=true)
+![JavaScript for Interaction](http://tijptjik.github.io/FEWD/assetsimages/javascript.png)
 
 
 
@@ -155,7 +155,7 @@ Kit 3 Min
 
 **TOP LANGUAGES**
 
-![Top Languages](/assets/images/top.png?raw=true)
+![Top Languages](http://tijptjik.github.io/FEWD/assetsimages/top.png)
 
 
 
