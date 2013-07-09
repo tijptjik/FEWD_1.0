@@ -1,4 +1,4 @@
-![General Assembly](assets/images/ga.png)
+![General Assembly](/assets/images/ga.png)
 <aside class="notes">
 What's front-end web development all about? Ever wonder what you can build with HTML, CSS, JavaScript, and APIs? We're going to define these programming languages, frameworks, tools, and show examples of each in action.  We'll also discuss resources available to get started in front-end web development. Stick around for happy hour and meet current students, instructors, and the General Assembly team. 
 
@@ -76,13 +76,13 @@ Kit 3 Min
 
 **THE INTERNET MACHINE**
 
-![How Internet Works](assets/images/internet.png)
+![How Internet Works](/assets/images/internet.png)
 
 
 
 <aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
 
-![How Internet Works](assets/images/html5.png)
+![How Internet Works](/assets/images/html5.png)
 
 
 
@@ -90,7 +90,7 @@ Kit 3 Min
 <aside class="notes"></aside>
 **Text Editor**
 
-![Sublime Text](assets/images/sublime.png)
+![Sublime Text](/assets/images/sublime.png)
 
 
 
@@ -98,7 +98,7 @@ Kit 3 Min
 <aside class="notes"></aside>
 **Web Server**
 
-![Apache & NginX](assets/images/servers.png)
+![Apache & NginX](/assets/images/servers.png)
 
 
 
@@ -110,7 +110,7 @@ Kit 3 Min
 <aside class="notes"></aside>
 **HTML5 for STRUCTURE**
 
-![How Internet Works](assets/images/blocks.gif)
+![How Internet Works](/assets/images/blocks.gif)
 
 
 
@@ -128,7 +128,7 @@ Kit 3 Min
 
 **JAVASCRIPT for INTERACTION**
 
-![JavaScript for Interaction](assets/images/javascript.png)
+![JavaScript for Interaction](/assets/images/javascript.png)
 
 
 
@@ -155,7 +155,7 @@ Kit 3 Min
 
 **TOP LANGUAGES**
 
-![Top Languages](assets/images/top.png)
+![Top Languages](/assets/images/top.png)
 
 
 
