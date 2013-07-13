@@ -1,0 +1,17 @@
+/* 
+
+Project: Lost Cat Exercise
+Author: General Assembly & Chris Castiglione 
+
+*/
+
+
+/* General Styles */
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.1;
+	color: #000000; 
+     padding: 40px;
+}
