@@ -139,7 +139,7 @@ How to maintain a project?
         <li>CDN (Content Distribution Network)</li>
       </ul>
     </td>
-    <td><img src="../assets/images/global-internet-map.png" width="840px" ></td>
+    <td><img src="../assets/images/global-internet-map.png"></td>
   </tr>
 </table>
 
@@ -336,3 +336,4 @@ Labs
 
 * intro
 * lostCat
+* cookieMonster
