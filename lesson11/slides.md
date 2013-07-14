@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 11
 
+## Variables and Data Types
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 

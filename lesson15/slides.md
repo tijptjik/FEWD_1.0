@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 15
 
+## The DOM and Selectors
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 

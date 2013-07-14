@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 4
 
+## Page Layout
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 

@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 16
 
+## jQuery
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 

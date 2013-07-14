@@ -1,7 +1,7 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 2
 
-## MORE HTML/CSS BASICS
+## HTML Basics & CSS
 
 ### Instructors
 Kit Yuen & Mart van de Ven 
@@ -147,7 +147,7 @@ What is our favorite styled web page?
 ## Page Layout & CSS
 <aside class="notes"></aside>
 
-Labs
+Lab
 
 * pageLayout
 

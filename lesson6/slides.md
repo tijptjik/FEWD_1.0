@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 6
 
+## Navigation & Sprites
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 

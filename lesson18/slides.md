@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 18
 
+## Lab Session
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 
