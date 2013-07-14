@@ -26,7 +26,6 @@ This class provides a beginner's overview and examples of:
 <aside class="notes">Allison 2 Min: What is General Assembly</aside>
 
 
-
 #### General Assembly's Core Values
 <aside class="notes">Allison 3 Min: How does General Assembly operate</aside>
 
