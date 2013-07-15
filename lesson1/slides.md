@@ -52,7 +52,7 @@ Mart van de Ven
 * Tell us a bit about yourselves
 * What are you hoping to achieve
 * Already have any plans for your project?
-* Fill out the GA Student Profile!
+* Fill out the [GA Student Profile](https://generalassembly.wufoo.com/forms/k4k4r7/)!
 
 
 
@@ -69,7 +69,7 @@ Mart van de Ven
 <aside class="notes">Mart ~ 3 Min</aside>
 
 * Visit [tijptjik.github.io/FEWD/slides/?lesson=1](tijptjik.github.io/FEWD/slides/?lesson=1) for the slides
-* Visit [https://github.com/tijptjik/FEWD/](https://github.com/tijptjik/FEWD/blob/gh-pages/lesson1/slides.md)
+* Visit [github.com/tijptjik/FEWD/](https://github.com/tijptjik/FEWD/blob/gh-pages/lesson1/slides.md) for the notes
 * Or check the slides markdown file in your local FEWD repository.  
 * Ask questions via Schoology, E-mail, or Github Issues.
 * Setup Google+ to receive e-mail notifications if you haven't already
@@ -77,8 +77,9 @@ Mart van de Ven
 
 
 ## What is Web Development?
-<aside class="notes"></aside>
+<aside class="notes">Kit ~ 12 Min</aside>
 
+![fullscreen](http://ankitsahay.com/wp-content/uploads/2013/06/The.Matrix.glmatrix.31.png)
 ![Web Developer](../assets/images/web-developer.jpg)
 
 
@@ -110,7 +111,7 @@ Web applications
 ## What is Web Development?
 <aside class="notes"></aside>
 
-For simple static websites, web development can simply refer to:
+For a static website, web development can simply refer to:
 
 * Writing markup: HTML
 * Writing style: CSS
@@ -138,9 +139,15 @@ But for large web applications, it could involve hundreds of people working on d
 
 
 ## What is Web Development?
-<aside class="notes"></aside>
+<aside class="notes">Mart ~ 3 Min</aside>
 
-How to maintain a project?
+Developer Tools
+
+* Text Editor / Integrated Development Environment
+* Automated Test Suits
+* Deployment Tools
+
+Project Management Tools
 
 * Project management tool
 * Bug tracker
@@ -148,8 +155,38 @@ How to maintain a project?
 
 
 
+## Text Editor
+<aside class="notes">Mart ~ 10 Min</aside>
+[SublimeText2](http://www.sublimetext.com/2)
+
+* [Package Control](http://wbond.net/sublime_packages/package_control/installation)
+* Create a project
+* introduce yourself to `p`.
+* Try to make a good first impression.
+* You will love `p`.
+* [Hacks](http://hexlator.blogspot.hk/2013/05/best-sublime-text-2-tips-tricks-hacks.html), [Tips](http://net.tutsplus.com/articles/news/perfect-workflow-in-sublime-text-free-course/) & [Tricks](http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/)
+
+
+
+
+## Version Control
+<aside class="notes">Mart ~ 30 Min</aside>
+![fullscreen](http://www.cameronmcefee.com/wp-content/uploads/2011/03/nasa.jpg)
+### [Git](https://help.github.com/articles/set-up-git)
+For [Mac](http://mac.github.com/) and [Windows](http://windows.github.com/)
+
+* Sign-up with [GitHub](https://github.com/signup/free)
+* `fork` the [FEWD repository](https://github.com/tijptjik/FEWD)
+* [Clone](http://support.fastpdfkit.com/kb/how-to/how-to-clone-from-github) your GitHub copy to your local machine
+* [Pave the way](https://help.github.com/articles/making-changes) for your final project
+* Serve your website with [GitHub Pages](https://help.github.com/articles/creating-project-pages-manually)
+* [Marvel](https://github.com/) at your mastery over Git
+* ... the most complicated tool built by mankind
+
+
+
 ## HOW THE WEB WORKS
-<aside class="notes"></aside>
+<aside class="notes">Kit ~ 3 Min</aside>
 
 <table>
   <tr>
@@ -169,7 +206,7 @@ How to maintain a project?
 
 
 ## HTML Basics
-<aside class="notes"></aside>
+<aside class="notes">Mart ~ 4 Min</aside>
 
 * HTML: HyperText Markup Language
 * The main markup language for creating web pages
@@ -194,7 +231,7 @@ How to maintain a project?
 
 
 ## HTML Basics
-<aside class="notes"></aside>
+<aside class="notes">Kit ~ 15 Min</aside>
 
 * Doctype also stands for Document Type Declaration (DTD) 
 * Prior to HTML5, HTML is based on another markup language called SGML
@@ -346,14 +383,14 @@ Deprecated Tags (Don't use it)
 
 
 ## Website File Structure
-<aside class="notes"></aside>
+<aside class="notes">Kit ~ 2 Min</aside>
 
 ![File Structure](../assets/images/web-project-file-structure.png)
 
 
 
 ## Coding time!
-<aside class="notes"></aside>
+<aside class="notes">Both ~ Remainder</aside>
 
 Labs
 
@@ -375,3 +412,4 @@ Reading:
 * [The Evolution of the Web](http://www.evolutionoftheweb.com/?hl=en)
 * [HTML | MDN](https://developer.mozilla.org/en-US/docs/HTML)
 * [What really happens when you navigate to a URL](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)
+* [Advanced guide to using GIT on OSX](http://shaun.boyblack.co.za/blog/2009/03/14/getting-started-with-git-on-mac-os-x/)
