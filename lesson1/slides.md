@@ -8,7 +8,7 @@ Kit Yuen & Mart van de Ven
 
 ## Agenda
 
-* Who we are?
+* Round of Introductions
 * Course Information
 * What is Web Development?
 * How the Internet Works?
@@ -19,8 +19,8 @@ Kit Yuen & Mart van de Ven
 
 
 
-## Who We Are?
-<aside class="notes"></aside>
+## Who we are
+<aside class="notes">Kit ~ 3 Min</aside>
 
 Kit Yuen
 
@@ -31,25 +31,46 @@ Kit Yuen
 
 
 
-## Who We Are?
-<aside class="notes"></aside>
+## Who we are
+<aside class="notes">Mart ~ 3 Min</aside>
 
-Mart Van De Ven
+Mart van de Ven
 
-* Analytical Engineer, Demyst.Data
+* Analytical Engineer, DemystData
 * MSc Information Design
-* Social Media Apps
 * G.U.I.D.E.
-* Analytics Dashboard
+* Coding as Prism
+* Open Source & Open Data
+
+
+
+## ... and who do we have here?
+<aside class="notes">Class ~ 4 Min</aside>
+
+* Tell us a bit about yourselves
+* What are you hoping to achieve
+* Already have any plans for your project?
+* Fill out the GA Student Profile!
 
 
 
 ## Course Information
-<aside class="notes"></aside>
+<aside class="notes">Kit ~ 3 Min</aside>
 
 * Class Structure
 * Final Project
 * Grading Policy
+
+
+
+## Course Flow
+<aside class="notes">Mart ~ 3 Min</aside>
+
+* Visit [tijptjik.github.io/FEWD/slides/?lesson=1](tijptjik.github.io/FEWD/slides/?lesson=1) for the slides
+* Visit [https://github.com/tijptjik/FEWD/](https://github.com/tijptjik/FEWD/blob/gh-pages/lesson1/slides.md)
+* Or check the slides markdown file in your local FEWD repository.  
+* Ask questions via Schoology, E-mail, or Github Issues.
+* Setup Google+ to receive e-mail notifications if you haven't already
 
 
 
