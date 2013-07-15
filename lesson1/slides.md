@@ -68,7 +68,7 @@ Mart van de Ven
 ## Course Flow
 <aside class="notes">Mart ~ 3 Min</aside>
 
-* Visit [tijptjik.github.io/FEWD/slides/?lesson=1](tijptjik.github.io/FEWD/slides/?lesson=1) for the slides
+* Visit [htijptjik.github.io/FEWD/slides/?lesson=1](http://tijptjik.github.io/FEWD/slides/?lesson=1) for the slides
 * Visit [github.com/tijptjik/FEWD/](https://github.com/tijptjik/FEWD/blob/gh-pages/lesson1/slides.md) for the notes
 * Or check the slides markdown file in your local FEWD repository.  
 * Ask questions via Schoology, E-mail, or Github Issues.
@@ -290,8 +290,8 @@ Text Elements
 
 ```
 <p>This is a paragraph</p>
-<br> (line break) <hr>
-(horizontal rule)
+<br> (line break)
+<hr> (horizontal rule)
 <pre>This text is reformatted</pre>
 ```
 
