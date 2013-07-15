@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 13
 
+## JavaScript Objects
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 

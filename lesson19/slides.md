@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 19
 
+## Advanced Topics
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 

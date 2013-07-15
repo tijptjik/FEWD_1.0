@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 10
 
+## Responsive Design & Midterm Project Code Review
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 

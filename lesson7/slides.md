@@ -1,6 +1,7 @@
 ![General Assembly](assets/images/ga.png)
-
 # FEWD LESSON 7
+
+## Lab Project: Busy Hands
 
 ### Instructors
 Kit Yuen & Mart van de Ven 

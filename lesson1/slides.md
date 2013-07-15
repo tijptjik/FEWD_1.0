@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 1
 
+## Overview and HTML
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 
@@ -358,3 +360,18 @@ Labs
 * intro
 * lostCat
 * cookieMonster
+
+
+
+## Homework
+<aside class="notes"></aside>
+
+Personalize the cookie monster project using your own content. 
+
+Experiment with additional HTML elements and CSS properties found on the [handout](https://github.com/generalassembly-studio/FEWD_Curriculum/blob/master/Lessons/01_Intro_To_Web_Dev/css-cheat-sheet-v2.pdf).
+
+Reading:
+
+* [The Evolution of the Web](http://www.evolutionoftheweb.com/?hl=en)
+* [HTML | MDN](https://developer.mozilla.org/en-US/docs/HTML)
+* [What really happens when you navigate to a URL](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)

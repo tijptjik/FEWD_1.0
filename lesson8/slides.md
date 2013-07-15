@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 8
 
+## Grid Based Design / Typography
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 

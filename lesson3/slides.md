@@ -1,6 +1,8 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 3
 
+## Advanced CSS
+
 ### Instructors
 Kit Yuen & Mart van de Ven 
 
