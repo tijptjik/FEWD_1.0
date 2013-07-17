@@ -10,6 +10,7 @@ Kit Yuen & Mart van de Ven
 
 ## Agenda
 
+* Merge latest changes from tijptjik/FEWD to your forked repo
 * Quiz
 * Decking out Sublime
 * Show and tell: Introducing the HTML Template
@@ -19,6 +20,23 @@ Kit Yuen & Mart van de Ven
 * Color and Image file Types
 * HTML Extended
 * Hitting the Road: Create your travel blog
+
+
+
+## Merge latest changes from tijptjik/FEWD to your forked repo
+<aside class="notes"></aside>
+
+1. Open the Git shell / Terminal
+1. Goes to your repository root
+  * `cd c:\Users\user\Desktop\FEWD`
+1. Add tijptjik/FEWD as your upstream repo
+  * `git remote add upstream https://github.com/tijptjik/FEWD.git`
+1. Fetch new updates from the upstream repo to your machine
+  * `git fetch upstream`
+1. Merge the upstream commits to your local repo
+  * `git merge upstream/gh-pages`
+1. Push the new commits to your forked repo
+  * `git push`
 
 
 
