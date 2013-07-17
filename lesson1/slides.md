@@ -68,7 +68,7 @@ Mart van de Ven
 ## Course Flow
 <aside class="notes">Mart ~ 3 Min</aside>
 
-* Visit [htijptjik.github.io/FEWD/slides/?lesson=1](http://tijptjik.github.io/FEWD/slides/?lesson=1) for the slides
+* Visit [tijptjik.github.io/FEWD/slides/?lesson=1](http://tijptjik.github.io/FEWD/slides/?lesson=1) for the slides
 * Visit [github.com/tijptjik/FEWD/](https://github.com/tijptjik/FEWD/blob/gh-pages/lesson1/slides.md) for the notes
 * Or check the slides markdown file in your local FEWD repository.  
 * Ask questions via Schoology, E-mail, or Github Issues.
@@ -405,7 +405,7 @@ Labs
 
 Personalize the cookie monster project using your own content. 
 
-Experiment with additional HTML elements and CSS properties found on the [handout](https://github.com/generalassembly-studio/FEWD_Curriculum/blob/master/Lessons/01_Intro_To_Web_Dev/css-cheat-sheet-v2.pdf).
+Experiment with additional HTML elements and CSS properties found on the [handout](http://studio.generalassemb.ly/HK/FEWD1/Kit/css-cheat-sheet-v2.pdf).
 
 Reading:
 
