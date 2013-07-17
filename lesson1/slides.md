@@ -203,7 +203,7 @@ Make yourself at home with your new web developer toolkit!
 * See if you can pick up some nifty SublimeText2 shortcuts.
 * Post a little description about your project to the final/name/readme.md file so everyone know what you're planning for! No stress if you don't have anything yet, you can commit changes to your plan anytime :)
 
-### Reading:
+### Reading
 
 * [The Evolution of the Web](http://www.evolutionoftheweb.com/?hl=en)
 * [HTML | MDN](https://developer.mozilla.org/en-US/docs/HTML)
