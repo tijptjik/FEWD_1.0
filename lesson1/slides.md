@@ -202,3 +202,10 @@ Make yourself at home with your new web developer toolkit!
 * Check-out GitHub, and play around with GitHub Issues.
 * See if you can pick up some nifty SublimeText2 shortcuts.
 * Post a little description about your project to the final/name/readme.md file so everyone know what you're planning for! No stress if you don't have anything yet, you can commit changes to your plan anytime :)
+
+### Reading:
+
+* [The Evolution of the Web](http://www.evolutionoftheweb.com/?hl=en)
+* [HTML | MDN](https://developer.mozilla.org/en-US/docs/HTML)
+* [What really happens when you navigate to a URL](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)
+* [Advanced guide to using GIT on OSX](http://shaun.boyblack.co.za/blog/2009/03/14/getting-started-with-git-on-mac-os-x/)
