@@ -223,6 +223,28 @@ Deprecated Tags (Don't use it)
 
 
 
+## HTML Tags
+<aside class="notes"></aside>
+
+Image
+
+```
+<img src="https://raw.github.com/tijptjik/FEWD/gh-pages/assets/images/GA.gif">
+```
+
+
+
+## HTML Tags
+<aside class="notes"></aside>
+
+Hyperlink
+
+```
+<a href="http://www.google.com">Google</a>
+```
+
+
+
 ## Coding time!
 <aside class="notes">Both ~ 20 Min</aside>
 
