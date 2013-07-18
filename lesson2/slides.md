@@ -76,13 +76,14 @@ Merge latest changes from tijptjik/FEWD to your forked repo
 * Doctype also stands for Document Type Declaration (DTD) 
 * Prior to HTML5, HTML is based on another markup language called SGML
   * SGML: Standard Generalized Markup Language 
-* <!DOCTYPE> is not an HTML tag, it tells the browser the version of the HTML page
+* `<!DOCTYPE>` is not an HTML tag, it tells the browser the version of the HTML page
   * HTML 4.01 Strict
-    * <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http:// www.w3.org/TR/html4/strict.dtd"> 
+    * `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http:// www.w3.org/TR/html4/strict.dtd">`
   * HTML 4.01 Transitional
-    * <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    * `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">`
 * HTML5 is not based on SGML
-  * <!DOCTYPE html>
+  * `<!DOCTYPE html>`
+* [HTML <!DOCTYPE> Declaration](http://www.w3schools.com/tags/tag_doctype.asp)
 
 
 
@@ -446,6 +447,8 @@ For example, in the color red, the color code is #FF0000, which is '255' red, '0
 
 Hex system values use combinations of the characters 0-9 as well as A-F.
 
+[Color Picker](http://www.colorpicker.com/)
+
 
 
 ## Color and Image file Types
@@ -490,12 +493,18 @@ Image Formats
 
 * `<main>`
 
+<br>
+
+[html5 Doctor](http://html5doctor.com)
+
+
 
 ## Coding time!
 <aside class="notes"></aside>
 
 1. Lab: `cookieMonster`
-For review in class #02: Personalize the cookie monster project using your own content. 
+For review in class #03: Personalize the cookie monster project using your own content. 
+
 
 
 ## Homework Project
