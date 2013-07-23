@@ -10,21 +10,18 @@ Kit Yuen & Mart van de Ven
 
 ## Agenda
 
-  * Quiz
-  * Search Engine Optimization
-  * In Class Lab: Art is hard
-  * In Class Lab: Ecardly
+* ASCII Characters and Symbols
+* Search Engine Optimization
+* In Class Lab: Art is hard
+* In Class Lab: Ecardly
 
 
 
-## Quiz
+## ASCII Characters and Symbols
 
-  * What CSS property would you use to change font color? 
-  * How much margin is being applied to the bottom of this h2 selector?
-    * h2 { margin: 5px 2px 0px 2px; }
-  * On a project you are building, you have just added a series of link &lt;a&gt; elements. Should you assign each of them the same (ID / CLASS) attribute?
-  * A "block" element takes up the full width available and forces a new line. TRUE or FALSE?
-  * Which CSS property would you use to remove an underline from a link: “text-decoration” or “text-transform”?
+* How to output the &lt;, &gt;, &amp; in HTML?
+* [HTML ISO-8859-1 Reference](http://www.w3schools.com/tags/ref_entities.asp)
+* [HTML Codes - Characters and symbols](http://www.ascii.cl/htmlcodes.htm)
 
 
 
