@@ -12,6 +12,40 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
+header{
+     height: 216px;
+     background: url('../images/background.jpg') repeat;
+     padding-top: 100px;
+     margin: 0 auto;
+     }
+
+body{
+     background-color: #d6d6d6;
+     }
+
+header h1{
+     background: url('../images/logo.png') no-repeat;
+     height: 216px;
+     width: 216px;
+     margin: 0 auto;
+}
+h1.skm {
+  background: url('../images/logo.png') no-repeat;
+     height: 216px;
+     width: 216px;
+     margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#container {
+     width: 800px;
+     background-color: white;
+     margin: 0 auto;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     padding: 20px;
+}
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -26,5 +60,8 @@ Developer @GA in NYC
 	clear: both;
 }
 
+img.frame {
+
+}
 
 

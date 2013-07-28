@@ -47,6 +47,7 @@ body {
      letter-spacing: 1px;
      padding: 25px;
 }
+
 h2{
      float:left;
      font-size: 25px;
@@ -66,8 +67,17 @@ li{
 
 p {
      padding: 5px;
-     color: white;
+     color: #666699;
 
+}
+
+a{
+     text-decoration:none;
+     color:#BFAC7A;
+     -webkit-transition: 0.2s ease-out;
+}
+a:hover{
+     color:#8195ba;
 }
 
 /******************************************
@@ -99,8 +109,21 @@ div{
      float: left;
      padding: 5px;
      
-
 }
+
+#topbar ul{
+     list-style:none;
+     margin:0px;
+     padding:0px;
+     clear:both;
+}
+
+#topbarleft ul li {
+     float: left;
+     padding: 20px;
+}
+
+
 #topbarright{
      float: right;
      padding: 25px;
@@ -123,9 +146,10 @@ header {
 
 footer {
      font-size: 10px;
-     float: center;
+     margin: auto;
 
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES                   
