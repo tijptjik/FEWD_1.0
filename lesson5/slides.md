@@ -11,10 +11,10 @@ Kit Yuen & Mart van de Ven
 ## Agenda
 
 * Homework Feedback
+* W3C Markup Validator
 * Two More Pseudo Classes
 * Float Positioning
 * Two Column & Three Column Layout 
-* W3C Markup Validator
 * Ecard.ly 
 
 
@@ -22,7 +22,23 @@ Kit Yuen & Mart van de Ven
 ## Homework Feedback
 <aside class="notes">Kit (10 Min)</aside>
 
-* TBC
+* Use index.html as the default page
+* `body { font-size: 75%; }` = 75% of the browser setting
+* Try using unorder list `<ul><li>` to build your navigation menu
+* Use CSS `margin` and `padding` to control the spacings between HTML elements.
+* How to include a google map?
+* Google font
+* Apply the base fonts on `<body>` and don't forget to include the fallback fonts
+* Try using `<a href="#">link</a>` as a placeholder
+* Don't forget the id and class are case-sensitive
+
+
+
+## W3C Markup Validator
+<aside class="notes">Kit (10 Min)</aside>
+
+* [W3C Validator](http://validator.w3.org/)
+* [HTML Tidy](http://www.dirtymarkup.com/)
 
 
 
@@ -75,17 +91,9 @@ p:before {
 ## Two Column & Three Column Layout 
 <aside class="notes">Kit (20 Min)</aside>
 
-* Create a 2-column layout using the template.zip
+* Create a 2-column layout: *twoColumnLayout*
 * Make use of the `.clearfix`
-* Create a 3-column layout
-
-
-
-## W3C Markup Validator
-<aside class="notes">Kit (10 Min)</aside>
-
-* [W3C Validator](http://validator.w3.org/)
-* [HTML Tidy](http://www.dirtymarkup.com/)
+* Create a 3-column layout: *threeColumnLayout*
 
 
 
@@ -99,6 +107,7 @@ p:before {
 
 ## Homework
 
-Submit ECardly by Saturday evening.
+Submit ECardly by Saturday evening on GitHub.
 
+* The path should be FEWD/lesson4/labs/ecardly
 * Feel free to add questions or notes in the code. 
