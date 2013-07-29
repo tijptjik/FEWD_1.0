@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Positioning</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- static positioning -->
+	<div class="container">
+	
+		I'm a static parent.
+	
+		<div class="box">
+			I'm a box positioned static. This is the default.
+		</div>
+		
+		<div class="box">
+			I'm a box positioned static. This is the default.
+		</div>
+	
+	</div><!-- container -->
+
+	<!-- float positioning -->
+	
+	<div class="container clear">
+	
+		 I'm a static parent.
+	
+		<div class="box left">
+			I'm a box floating left.
+		</div>
+		
+		<div class="box left">
+			I'm a box floating left.
+		</div>
+		
+		<div class="box left">
+			I'm a box floating left.
+		</div>
+		
+		<div class="box right">
+			I'm a box floating right.
+		</div>
+		
+		I need a clear fix class if you do not want me to collapse when I have floating children inside me!
+		
+	</div><!-- container -->
+	
+</body>
+</html>
