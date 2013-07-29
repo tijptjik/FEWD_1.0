@@ -24,27 +24,42 @@ Size unit in HTML [w3schools](http://www.w3schools.com/cssref/css_units.asp)
 
 * px
 * em
+* rem
 * %
 * ...
+* [FONT SIZING WITH REM (px VS em VS rem)](http://snook.ca/archives/html_and_css/font-size-with-rem)
+
+
+
+##  CSS: Fonts Revisited
+<aside class="notes">Kit (15 Min)</aside>
+
 * letter-spacing:
   * The spacing behavior between text characters.
 * text-align:
-* Text alignment
-* Wrapped by block element
-* left, right, center, justif
+  * Text alignment
+  * Wrapped by block element
+  * left, right, center, justify
 * text-decoration:
   * Specifies the formatting of text
-* none, underline, overline, line-through
+  * none, underline, overline, line-through
+
+
+
+##  CSS: Fonts Revisited
+<aside class="notes">Kit (15 Min)</aside>
+
 * text-transform:
-* Specifies the capitalization of text
-* none, capitalize, uppercase, lowercase
-* Line-height:
-* Specifies the spacing between lines
-* Can be unitless
+  * Specifies the capitalization of text
+  * none, capitalize, uppercase, lowercase
+* line-height:
+  * Specifies the spacing between lines
+  * Can be unitless
 
 
 
 ##  The Font Sizing Dilemma
+<aside class="notes">Kit (15 Min)</aside>
 
 a common practice is to set the body font size at 62.5% and then to use “em” for everything else. The reason for this is that the results are easy to translate: 1.2em = 12px, 1.4em = 14px, 2.4em = 24px, etc.
 
@@ -54,10 +69,10 @@ a common practice is to set the body font size at 62.5% and then to use “em”
 <aside class="notes">Kit (10 Min)</aside>
 States of the HTML element
 
-* a:, 
-* a:link,
-* a:visited,
-* a:hover,
+* a:
+* a:link
+* a:visited
+* a:hover
 * a:active
 
 
@@ -75,6 +90,7 @@ States of the HTML element
 
 
 ## Set border-box on *
+<aside class="notes">Mart (20 Min)</aside>
 
 ```CSS
 	* {
@@ -120,6 +136,7 @@ Go : https://coderwall.com/evantravers
 
 
 ##  Homework
+<aside class="notes"></aside>
 
 * Finish your website
 * Have it ready by 23:59 Tuesday for review.
@@ -127,13 +144,17 @@ Go : https://coderwall.com/evantravers
 
 
 ## Resources
+<aside class="notes"></aside>
 
-## Foundational
+### Foundational
 * [The Box Model, Margin and Padding](http://www.codeproject.com/Articles/227840/CSS-Basics-The-Box-Model-Margin-and-Padding)
 * [Importance of Pseudo classes order](http://meyerweb.com/eric/css/link-specificity.html)
 * [Unitless line-height](http://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/)
 * [30 CSS Best Practices for Beginners](http://net.tutsplus.com/tutorials/html-css-techniques/30-css-best-practices-for-beginners/)
-## Additional
+
+<br>
+
+### Additional
 * [3 Must-Learn CSS Techniques for Perfect Web Typography](http://designshack.net/articles/css/3-must-learn-css-techniques-for-perfect-web-typography/)
 * [Font Sizing with REM](http://snook.ca/archives/html_and_css/font-size-with-rem)
 * [Compose to a Vertical Rhythm](http://24ways.org/2006/compose-to-a-vertical-rhythm/)

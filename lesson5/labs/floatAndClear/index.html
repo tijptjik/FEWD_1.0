@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+	
+		<title>Float And Clear</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Float And Clear</h1>
+
+		<h2>Problem:</h2>
+		<p>When you float boxes, the DIV that they are contained inside can't see the content. It's as if there is no content in that DIV at all!</p>	
+
+		<h2>Solution #1: Use A Class clear:both</h2>
+		<p>Put a clear class as the last element. Remember to set the class in CSS ".clear {clear:both}"</p>
+		<div id="boxes">
+			<div class="box">Hello 1</div>
+			<div class="box">Hello 2</div>
+			<div class="box">Hello 3</div>
+			<div class="box">Hello 4</div>
+			<div class="clear"></div>
+		</div><!-- #boxes --> 
+
+		<h2>Solution #2: Clearfix</h2>
+		<p>The clearfix class goes on your containing DIV.</p>
+		<div id="boxes2" class="clearfix">
+			<div class="box">Hello 1</div>
+			<div class="box">Hello 2</div>
+			<div class="box">Hello 3</div>
+			<div class="box">Hello 4</div>
+		</div><!-- #boxes --> 
+	</body>
+</html>
