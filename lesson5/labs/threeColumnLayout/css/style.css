@@ -11,11 +11,11 @@ Developer @GA in NYC
 /*******************************************/
 
 /* Box Model Hack */
-* {
+/** {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
-}
+}*/
 
 /* Clear fix hack */
 .clearfix:after {
@@ -69,6 +69,32 @@ header {
 
 footer {
 
+}
+
+#header {
+     background-color: pink;
+}
+
+#sidebar-left {
+     background-color: blue;
+     width: 320px;
+     height: 400px;
+     float: left;
+     padding
+}
+
+#sidebar-right {
+     background-color: red;
+     width: 320px;
+     height: 400px;
+     float: left;
+}
+
+#content {
+     background-color: yellow;
+     width: 320px;
+     height: 400px;
+     float: left;
 }
 
 /******************************************
