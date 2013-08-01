@@ -21,7 +21,7 @@ Kit Yuen & Mart van de Ven
 
 
 ## HTML Table
-<aside class="notes">Kit (10 Min)</aside>
+<aside class="notes">Mart (10 Min)</aside>
 
 ```
 <table>
@@ -44,6 +44,47 @@ Kit Yuen & Mart van de Ven
   </tbody>
 </table>
 ```
+[Detailed Reference](http://www.pdprogrammeur.com/tables-and-html5-table/)
+
+
+
+## CSS Table Styles
+<aside class="notes">Mart (10 Min)</aside>
+
+```
+// cellpadding
+th, td { padding: 5px; }
+
+// cellspacing
+table { border-collapse:separate; border-spacing: 5px; } // cellspacing="5"
+table { border-collapse:collapse; border-spacing: 0; }   // cellspacing="0"
+
+// valign
+th, td { vertical-align: top; }
+
+// align (center)
+table { margin: 0 auto; }
+```
+
+
+
+## Border-Collapse
+<aside class="notes">Mart (10 Min)</aside>
+
+Collapse & Seperate
+
+```
+table {
+  border-collapse: separate; /* Or do nothing, this is default */
+  border-spacing: 3px; /* Only works if border-collapse is separate */
+}
+
+
+table {
+  border-collapse: collapse;
+}
+```
+[ref](http://www.css3.com/css-border-collapse/)
 
 
 
