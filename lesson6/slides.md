@@ -10,11 +10,107 @@ Kit Yuen & Mart van de Ven
 
 ## Agenda
 
+* HTML Table
+* The display property in CSS
 * Navigation
 * Navigation Image
 * Sprites
 * Explain HW and Final Project
 * Github Intro
+
+
+
+## HTML Table
+<aside class="notes">Mart (10 Min)</aside>
+
+```
+<table>
+  <caption>My table caption</caption>
+  <thead>
+    <tr>                <!-- ROW LEVEL -->
+      <th></th>         <!-- CELL LEVEL -->
+      <th>Column 1</th> <!-- CELL LEVEL -->
+      <th>Column 2</th> <!-- CELL LEVEL -->
+      <th>Column 3</th> <!-- CELL LEVEL -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr>                <!-- ROW LEVEL -->
+      <th>Row 1</th>    <!-- CELL LEVEL -->
+      <td>11</td>       <!-- CELL LEVEL -->
+      <td>12</td>       <!-- CELL LEVEL -->
+      <td>13</td>       <!-- CELL LEVEL -->
+    </tr>
+  </tbody>
+</table>
+```
+[Detailed Reference](http://www.pdprogrammeur.com/tables-and-html5-table/)
+
+
+
+## CSS Table Styles
+<aside class="notes">Mart (10 Min)</aside>
+
+```
+// cellpadding
+th, td { padding: 5px; }
+
+// cellspacing
+table { border-collapse:separate; border-spacing: 5px; } // cellspacing="5"
+table { border-collapse:collapse; border-spacing: 0; }   // cellspacing="0"
+
+// valign
+th, td { vertical-align: top; }
+
+// align (center)
+table { margin: 0 auto; }
+```
+
+
+
+## Border-Collapse
+<aside class="notes">Mart (10 Min)</aside>
+
+Collapse & Seperate
+
+```
+table {
+  border-collapse: separate; /* Or do nothing, this is default */
+  border-spacing: 3px; /* Only works if border-collapse is separate */
+}
+
+
+table {
+  border-collapse: collapse;
+}
+```
+[ref](http://www.css3.com/css-border-collapse/)
+
+
+
+## The display property in CSS
+<aside class="notes">Kit (10 Min)</aside>
+
+### Block-level elements
+
+* If no width is set, will expand naturally to fill its parent container.
+* Can have margins and/or padding.
+* If no height is set, will expand naturally to fit its child elements. (assuming they are not floated or positioned)
+* By default, will be placed below previous elements in the markup. (assuming no floats or positioning on surrounding elements)
+* It’s not necessary to give it a set width or to give it a width of 100% if you want it to fill its parent horizontally. In fact, doing either of those things may cause maintainability issues or other undesirable problems.
+* `<p>`, `<div>`, `<form>`, `<header>`, `<nav>`, `<ul>`, `<li>`, and `<h1>`
+
+
+
+## The display property in CSS
+<aside class="notes">Kit (10 Min)</aside>
+
+### Inline-level elements
+
+* Will not clear previous content to drop to the next line like block elements.
+* Ignore top and bottom margin settings but apply left right margins and all paddings.
+* Ignore the width and height properties.
+* `<a>`, `<span>`, `<em>`, and `<code>`.
 
 
 
@@ -47,7 +143,7 @@ Implement a navigation bar with images
 <aside class="notes">Mart (10 Min)</aside>
 
 * Implement *Blue Nav*
-* Submitted before Saturday
+* Submitted on or before Saturday
 * Milestone 1 : Wireframing your project
 * Send it in for early review, or bring to class on Monday.
 

@@ -391,7 +391,7 @@ body { font-style: italic; }
 font-weight
 
 ```
-body { font-style: bold; }
+body { font-weight: bold; }
 ```
 
 

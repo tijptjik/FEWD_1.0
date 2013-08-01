@@ -1,0 +1,33 @@
+/* Instructor note: demonstrate how clear and clearfix work */
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+.clear {
+	clear: both;
+}
+
+
+#boxes, #boxes2 {
+	border: 2px #000 solid;
+	width: 500px;
+	background: yellow;
+}
+
+
+.box {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	margin: 2px;
+	float: left;
+}
+
