@@ -10,12 +10,40 @@ Kit Yuen & Mart van de Ven
 
 ## Agenda
 
+* HTML Table
 * The display property in CSS
 * Navigation
 * Navigation Image
 * Sprites
 * Explain HW and Final Project
 * Github Intro
+
+
+
+## HTML Table
+<aside class="notes">Kit (10 Min)</aside>
+
+```
+<table>
+  <caption>My table caption</caption>
+  <thead>
+    <tr>                <!-- ROW LEVEL -->
+      <th></th>         <!-- CELL LEVEL -->
+      <th>Column 1</th> <!-- CELL LEVEL -->
+      <th>Column 2</th> <!-- CELL LEVEL -->
+      <th>Column 3</th> <!-- CELL LEVEL -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr>                <!-- ROW LEVEL -->
+      <th>Row 1</th>    <!-- CELL LEVEL -->
+      <td>11</td>       <!-- CELL LEVEL -->
+      <td>12</td>       <!-- CELL LEVEL -->
+      <td>13</td>       <!-- CELL LEVEL -->
+    </tr>
+  </tbody>
+</table>
+```
 
 
 
@@ -74,7 +102,7 @@ Implement a navigation bar with images
 <aside class="notes">Mart (10 Min)</aside>
 
 * Implement *Blue Nav*
-* Submitted before Saturday
+* Submitted on or before Saturday
 * Milestone 1 : Wireframing your project
 * Send it in for early review, or bring to class on Monday.
 

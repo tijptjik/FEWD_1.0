@@ -68,6 +68,7 @@ header {
 }
 
 footer {
+     background-color: gray;
 
 }
 
@@ -75,6 +76,30 @@ footer {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
+#main {
+     background-color: yellow;
+}
 
+#sidebar-left {
+     background-color: red;
+     width: 320px;
+     height: 400px;
+     float: left;
+
+}
+#content {
+     width: 320px;
+     height: 400px;
+     float: left;
+     background-color: purple;
+}
+
+#sidebar-right {
+     background-color: blue;
+     width: 320px;
+     height: 400px;
+     float: left;
+   
+}
 
 
