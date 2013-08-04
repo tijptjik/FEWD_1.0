@@ -1,0 +1,185 @@
+/*
+Theme Name: Busy Square
+Author: Big Square
+Version: 0.00001
+
+[Table Of Contents] 
+
+	01- BODY
+	02- HEADERS 
+	03- GLOBAL STYLES 
+	04- MAIN CONTENT
+	05- SOCIAL MEDIA
+	06- MISC
+
+*/
+
+
+/*----------------------------------------------------------------------------- 
+=01 BODY 
+-----------------------------------------------------------------------------*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #7f7d78;
+	font-size: 13px;
+	line-height: 1.1;
+	background: #FFF;
+}
+
+
+#container {
+	background: url(../images/background_light.jpg) no-repeat;	
+	width: 950px;
+	margin: 0 auto; /*centers our container on the page */   
+}
+
+
+/*----------------------------------------------------------------------------- 
+=02 HEADERS
+-----------------------------------------------------------------------------*/
+
+
+#header {
+	padding: 20px 0px;
+}
+
+	
+	#logo {
+		background: url(../images/logo.png) no-repeat;
+		width: 275px;
+		height: 76px;
+	}
+	
+		#logo h1 {
+			text-indent: -99999em;	/* hides the H1 tag from the page, while semantically keeping it present in your HTML */
+		}
+
+/*----------------------------------------------------------------------------- 
+=03 GLOBAL STYLES 
+-----------------------------------------------------------------------------*/
+
+h2 {
+	margin: 0px 0px 10px 0px;
+	font-size: 36px;
+	font-family: Helvetica, Arial, Sans-serif;
+	color: #000000;
+	line-height: 1.1;
+}
+
+
+a {
+	color:#26689f;
+	text-decoration:none;
+}
+
+p { margin: 0px 0px 15px 0px; } /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb */
+
+
+/*----------------------------------------------------------------------------- 
+=04 NAV 
+-----------------------------------------------------------------------------*/
+
+nav {
+	width: 100%;
+	border-top: dashed #999 1px;
+	border-bottom: dashed #999 1px;
+	display: block;
+}
+
+
+	nav ul li {
+		float: left;
+		display: inline;
+		margin-right: 20px;	
+	}
+
+		
+	nav li a {
+		display: block;
+		width: 100px;
+		padding: 10px 0px;
+		
+	}
+
+
+
+/*----------------------------------------------------------------------------- 
+=05 SOCIAL MEDIA  
+-----------------------------------------------------------------------------*/
+
+
+
+#socialMedia {
+	float: right;
+}
+
+#socialMedia ul li {
+	 display:inline-block;
+	 width:60px;
+	 height:60px;
+	 background:blue;	
+	 text-indent:-9999em;
+}
+
+#socialMedia ul li.linkedIn {
+	background:url(../images/socialNav.png) 0px 64px;
+}
+#socialMedia ul li.twitter {
+	background:url(../images/socialNav.png) -60px 64px; 
+}
+
+#socialMedia ul li.facebook {
+	background:url(../images/socialNav.png) -120px 64px; 
+}
+
+#socialMedia ul li.rss {
+	background:url(../images/socialNav.png) -180px 64px; 
+}
+
+
+
+#socialMedia ul li.linkedIn:hover {
+	background:url(../images/socialNav.png) 0px 0px; 
+}
+
+#socialMedia ul li.twitter:hover {
+	background:url(../images/socialNav.png) -60px 0px; 
+}
+
+#socialMedia ul li.facebook:hover {
+	background:url(../images/socialNav.png) -120px 0px; 
+}
+
+#socialMedia ul li.rss:hover {
+	background:url(../images/socialNav.png) -180px 0px; 
+}
+
+
+
+
+/*----------------------------------------------------------------------------- 
+=06 MISC 
+-----------------------------------------------------------------------------*/
+
+
+.clear {
+	clear: both;	
+}
+
+.imgright {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.imgleft {
+	float: left; 
+	margin: 0 10px 10px 0;
+}
+
+.imgborder {
+	border: 5px solid #CCC;	
+}
+
