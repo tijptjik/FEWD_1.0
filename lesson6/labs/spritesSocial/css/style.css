@@ -1,0 +1,56 @@
+h1{
+	font-size: 36px;
+	margin: 20px;
+}
+
+nav ul{
+
+	
+}
+nav li{
+	display: block;
+	float: left;
+	margin: 10px;
+
+
+}
+
+nav li a{
+	display: block;
+	background-image: url(../images/socialNav.png);
+	width: 60px;
+	height: 60px;
+	text-indent: -99999px;
+	transition:10s;
+	-webkit-transition:3s;
+
+}
+.linkedin a {
+	background-position: 0px 64px;
+}
+
+.twitter a {
+	background-position: -60px 64px;
+}
+.facebook a {
+	background-position: -120px 64px;
+}
+
+.rss a {
+	background-position: -180px 64px;
+}
+
+.linkedin a:hover{
+	background-position: 0px 0px;
+}
+
+.twitter a:hover {
+	background-position: -60px 0px;
+}
+.facebook a:hover {
+	background-position: -120px 0px;
+}
+
+.rss a:hover {
+	background-position: -180px 0px;
+}
