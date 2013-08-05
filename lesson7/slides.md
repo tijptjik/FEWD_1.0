@@ -33,7 +33,7 @@ Let's have a look at your E-Cardly!
 * Avoid using `<center>`.
 * Selector: `<tag>.<class>:<pseudo class>`
 * Use `<ul><li>` for the list items. The `<p>` tag is usually for paragraph with preset `margin`.
-* `img` VS `background-img`
+* `img` VS `background-image`
 
 
 
