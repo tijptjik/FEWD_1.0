@@ -28,7 +28,12 @@ Let's have a look at your E-Cardly!
 
 ** General Feedback & Common Mistakes **
 
-* TBC
+* Good to use `<hr>` as the divider line and assign a proper class on it for different style.
+* The Scott Kellum Method should be applied to the html tag containing the text.
+* Avoid using `<center>`.
+* Selector: `<tag>.<class>:<pseudo class>`
+* Use `<ul><li>` for the list items. The `<p>` tag is usually for paragraph with preset `margin`.
+* `img` VS `background-img`
 
 
 
