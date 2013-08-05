@@ -10,9 +10,17 @@ Kit Yuen & Mart van de Ven
 
 ## Agenda
 
+* Homework Review
 * Intro to Mobile Web Development
 * Using Media Queries
 * Final project planning
+
+
+
+## Homework Review
+<aside class="notes">Kit (15 Min)</aside>
+
+**Busy Hands Review**
 
 
 
