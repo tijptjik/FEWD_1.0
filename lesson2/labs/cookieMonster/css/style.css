@@ -19,3 +19,37 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+	text-decoration: none;
+/*	width: 100px;*/
+/*	height: 30px;*/
+	background-color: pink;
+	padding: 10px;
+	float: right;
+}
+
+img {
+	float: right;
+}
+
+#facts {
+	width:500px;
+	float: right;
+	background-color: pink;
+	padding: 20px;
+}

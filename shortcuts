@@ -1,0 +1,50 @@
+shortcuts
+
+ctrl cmd up n down
+just type html
+ctrl ~
+shift ctrl p
+shift ctrl d - duplicate
+'' '' l - edit multiple line
+
+cmd ]	indent 
+cmd [ 	unindent
+cmd shift d 	duplicate line
+cmd k cmd k 	delete from cursor to end
+cmd shift v		paste and indent correctly
+cmd slash
+
+chrome
+cmd r	refresh webpage
+
+notes
+lesson2
+	element default 1
+	. class 		10
+	# id 			100
+	!important		1000 do not use!
+
+	margin:25px 50px 75px 100px; (clockwise)
+	top margin is 25px
+	right margin is 50px
+	bottom margin is 75px
+	left margin is 100px
+
+	margin:25px 50px; (top/bottom, right/left)
+	top and bottom margins are 25px
+	right and left margins are 50px
+
+	margin:25px; (all four)
+	all four margins are 25px
+
+	png - transparency
+	JPEG - no transparency
+	gif - compressed
+	svg - lossless vector graphic
+
+lesson2_todo
+	span
+	margin shorthands
+
+question
+opacity for hex colours too?

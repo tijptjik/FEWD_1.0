@@ -1,0 +1,16 @@
+/* CSS Document */
+
+body {
+	background: #FF6;	
+}
+
+#container {
+	border: 1px solid black;
+	background: white;
+}
+
+.colorbox {
+	background: #0C9;	
+	margin-bottom: 10px;
+}
+
