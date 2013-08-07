@@ -8,8 +8,11 @@ Developed @ General Assembly in NYC
 */
 
 body {
+
+	color: white;
+	font-size: 16 px;
 	/* set up a background image */
-	
+	background: url('../images/cookie-monster.jpg') no-repeat;
 	
 	/* the follow is the code to have the image display as a full page */
 	background-position: center;
@@ -18,4 +21,24 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+h1{
+	font-size: 80px;
+	margin: 0px;
+}
+
+h2 {
+	background: #35C0F2;
+	color: black;
+	padding: 5px;
+	broder-radius: 5px;
+	-webkit-broder-radius: 5px;
+}
+#container {
+	padding: 15px;
+	background:black; 
+	width: 420px; 
+	-webkit-broder-bottom-right-raidus: 25px;
+	broder-bottom-right-radius: 25px;
+
 }

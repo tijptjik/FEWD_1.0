@@ -1,0 +1,160 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #666699;
+     background: #181819;
+     font-family: 'SteelfishRgRegular', Helvetica, sans-serif;
+     font-size: 14px;
+     line-height: 30px;
+     letter-spacing: 1px;
+     padding: 25px;
+}
+
+h2{
+     float:left;
+     font-size: 25px;
+}
+h1{
+     font-size: 60px;
+
+
+}
+h3{
+     color: #6633cc;
+     font-size: 20px;
+}
+li{
+     float: none;
+}
+
+p {
+     padding: 5px;
+     color: #666699;
+
+}
+
+a{
+     text-decoration:none;
+     color:#BFAC7A;
+     -webkit-transition: 0.2s ease-out;
+}
+a:hover{
+     color:#8195ba;
+}
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+div{
+     display: block;
+}
+#container {
+	width: 960px;
+	margin: auto;
+     padding: 25px;
+
+
+    
+}
+#topbar{
+     border-top-style: solid;
+
+     border-width: 2px;
+
+     border-color: #e4d97b;
+     height: 315px;
+
+}
+#topbarleft{
+     float: left;
+     padding: 5px;
+     
+}
+
+#topbar ul{
+     list-style:none;
+     margin:0px;
+     padding:0px;
+     clear:both;
+}
+
+#topbarleft ul li {
+     float: left;
+     padding: 20px;
+}
+
+
+#topbarright{
+     float: right;
+     padding: 25px;
+     border-left-style: solid; 
+     border-width: 2px;
+     height: 255px;
+     border-color: #e4d97b;
+
+}
+#maincontent{
+     width: 950px;
+
+background-image: url('../images/background.png');
+     padding: 25px;
+}
+
+header {
+
+}
+
+footer {
+     font-size: 10px;
+     margin: auto;
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+

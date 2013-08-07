@@ -3,9 +3,23 @@
 /*****************************/		
 /*        GENERAL             *
 /*****************************/	
+body{
+	
+	background-image: url(../images/bg-gradient.jpg);
+	background: #cad2d9;
 
+}
 
+nav ul{
 
+}
+
+nav li{
+	display: block;
+	float: left;
+	margin: 20px;
+
+}
 
 
 /*****************************/		
@@ -13,4 +27,22 @@
 /*****************************/	
 	
 
+nav li a{
+	display: block;
+	background-image: url(../images/menu-sprite.jpg);
+	width: 100px;
+	height: 45px;
+	text-indent: -99999px;
 	
+	}
+
+.home a {
+	background-position: 0px 0px;
+}
+
+.about a {
+	background-position: 200px 90px;
+}
+.contact a {
+	background-position: 300px 135px;
+}
