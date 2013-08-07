@@ -1,4 +1,4 @@
-/* 
+ o/* 
 Project Name: Ecard.ly
 Client: General Assembly 
 Author: Christopher Castig | @castig
@@ -26,5 +26,138 @@ Developer @GA in NYC
 	clear: both;
 }
 
+body {
+     background: url("../images/background.jpg") repeat-x #d6d6d6;
+}
 
+/** body **/
+h1, h2, h3, h4, h5, h6, p {
+     font-family: Helvetica, Arial, sans-serif;
+}
 
+h1 a {
+     background: url('../images/logo.png') no-repeat;
+     width: 216px;
+     height: 213px;
+     margin: auto;
+     display: block;
+
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+}
+
+h2 {
+     font-size:20px;
+     margin: 10px 0;
+}
+
+h2 a {
+     text-decoration: none;
+     color: #000000;
+}
+
+p {
+     line-height: 1.5;
+     margin-bottom: 0;
+     font-size: 13px;
+}
+
+p a {
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: bold;
+     color: orange;
+}
+
+#author {
+     color: orange;
+     font-weight: bold;
+}
+
+#comments-number {
+     display: inline;
+     color: orange;
+     font-weight: bold;
+}
+
+/*#main p:first-letter {
+     font-size: 30pt;
+     display: block;
+     float: left;
+     margin: 0 5px;
+}
+*/
+
+/**sidebar**/
+
+#sidebar h4 {
+     text-transform: uppercase;
+     margin-bottom: 0;
+     font-size: 13px;
+}
+
+ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     line-height: 1.75;
+     font-size: 13px;
+}
+
+li {
+     font-weight: bold;
+}
+
+#sidebar {
+     width: 220px;
+     margin: 0 auto;
+     background-color: #FFF;
+     padding: 20px;
+     line-height: 1.2;
+     float: left;
+     margin-left: 20px;
+}
+
+#sidebar img {
+     padding: 10px 0px;
+}
+
+/** main section **/
+
+#container {
+     width: 940px;
+     margin: 0 auto;
+}
+
+#header {
+     margin-bottom: 40px;
+}
+
+#main {
+     background-color: #FFF;
+     float: left;
+     width: 620px;
+     padding: 20px;
+}
+
+.post-content {
+     border-bottom-style: dotted;
+     border-width: 1px;
+     padding-bottom: 15px;
+     overflow: scroll;
+}
+
+.post-info {
+     border-bottom-style: solid;
+     border-width: 1px;
+     padding-bottom: 15px;
+     margin-bottom: 50px;
+     text-indent: 10px;
+}
+
+#social {
+     width: 150px;
+     clear: both;
+     margin: 30px auto;
+}

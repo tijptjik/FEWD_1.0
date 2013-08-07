@@ -1,0 +1,164 @@
+/** global/body **/
+body {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+/*	background-image: url('../images/bg_body.jpg');*/
+	background: linear-gradient(180deg, #EFEFEF, #D7D7D7);
+	background-size: 100% 438px;
+	background-repeat: no-repeat;
+	background-color: #EFEFEF;
+}
+
+/*header {
+
+	height: 488px;
+}*/
+
+.clearfix {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#container {
+	width: 960px;
+	margin: 20px auto;
+}
+
+h3 {
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+/*** nav ***/
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	display: block;
+	text-decoration: none;
+	margin-left: 80px;
+}
+
+li {
+	float: left;
+	line-height: 50px;
+	margin: 0 20px;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+/** logo & social **/
+#logo {
+	width: 285px;
+	height: 50px;
+	margin: 20px;
+	margin-left: -10px;
+	float: left;
+}
+
+.social-media {
+	background-image: url('../images/socialNav.png');
+	width: 62px;
+	height: 62px;
+}
+
+li.social-media {
+	float: right;
+	margin: 0 0 0 0;
+} 
+
+#linkedin {
+	background-position: 0px -62px;
+}
+
+#linkedin:hover {
+	background-position: 0 0;
+}
+
+#twitter {
+	background-position: -62px -62px;
+}
+
+#twitter:hover {
+	background-position: -62px 0;
+}
+
+#facebook {
+	background-position: -121px -62px;
+}
+
+#facebook:hover {
+	background-position: -121px 0;
+}
+
+#rss {
+	background-position: -180px -62px;
+}
+
+#rss:hover {
+	background-position: -180px 0;
+}
+
+li.social-media a {
+	display: none;
+} /*** correct image replacement technique? I made this up. **/
+
+/** blurb **/
+
+#blurb {
+	width: 950px;
+	height: 80px;
+	border: 1px solid black;
+}
+
+#blurbcontent {
+	width: 650px;
+	height: 30px;
+	margin: none;
+	padding: 30px;
+	float: left;
+}
+
+#blurb img {
+	float: right;
+	padding: 15px;
+}
+
+/** homebox **/
+.home-box {
+	width: 320px;
+	height: 400px;
+	float: left;
+}
+
+.home-box img {
+	border: 5px solid white;
+	margin: 10px 0;
+}
+
+div#home-box-blurb p {
+	margin-right: 10px;
+	color: green;
+} //why would not show?
+
+p#home-box-blurb {
+	margin-right: 10px;
+	color: green;
+}
+
+.home-box a {
+	text-decoration: none;
+} //does not show again?
+

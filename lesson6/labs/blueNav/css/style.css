@@ -1,16 +1,85 @@
-
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
 
 /*****************************/		
 /*        GENERAL             *
 /*****************************/	
 
+body {
+	background: url(../images/bg-gradient.jpg) repeat-x;
+}
 
+li{
+	float: left;
+}
 
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: white;
+	margin: 0 auto;
+	padding: 30px;
+	font-size: 12px;
+	line-height: 1.5;
+}
 
+#container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 50px;
+}
 
 /*****************************/		
 /*  CSS SPRITE NAVIGATION     *
-/*****************************/	
-	
+/*****************************/
 
+li a {
+	display: block;
+	background-image: url(../images/menu-sprite.jpg);
+	height: 70px;
+	text-indent: -999px;
+}	
+
+#home a {
+	width: 120px;
+}
+	
+#home a:hover {
+	background-position: 0px -70px;
+}
+
+#home a:active {
+	background-position: 0px -140px;
+}
+
+#about a {
+	width: 130px;
+
+	background-position: -120px 0px;
+}
+
+#about a:hover {
+	background-position: -120px -70px;
+}
+
+#about a:active {
+	background-position: -120px -140px;
+}
+
+#contact a {
+	width: 160px;
+	background-position: -250px 0px;
+}
+	
+#contact a:hover {
+	background-position: -250px -70px;
+}
+
+#contact a:active {
+	background-position: -250px -140px;
+}
 	

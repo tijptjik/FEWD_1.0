@@ -75,7 +75,10 @@ a {
 	text-decoration:none;
 }
 
-p { margin: 0px 0px 15px 0px; } /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb */
+p { margin: 0px 0px 15px 0px; 
+line-height: 1.5;
+
+	} /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb */
 
 
 /*----------------------------------------------------------------------------- 
@@ -84,25 +87,26 @@ p { margin: 0px 0px 15px 0px; } /* there's no explicit rule, but putting about 1
 
 nav {
 	width: 100%;
+	height: 30px;
 	border-top: dashed #999 1px;
 	border-bottom: dashed #999 1px;
 	display: block;
 }
 
 
-	nav ul li {
-		float: left;
-		display: inline;
-		margin-right: 20px;	
-	}
+nav ul li {
+	float: left;
+	display: inline;
+	margin-right: 20px;	
+}
 
-		
-	nav li a {
-		display: block;
-		width: 100px;
-		padding: 10px 0px;
-		
-	}
+	
+nav li a {
+	display: block;
+	width: 100px;
+	padding: 10px 0px;
+	
+}
 
 
 

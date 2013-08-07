@@ -1,0 +1,46 @@
+li {
+	float: left;
+	/*background-color: pink;
+	padding: 20px;
+	margin: 20px;
+	width: 100px;
+	height: 20px;*/
+
+}
+
+li a {
+	display: block;
+	background-image: url(../images/socialNav.png);
+	/*width: 60px;
+	height: 60px;*/
+	text-indent: -9999px;
+	transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.twitter a {
+	background-position: -60px 0px;
+}
+.facebook a {
+	background-position: -120px 0px;
+}
+
+.rss a {
+	background-position: -180px 0px;
+}
+
+.linkedin a:hover {
+	background-position: 0px -60px;
+}
+
+.twitter a:hover {
+	background-position: -60px -60px;
+}
+
+.facebook a:hover {
+	background-position: -120px -60px;
+}
+
+.rss a:hover {
+	background-position: -180px -60px;
+}
