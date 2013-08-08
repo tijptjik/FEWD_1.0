@@ -12,6 +12,7 @@ Kit Yuen & Mart van de Ven
 
 * MailChimp
 * PayPal Buy Now Button
+* What is a framework?
 * Grid-Based Design
 * Frameworks
 * My First Grid Layout w/ 960-Grid
@@ -38,6 +39,16 @@ Kit Yuen & Mart van de Ven
 * Allow visitor to pay online
 * Copy the code snippet and paste it on the website to create the button
 * PayPal will do the rest for you
+
+
+
+## What is a framework?
+<aside class="notes">Kit (10 Min)</aside>
+
+* A framework is a environment providing you tools to work
+* A Kitchen is a framework for cooking
+* In the framework, you also need to follow some rules
+* Don't break the rule!
 
 
 
