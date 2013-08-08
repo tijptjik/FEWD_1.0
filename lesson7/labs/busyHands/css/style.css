@@ -23,20 +23,38 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #7f7d78;
 	font-size: 13px;
 	line-height: 1.1;
 	background: #FFF;
-	margin: 0 auto;
+	background-image: url(../images/bg_body.jpg);
+}
+#wrapper {
+
+	
+}
+#main {
+	background-image: url(../images/bg_blurb.jpg);
 }
 
-
 #container {
-	background: url(../images/background_light.jpg) no-repeat;	
 	width: 950px;
 	margin: 0 auto; /*centers our container on the page */   
 }
+#quote {
+	padding: 15px;
+	margin-top: 20px;
 
+}
+
+.photobanner{
+	width: 950px;
+	margin: 0 auto;
+
+}
+.imageshadow {
+	background-image: url(../images/shadow_slider.png);
+	background-repeat: no-repeat;
+}
 
 /*----------------------------------------------------------------------------- 
 =02 HEADERS
@@ -44,13 +62,18 @@ body {
 
 
 #header {
-	padding: 20px 0px;
+	background-color: transparent;
+	background-image: url(../images/bg_wrapper.png);
+	background-repeat: repeat-x;
+	height: 488px;
+
 }
 
 	
 	#logo {
 		background: url(../images/logo.png) no-repeat;
-		width: 275px;
+		margin-top: 80px;
+		width: 320px;
 		height: 76px;
 	}
 	
@@ -84,10 +107,10 @@ p { margin: 0px 0px 15px 0px; } /* there's no explicit rule, but putting about 1
 -----------------------------------------------------------------------------*/
 
 nav {
-	width: 100%;
-	border-top: dashed #999 1px;
-	border-bottom: dashed #999 1px;
+	width: 950px;
 	display: block;
+	margin: 0 auto;
+	
 }
 
 
@@ -95,14 +118,23 @@ nav {
 		float: left;
 		display: inline;
 		margin-right: 20px;	
+		margin: 0 auto;
 	}
 
 		
 	nav li a {
 		display: block;
 		width: 100px;
-		padding: 10px 0px;
+		color: white;
+		font-size: 18px;
+		padding-top: 15px;
+		margin-top: 1px;
+		margin: 0 auto;
 		
+		
+	}
+	nav li a:hover {
+		background-image: url(../images/bg_nav_rollover.png);
 	}
 
 
@@ -115,6 +147,7 @@ nav {
 
 #socialMedia {
 	float: right;
+	
 }
 
 #socialMedia ul li {
