@@ -96,6 +96,7 @@ media_feature: width | min-width | max-width
 ```
 
 
+
 ## In Class Lab: Exercise Media Queries
 <aside class="notes">Both (45 Min)</aside>
 
@@ -115,14 +116,9 @@ media_feature: width | min-width | max-width
 ## Additional Resources
 <aside class="notes">Both</aside>
   
-  * [More About Media Queries](http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
-
-  * [What The Heck is Responsive Web Design](http://johnpolacek.github.com/scrolldeck.js/decks/responsive/)
-
-  * [Responsive Design Patterns from RGA](http://bradfrost.github.com/this-is-responsive/resources.html)
-  
-  * [Modernizer: Feature Detection](http://modernizr.com/)
-
-  * [Polyfills: Backport HTML5 & CSS3 Features](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
-
-  * [YepNope: Selective Loading JS](http://yepnopejs.com/)
+* [More About Media Queries](http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
+* [What The Heck is Responsive Web Design](http://johnpolacek.github.com/scrolldeck.js/decks/responsive/)
+* [Responsive Design Patterns from RGA](http://bradfrost.github.com/this-is-responsive/resources.html)
+* [Modernizer: Feature Detection](http://modernizr.com/)
+* [Polyfills: Backport HTML5 & CSS3 Features](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+* [YepNope: Selective Loading JS](http://yepnopejs.com/)
