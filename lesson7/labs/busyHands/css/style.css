@@ -14,7 +14,7 @@ body {
 	height: 488px;
 }*/
 
-.clearfix {
+.clearfix:after {
    content: " "; /* Older browser do not support empty content */
    visibility: hidden;
    display: block;
@@ -32,6 +32,10 @@ h3 {
 	padding: 10px 0;
 }
 
+h4 {
+	font-size: 16px;
+	color: white;
+}
 /*** nav ***/
 
 nav {
@@ -120,7 +124,7 @@ li.social-media a {
 #blurb {
 	width: 950px;
 	height: 80px;
-	border: 1px solid black;
+	border: 1px inset white;
 }
 
 #blurbcontent {
@@ -139,26 +143,75 @@ li.social-media a {
 /** homebox **/
 .home-box {
 	width: 320px;
-	height: 400px;
 	float: left;
 }
 
 .home-box img {
-	border: 5px solid white;
+	border: 5px solid #DBDBDB;
 	margin: 10px 0;
 }
 
-div#home-box-blurb p {
-	margin-right: 10px;
-	color: green;
-} //why would not show?
-
-p#home-box-blurb {
-	margin-right: 10px;
-	color: green;
-}
+p.home-box-blurb {
+	margin-right: 30px;
+	padding: 10px 0;
+} 
 
 .home-box a {
 	text-decoration: none;
-} //does not show again?
+	color: #408DE1;
+	padding-bottom: 30px;
+}
+
+/** footer **/
+
+footer {
+	width: 100%;
+	background-color: black;
+}
+
+#bottom-container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.home-box h4 {
+padding: 50px 0px 20px 0px;
+border-bottom: 1px solid gray;
+margin-right: 30px;
+
+}
+
+.home-box p {
+	padding-top: 10px;
+	color: gray;
+}
+
+.home-box ul {
+	margin-left: -20px;
+	color: gray;
+}
+
+.home-box ul li {
+	float: none;
+	color: gray;
+	border-bottom: 1px solid gray;
+	line-height: 30px;
+}
+
+.home-box ul li a {
+	color: gray;
+}
+
+#bottom-container .home-box {
+	width: 220px;
+}
+
+#bottom-container .home-box:nth-child(2){
+	width: 420px;
+}
+
+.home-box ul {
+	margin-left: none;
+}
+
 
