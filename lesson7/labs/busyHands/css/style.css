@@ -13,6 +13,7 @@ Version: 0.00001
 	06- MISC
 	07- FOOTERS
 
+
 */
 
 
@@ -30,24 +31,6 @@ body {
 	background-image: url(../images/bg_body.jpg);
 }
 
-#homeboxes{
-	display: block;
-	width: 950px;
-	float: left;
-}
-.box {
-	float: left;
-	padding-top: 20px;
-	width: 300px;
-
-	
-}
-
-.boxmiddle{
-	float: left;
-	padding-left: 25px;
-	padding-right: 25px;
-}
 
 
 #main {
@@ -55,6 +38,11 @@ body {
 }
 
 #container {
+	width: 950px;
+	margin: 0 auto; /*centers our container on the page */   
+}
+
+#content {
 	width: 950px;
 	margin: 0 auto; /*centers our container on the page */   
 }
@@ -223,6 +211,30 @@ nav {
 }
 
 
+/*----------------------------------------------------------------------------- 
+= Columns
+-----------------------------------------------------------------------------*/
+
+#homeboxes{
+	display: block;
+	width: 950px;
+	float: left;
+}
+.box {
+	float: left;
+	padding-top: 20px;
+	width: 300px;
+
+	
+}
+
+.boxmiddle{
+	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
 
 
 /*----------------------------------------------------------------------------- 
@@ -264,23 +276,38 @@ nav {
 
 footer {
 	display: block;
+	float: left;
 	color: white;
 	background-color: black;
+	margin-top: 20px;
 }
 
 .box-footer {
+	width: 950px;
 	display: block;
-	color: white;
-	background-color: black;
-}
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+	}
 
 .blogroll {
-
+	display: block;
+	float: left;
+	margin-left: 150px;
+	width: 250px;
 }
-.box-footer {
 
-}
 
 .textwidget {
+	display: block;
+	float: left;
+	width: 400px;
 
 }
+
+.metawidget {
+	display: block;
+	float: left;
+	width: 200px;
+	margin-left: 40px;
