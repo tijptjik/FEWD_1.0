@@ -11,6 +11,7 @@ Version: 0.00001
 	04- MAIN CONTENT
 	05- SOCIAL MEDIA
 	06- MISC
+	07- FOOTERS
 
 */
 
@@ -28,10 +29,27 @@ body {
 	background: #FFF;
 	background-image: url(../images/bg_body.jpg);
 }
-#wrapper {
+
+#homeboxes{
+	display: block;
+	width: 950px;
+	float: left;
+}
+.box {
+	float: left;
+	padding-top: 20px;
+	width: 300px;
 
 	
 }
+
+.boxmiddle{
+	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
 #main {
 	background-image: url(../images/bg_blurb.jpg);
 }
@@ -51,21 +69,22 @@ body {
 	margin: 0 auto;
 
 }
-.imageshadow {
-	background-image: url(../images/shadow_slider.png);
-	background-repeat: no-repeat;
-}
+.photobanner img:nth-child(2){
+ 	margin-top: -3px
+ }
+
+
 
 /*----------------------------------------------------------------------------- 
 =02 HEADERS
 -----------------------------------------------------------------------------*/
 
 
-#header {
+header {
 	background-color: transparent;
 	background-image: url(../images/bg_wrapper.png);
 	background-repeat: repeat-x;
-	height: 488px;
+	height: 188px;
 
 }
 
@@ -87,17 +106,29 @@ body {
 
 h2 {
 	margin: 0px 0px 10px 0px;
-	font-size: 36px;
+	font-size: 18px;
 	font-family: Helvetica, Arial, Sans-serif;
 	color: #000000;
 	line-height: 1.1;
 }
 
+h3 {
+	margin: 0px 0px 10px 0px;
+	font-size: 18px;
+	font-family: Helvetica, Arial, Sans-serif;
+	color: white;
+	line-height: 1.1;
+}
+
+h3 a{
+	color: #9FA3A6;
+}
 
 a {
 	color:#26689f;
 	text-decoration:none;
 }
+a:hover {color: #4686FF;}
 
 p { margin: 0px 0px 15px 0px; } /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb 
 */
@@ -217,3 +248,39 @@ nav {
 	border: 5px solid #CCC;	
 }
 
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/*----------------------------------------------------------------------------- 
+=07 FOOTERS
+-----------------------------------------------------------------------------*/
+
+footer {
+	display: block;
+	color: white;
+	background-color: black;
+}
+
+.box-footer {
+	display: block;
+	color: white;
+	background-color: black;
+}
+
+.blogroll {
+
+}
+.box-footer {
+
+}
+
+.textwidget {
+
+}
