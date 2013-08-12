@@ -135,6 +135,7 @@ nav {
 
 	nav ul li {
 		float: left;
+		width: 100px;
 		display: inline;
 		margin-right: 20px;	
 		margin: 0 auto;
@@ -143,12 +144,14 @@ nav {
 		
 	nav li a {
 		display: block;
-		width: 100px;
+		
 		color: white;
-		font-size: 18px;
-		padding-top: 15px;
+		font-size: 12px;
+		padding-top: 30px;
 		margin-top: 1px;
 		margin: 0 auto;
+		padding-bottom: 30px;
+		text-align: center;
 		
 		
 	}

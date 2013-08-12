@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML 5 MEDIA DEMONSTRATION</title>
+	</head>
+	<body>
+	
+		<video width="320" height="240" controls="controls">
+  		  <source src="video/128.mp4" type="video/mp4" />
+  		  <source src="video/128.ogv" type="video/ogg" />
+  			
+  			<!-- fallback to flash if no support for HTML5 -->
+  			<object width="320" height="240">
+			  <param name="movie" value="flash/video_player.swf">
+			  <param name="flashvars" value="file=../video/128.mp4">
+			  <embed src="flash/video_player.swf" width="320" height="240" flashvars="file=../video/128.mp4">
+			</object>
+  			
+		</video>
+		
+
+		
+		<audio controls="controls">
+		  <source src="audio/rupture.mp3" type="audio/mp3">
+		  <source src="audio/rupture.ogg" type="audio/ogg">
+		  
+		    <!-- fallback to flash if no support for HTML5 -->
+		 	<object type="application/x-shockwave-flash" data="flash/audio_player.swf" width="200" height="20">
+    		  <param name="movie" value="flash/audio_player.swf">
+    		  <param name="bgcolor" value="#efefef">
+     		  <param name="FlashVars" value="mp3=audio/rupture.mp3">
+			</object>
+		  
+		</audio>
+		
+	</body>
+</html>
+
+<!-- 
+
+HTML 5 VIDEO EMBED TAG:
+
+http://www.w3schools.com/html5/html5_video.asp
+
+OGV GUI MAC:
+
+http://taylanpince.com/blog/posts/oggifier-gui-wrapper-ffmpeg2theora/
+
+MP4 GUI MAC:
+
+http://www.squared5.com/
+
+HTML5 Skins Javascript players:
+
+http://html5video.org/wiki/HTML5_Demos
+
+HTML 5 AUDIO EMBED TAG:
+
+http://www.w3schools.com/html5/tag_audio.asp
+
+MP3 and OGG GUI MAC:
+
+http://audacity.sourceforge.net/
+
+Javascript (jQuery support) Players:
+
+http://mashable.com/2010/05/18/html5-video-tools/
+
+http://www.html5trends.com/tutorials/implement-html5-video-support-in-5-easy-steps/
+
+ -->

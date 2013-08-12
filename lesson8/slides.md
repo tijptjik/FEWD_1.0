@@ -10,11 +10,45 @@ Kit Yuen & Mart van de Ven
 
 ## Agenda
 
+* MailChimp
+* PayPal Buy Now Button
+* What is a framework?
 * Grid-Based Design
 * Frameworks
 * My First Grid Layout w/ 960-Grid
 * Web Typography and @Font-Face typography
 * In Class Development Time HTML/CSS Final Project
+
+
+
+## [MailChimp](http://mailchimp.com/)
+<aside class="notes">Kit (10 Min)</aside>
+
+* Broadcast and promote your website by sending newsletter
+* MailChimp is a online newsletter service
+* Provide a code snippet for subscription box on your website
+* Mailchimp handles the rest
+* You can send newsletter and manage the subscription list on mailchimp.com
+
+
+
+## PayPal Buy Now Button
+<aside class="notes">Kit (10 Min)</aside>
+
+* A Feature of [PayPal Website Payments Standard](http://www.paypal.com)
+* Allow visitor to pay online
+* Copy the code snippet and paste it on the website to create the button
+* PayPal will do the rest for you
+
+
+
+## What is a framework?
+<aside class="notes">Kit (10 Min)</aside>
+
+* A framework is a environment providing you tools to work
+* A Kitchen is a framework for cooking
+* In the framework, you also need to follow some rules
+* Don't break the rule!
 
 
 
@@ -24,8 +58,7 @@ Kit Yuen & Mart van de Ven
 * Aligning makes design look more professional
 * To align elements horizontally the whole page as a fixed number of “bars”
 * Usually the grid is 960 pixels divided into 12 parts (or units)
-
-[Modular Grid](http://modulargrid.org/)
+* [Modular Grid](http://modulargrid.org/)
 
 
 
@@ -34,9 +67,15 @@ Kit Yuen & Mart van de Ven
 
 **Units**: A unit is the smallest vertical division of the page.
 
+<br>
+
 **Columns**: Columns are groups of units, combined together to create workable areas for the presentation of content.
 
+<br>
+
 **Regions**: Regions are groupings of similar columns that form parts of the page. For example, in a four-column grid, the first three columns from the left might make up a single region for the display of one kind of content, and the remaining column might form another region.
+
+<br>
 
 **Fields**: Fields are horizontal divisions of the page that help a designer to visually pace the placement of elements on the Y-axis.
 
@@ -130,8 +169,9 @@ Kit Yuen & Mart van de Ven
 ## Web Typography: The Previous Solutions
 <aside class="notes">Kit (60 - 90 Min)</aside>
 
-* sIFR: Flash-based rendering
-* Cufon: JavaScript-based rendering
+* __sIFR__: Flash-based rendering
+* __Cufon__: JavaScript-based rendering
+* __Typeface.js__: JavaScript-based rendering
 * [Read more](http://www.solidstategroup.com/what-we-think/a-comparison-between-sifr-cufon-and-font-face)
 
 
@@ -140,8 +180,7 @@ Kit Yuen & Mart van de Ven
 <aside class="notes">Kit (60 - 90 Min)</aside>
 
 * **@font-face**
-* CSS technique that downloads a font file and uses it for displaying the font
-properly
+* CSS technique that downloads a font file for displaying the font properly
 * Easiest way is to go to Google Web Fonts and use the fonts they host
   * [Google Fonts](http://www.google.com/webfonts)
 * Other resources
