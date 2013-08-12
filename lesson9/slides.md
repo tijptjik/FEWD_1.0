@@ -97,6 +97,19 @@ media_feature: width | min-width | max-width
 
 
 
+## A pixel is not a pixel
+
+In webkit you may target pixel _density_ with `-webkit-device-pixel-ratio`
+
+```bash
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 0.75)" href="ldpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 1.0)" href="mdpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 1.5)" href="hdpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 2.0)" href="retina.css" />
+```
+
+
+
 ## In Class Lab: Exercise Media Queries
 <aside class="notes">Both (45 Min)</aside>
 
