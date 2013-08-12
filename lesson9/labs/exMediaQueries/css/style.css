@@ -1,0 +1,103 @@
+/* Default Layout: 992px.
+ * Gutters: 24px.
+ * Outer margins: 48px.
+ * Leftover space for scrollbars @1024px: 32px.
+ */
+
+body {
+  width: 896px;
+  margin: 0 auto;
+  padding: 56px 48px 84px;
+  background:#efefef;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+	text-align:center;
+	margin:0 0 10px;
+}
+
+header object { /* logo */
+	width:100%;
+	height:250px;
+}
+
+nav a {
+	width:33.3%;
+	display:block;
+	float:left;
+	background:white;
+	text-align:center;
+	margin:0;
+	padding:0;
+	border:1px solid #ccc;
+	padding:10px 0;
+	color:black;
+	text-decoration:none;
+	font-size:1em;
+}
+
+nav a:hover {
+	background:#ccc;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height:0;
+}
+
+/* Tablet Layout: 768px.
+ * Gutters: 24px.
+ * Outer margins: 28px.
+ * Inherits styles from: Default Layout.
+ */
+
+
+
+/* Mobile Layout: 320px.
+ * Gutters: 24px.
+ * Outer margins: 34px.
+ * Inherits styles from: Default Layout.
+ */
+
+
+
+/* Wide Mobile Layout: 480px.
+ * Gutters: 24px.
+ * Outer margins: 22px.
+ * Inherits styles from: Default Layout, Mobile Layout.
+ */
+
+
+
+/* Printable Layout
+ * Inherits styles from: Default Layout.
+ */
+
+
+
+/* RESOURCES & EXAMPLES
+
+Media Query Tutorials:
+
+http://mobile.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/
+
+http://webdesignerwall.com/tutorials/css3-media-queries
+
+Creating Responsive SVG Image Tutorial: 
+
+http://www.joshuasortino.com/journal/creating-a-responsive-svg
+
+Example Sites:
+
+http://owltastic.com/
+
+http://sweethatclub.org/
+
+http://www.alistapart.com/d/responsive-web-design/ex/ex-site-FINAL.html
+
+*/

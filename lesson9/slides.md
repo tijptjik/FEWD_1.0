@@ -1,7 +1,7 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 9
 
-## HTML5 & CSS3
+## Responsive Design
 
 ### Instructors
 Kit Yuen & Mart van de Ven 
@@ -96,6 +96,20 @@ media_feature: width | min-width | max-width
 ```
 
 
+
+## A pixel is not a pixel
+
+In webkit you may target pixel _density_ with `-webkit-device-pixel-ratio`
+
+```bash
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 0.75)" href="ldpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 1.0)" href="mdpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 1.5)" href="hdpi.css" />
+<link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 2.0)" href="retina.css" />
+```
+
+
+
 ## In Class Lab: Exercise Media Queries
 <aside class="notes">Both (45 Min)</aside>
 
@@ -115,14 +129,9 @@ media_feature: width | min-width | max-width
 ## Additional Resources
 <aside class="notes">Both</aside>
   
-  * [More About Media Queries](http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
-
-  * [What The Heck is Responsive Web Design](http://johnpolacek.github.com/scrolldeck.js/decks/responsive/)
-
-  * [Responsive Design Patterns from RGA](http://bradfrost.github.com/this-is-responsive/resources.html)
-  
-  * [Modernizer: Feature Detection](http://modernizr.com/)
-
-  * [Polyfills: Backport HTML5 & CSS3 Features](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
-
-  * [YepNope: Selective Loading JS](http://yepnopejs.com/)
+* [More About Media Queries](http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
+* [What The Heck is Responsive Web Design](http://johnpolacek.github.com/scrolldeck.js/decks/responsive/)
+* [Responsive Design Patterns from RGA](http://bradfrost.github.com/this-is-responsive/resources.html)
+* [Modernizer: Feature Detection](http://modernizr.com/)
+* [Polyfills: Backport HTML5 & CSS3 Features](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+* [YepNope: Selective Loading JS](http://yepnopejs.com/)

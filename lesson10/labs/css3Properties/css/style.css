@@ -1,0 +1,112 @@
+/* CSS Box Aesthetics */
+
+.box {
+	
+}
+
+.bgimg1 {
+	
+	
+	/*
+	background-image:url('myimage.gif');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	*/
+}
+
+.bgimg2 {
+	
+	
+	/*
+	background-repeat:repeat;
+	background-repeat:no-repeat;
+	background-repeat:repeat-x;
+	background-repeat:repeat-y;
+	*/
+}
+
+.bgimg3 {
+	
+}
+
+.bgimg4 {
+	
+	
+	/*
+	background-position:left top;
+	background-position:left center;
+	background-position:left bottom;
+	background-position:right top;
+	background-position:right center;
+	background-position:right bottom;
+	background-position:center top;
+	background-position:center center;
+	background-position:center bottom;
+	background-position: 0 0;
+	background-position: 20px 47px;
+	background-position: 10% 50%;
+	*/
+}
+
+body{
+	
+	
+	/*
+	background-attachment:fixed;
+	background-attachment:scroll;
+	*/
+}
+
+.bgimg5 {
+	
+	
+	/*
+	background-size: 200px;
+	background-size: 200px 100px;
+	background-size: auto;
+	background-size: 100%;
+	background-size: contain;
+	background-size: cover;
+	*/
+	
+	/*
+	see info at: http://www.css3.info/preview/background-size/
+	*/
+}
+
+.bgimg6 {
+	
+}
+
+.bgimg7 {
+	
+}
+
+.opacity {
+	filter: alpha(opacity=20); /* IE 5 - 8 */
+	-moz-opacity:0.2; /* Firefox */
+	-khtml-opacity: 0.2; /* Safari, Chrome */
+	
+	opacity: 0.2; /* CSS 3 */
+}
+
+.rounded {
+	-moz-border-radius: 20px; /* Firefox */
+ 	-webkit-border-radius: 20px; /* Safari, Chrome */
+ 	
+	border-radius: 20px; /* CSS3 */
+}
+
+.shadow {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#888888')"; /* For IE 8 */
+	-moz-box-shadow: 5px 5px 20px #888; /* Firefox */
+	-webkit-box-shadow: 5px 5px 20px #888; /* Safari, Chrome */
+	
+	box-shadow: 5px 5px 20px #888; /* CSS 3 */
+	
+	/* 
+	see info at: http://www.css3.info/preview/box-shadow/
+	*/
+}
+

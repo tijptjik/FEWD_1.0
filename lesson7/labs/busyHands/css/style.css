@@ -213,5 +213,28 @@ margin-right: 30px;
 .home-box ul {
 	margin-left: none;
 }
+/*
+@media only all and (min-width: 479px) and (orientation: landscape) and (max-width: 560px) {
+	#container {
+		width: 
+	}
+	.span-one-third {
+		color: ;
+		float: none ;
+		width: 4px;
+		background-color: pink; 
+	}
+}
 
+@media all (min-width: 559px) and (max-width: 767px) {
+		#container {
+		width: 
+	}
+	.span-one-third {
+		color: ;
+		float: ;
+		width: ;
+	}
+	/** rules: min-width: minus one px; copy all different stuff to all @media queries; **/
+}*/
 

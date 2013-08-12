@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>A Very Basic Form</title>
+    
+  <style type="text/css">
+    input {
+      background: #FFC;	
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <form id="contactform" class="rounded" method="post" action="">
+      <h3>Contact Form</h3>
+      <div class="field">
+        <label for="name">Name:</label>
+        <input type="text" class="input" name="name" id="name" />
+      </div>
+
+      <div class="field">
+        <label for="email">Email:</label>
+        <input type="text" class="input" name="email" id="email" />
+      </div>
+
+      <div class="field">
+        <label for="Mood">Mood:</label>
+        <input type="radio" name="sex" value="male" />Happy
+        <input type="radio" name="sex" value="female" />Sad
+      </div>
+
+
+      <div class="field">
+      <label for="ride">My Ride:</label>
+        <input type="checkbox" name="vehicle" value="Bike" /> I have a bike
+        <input type="checkbox" name="vehicle" value="Car" /> I have a car
+        <input type="checkbox" name="vehicle" value="Car" /> I have a dog
+      </div>
+
+      <div class="field">
+        <label for="message">Message:</label>
+        <textarea class="input textarea" name="message" id="message"></textarea>
+        <p class="hint">Write your message.</p>
+      </div>
+
+      <div class="field">
+        <select name="degree">
+          <option>Choose One</option>
+          <option>Some High School</option>
+          <option>High School Degree</option>
+          <option>Some College</option>
+          <option>Bachelor's Degree</option>
+          <option>Doctorate</option>
+        </select>
+      </div>
+
+      <input type="submit" name="Submit"  class="button" value="Submit" />
+    </form>
+  </div><!-- .container -->
+</body>
+</html>

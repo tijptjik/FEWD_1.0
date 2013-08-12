@@ -1,7 +1,7 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 10
 
-## Responsive Design & Midterm Project Code Review
+## HTML5 & CSS3 & Midterm Project Code Review
 
 ### Instructors
 Kit Yuen & Mart van de Ven 
@@ -31,29 +31,18 @@ Kit Yuen & Mart van de Ven
 ## The 5 in HTML5
 <aside class="notes">Kit (20 Min)</aside>
 
-`<header>`
-
-`<footer>`
-
-`<nav>`
-
-`<article>`
-
-`<section>`
-
-**`<time>`**
-
-`<aside>`
-
-`<hgroup>`
-
-**`<figure>`**
-
-**`<figcaption>`**
-
-**`<audio>`**
-
-**`<video>`**
+* `<header>`
+* `<footer>`
+* `<nav>`
+* `<article>`
+* `<section>`
+* **`<time>`**
+* `<aside>`
+* `<hgroup>`
+* **`<figure>`**
+* **`<figcaption>`**
+* **`<audio>`**
+* 	**`<video>`**
 
 
 
@@ -61,15 +50,15 @@ Kit Yuen & Mart van de Ven
 <aside class="notes">Kit (20 Min)</aside>
 
 * Nothing about style
-* Just a tag for modern browser integration says add this datetime to an event calendar
+* A tag for modern browser integration says add this datetime to an event calendar
 * Example
 
-```html
-    <p>FEWD course starts at <time>19:00</time> every monday and wendnesday.</p>
+```
+<p>FEWD course starts at <time>19:00</time> every monday and wendnesday.</p>
 
-    <p>I had a date on <time datetime="2014-02-14">Valentines day</time>.</p>
+<p>I had a date on <time datetime="2014-02-14">Valentines day</time>.</p>
 
-    <p>We finally hit the road at <time datetime="2013-06-17T19:00-22:00">the last FWED course.</time>.</p>
+<p>We finally hit the road at <time datetime="2013-06-17T19:00-22:00">the last FWED course.</time>.</p>
 ```
 
 
@@ -118,7 +107,7 @@ Kit Yuen & Mart van de Ven
 * RGBA
 
 
- 
+
 ## Vendor Prefixes
 <aside class="notes">Mart (30 Min)</aside>
 
@@ -138,7 +127,8 @@ Formal syntax: none | [inset? && [ <offset-x> <offset-y> <blur-radius>? <spread-
 box-shadow: 10px 5px 5px black;
 box-shadow: 3px 3px red, -1em 0 0.4em olive;
 box-shadow: 0 0 1em gold;
-````
+```
+
 
 
 ## Border Radius
@@ -146,7 +136,7 @@ box-shadow: 0 0 1em gold;
 ```
 border-radius:2em;
 
-is equivalent to:
+/* is equivalent to: */
 
 border-top-left-radius:2em;
 border-top-right-radius:2em;
@@ -162,13 +152,14 @@ border-bottom-left-radius:2em;
 ```
 border-radius: 2em 1em 4em / 0.5em 3em;
 
-is equivalent to:
+/* is equivalent to: */
 
 border-top-left-radius: 2em 0.5em;
 border-top-right-radius: 1em 3em;
 border-bottom-right-radius: 4em 0.5em;
 border-bottom-left-radius: 1em 3em;
 ```
+
 
 
 ## Text Shadow
@@ -223,108 +214,115 @@ div {
 ## Command Line Foo : ls
 <aside class="notes">Mart (30 Min)</aside>
 
-The ls command
+### The `ls` command
 
-  The ls command is a listing command, almost the same as the dir command from DOS, but with more options attached. Basically with the ls command you can list the contents of the present directory or subdirectory.
+The `ls` command is a listing command, almost the same as the `dir` command from DOS, but with more options attached. Basically with the `ls` command you can list the contents of the present directory or subdirectory.
 
-  ls -a : List all the files in directory/subdirectory, without the hidden files
-
-  ls -l : Displays a more detailed listing of the present directory, including size, owner, date, permissions etc
+* `ls -a` : List all the files in directory/subdirectory, without the hidden files
+* `ls -l` : Displays a more detailed listing of the present directory, including size, owner, date, permissions etc
 
 
 
 ## Command Line Foo : rm
 <aside class="notes">Mart (30 Min)</aside>
 
-The rm command
+### The `rm` command
 
-The rm command is used to remove files or directories. Please be advised that the rm commanda doesn’t remove empty directory unless “forced”
+The `rm` command is used to remove files or directories. Please be advised that the rm commanda doesn’t remove empty directory unless “forced”
 
-rm dirname or rm filename : Removes the specified directory or the specified file
-
-rm -l dirname/filename : Removes the specified directory/file with confirmation
-
-rm -rf dirname : Removes the directory recursively, by forcing ( -f stands for force ). With this command you can delete the contents of a directory even if it has subdirectories or files.
-
-rm -r dirname : Removes the directory even if it is empty
+* `rm` _dirname_ or `rm` _filename_ : Removes the specified directory or the specified file
+* `rm -l` _dirname/filename_ : Removes the specified directory/file with confirmation
+* `rm -rf` _dirname_ : Removes the directory recursively, by forcing ( -f stands for force ). With this command you can delete the contents of a directory even if it has subdirectories or files.
+* `rm -r` _dirname_ : Removes the directory even if it is empty
 
 
 
 ## Command Line Foo : cp
 <aside class="notes">Mart (30 Min)</aside>
 
-The cp command
+### The `cp` command
 
 This command copies directories or files from a spot to another ( stands for copy ).
 
-It’s main syntax is:
-
-cp source_full_path destination_path – source is the file or directory you want to copy
-
-Example: cp /home/user/hello.tar.gz /home/user2/
-
-cp -r source_dirname destination_dirname – this command copies an entire directory to another directory (recursively)
+* `cp` _source_full_path_ _destination_path_ : source is the file or directory you want to copy
+* Example: `cp /home/user/hello.tar.gz /home/user2/`
+* `cp -r` _source_dirname_ _destination_dirname_ : this command copies an entire directory to another directory (recursively)
 
 
 
 ## Command Line Foo : Misc
 <aside class="notes">Mart (30 Min)</aside>
 
-The mkdir command
+### The mkdir command
 
-The mkdir command creates a new directory (make directory). It’s main syntax is mkdir dirname
+The `mkdir` command creates a new directory (make directory).
 
-The pwd command
+* `mkdir` _dirname_
+
+<br>
+
+### The `pwd` command
 
 This command returns the path in which you are present at that moment
 
-The su command
 
-su stands for switch user and it’s used to change the current user and log to another. Most frequently this command is used when you want to configure Linux or modify it, by logging to root
 
-su root
+## Command Line Foo : Misc
+<aside class="notes">Mart (30 Min)</aside>
+
+The `su` command
+
+`su` stands for switch user and it’s used to change the current user and log to another. Most frequently this command is used when you want to configure Linux or modify it, by logging to root
+
+* `su` _root_
 
 
 
 ## Command Line Foo : man
 <aside class="notes">Mart (30 Min)</aside>
 
-The man command
+### The `man` command
 
-The man command is probably the most important command for a Linux beginner, with the desire to learn. Using man, it returns the manual of the command asked as following:
+The `man` command is probably the most important command for a Linux beginner, with the desire to learn. Using man, it returns the manual of the command asked as following:
 
-man cp – returns the manual for the cp command, with syntax and so on
+* `man cp` : returns the manual for the `cp` command, with syntax and so on
 
-man ls – returns the manual for the ls command with syntax
+* `man ls : returns the manual for the `ls` command with syntax
 
-The cat command
+<br>
 
-This command displays the contents of a file: cat file
+### The `cat` command
+
+This command displays the contents of a file: `cat` _filename_
 
 
 
 ## Command Line Foo : System Utilities
 <aside class="notes">Mart (30 Min)</aside>
 
-The ps command
+### The `ps` command
 
 This command shows the processes running on the machine as following:
 
-`ps` – shows your own processes
+* `ps` : shows your own processes
+* `ps -ef` : shows all processes
+* `ps -fu` _user_ : shows the processes of the user _user_
 
-`ps -ef` – shows all processes
 
-`ps -fu user` – shows the processes of the user user
 
-The htop command
+## Command Line Foo : System Utilities
+<aside class="notes">Mart (30 Min)</aside>
+
+### The `htop` command
 
 The `htop` command is a Windows Taks Manager like command, showing all processes on the machine, users for each process, cpu usage and memory usage for each process
 
-The du and df commands
+<br>
 
-`du` – (disk usage) shows the disk usage of the current path, displaying all the files and their size
+### The `du` and `df` commands
 
-`df -h` – displays the disk usage of the entire machine, in a more simple and better way.
+* `du` : (disk usage) shows the disk usage of the current path, displaying all the files and their size
+* `df -h` : displays the disk usage of the entire machine, in a more simple and better way.
 
 
 
