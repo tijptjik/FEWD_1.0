@@ -56,7 +56,12 @@ nav a:hover {
  * Inherits styles from: Default Layout.
  */
 
-
+@media only all and (max-width: 768px) and (min-width: 319px) {
+	body {
+		width: 712px;
+		background-color: green;
+	}
+}
 
 /* Mobile Layout: 320px.
  * Gutters: 24px.
@@ -64,6 +69,12 @@ nav a:hover {
  * Inherits styles from: Default Layout.
  */
 
+@media only all and (max-width: 320px) {
+	body {
+		width: 252px;
+		background-color: blue;
+	}
+}
 
 
 /* Wide Mobile Layout: 480px.
@@ -72,7 +83,12 @@ nav a:hover {
  * Inherits styles from: Default Layout, Mobile Layout.
  */
 
-
+@media only all and (max-width: 480px) and (min-width: 320px) and (orientation: landscape) {
+	body {
+		width: 350px;
+		background-color: pink;
+	}
+}
 
 /* Printable Layout
  * Inherits styles from: Default Layout.
