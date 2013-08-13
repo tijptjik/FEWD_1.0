@@ -1,3 +1,4 @@
+/** colourboxes **/
 .colourbox {
 	width:200px;
 	height:200px;
@@ -19,6 +20,10 @@
 	margin: 3px;
 }
 
+/** body **/
+body {
+	background: url('images/tweed.png') repeat-x repeat-y;
+}
 .colourbox h3 {
 	color: white;
 	padding: 5px;
@@ -28,6 +33,7 @@ a {
 	text-decoration: none;
 }
 
+/** media queries **/
 @media all and (max-width: 200px) {
 	.colourbox {
 		background-color: #B02C2C;
