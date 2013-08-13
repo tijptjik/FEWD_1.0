@@ -33,6 +33,22 @@ a {
 	text-decoration: none;
 }
 
+/** resize me **/
+.resize {
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-right: 30px solid orange;
+	border-bottom: 30px solid orange;
+	border-left: 30px solid transparent;
+	/*float: bottom right;*/
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
 /** media queries **/
 @media all and (max-width: 200px) {
 	.colourbox {
