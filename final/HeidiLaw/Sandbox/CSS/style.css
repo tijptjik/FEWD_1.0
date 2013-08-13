@@ -22,7 +22,7 @@
 
 /** body **/
 body {
-	background: url('images/tweed.png') repeat-x repeat-y;
+	background-image: url('images/tweed.png');
 }
 .colourbox h3 {
 	color: white;
