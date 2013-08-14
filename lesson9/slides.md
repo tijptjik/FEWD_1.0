@@ -63,7 +63,7 @@ Kit Yuen & Mart van de Ven
 
 * What tools/languages are involved in creating a mobile site?
   * Starts with framework
-    * [320 and Up](https://github.com/malarkey/320andup/)
+    * [Rock Hammer](http://stuffandnonsense.co.uk/projects/rock-hammer/)
   * Chrome user agent
   * Web inspector
   * Media Query
