@@ -1,7 +1,11 @@
 /* CSS Box Aesthetics */
 
 .box {
+	background-color: pink;
+	width: 200px;
+	height: 200px;
 	
+	float: left;
 }
 
 .bgimg1 {
