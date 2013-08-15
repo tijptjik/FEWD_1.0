@@ -12,6 +12,7 @@ Kit Yuen & Mart van de Ven
 <aside class="notes"></aside>
 
 * Placholderisms
+* CSS: Overflow
 * The 5 in HTML5, 3 in CSS3
 * Web Forms: Talking to a server 
 * Rollin' with GitHub
@@ -25,6 +26,18 @@ Kit Yuen & Mart van de Ven
 * [Iorem Ipsum](http://www.webresourcesdepot.com/got-bored-of-lorem-ipsum-22-different-alternatives-for-placeholder-text/)
 * [IoremPixel](http://lorempixel.com/)
 * [Placehold.it](http://placehold.it/)
+
+
+
+## CSS: Overflow
+<aside class="notes">Kit (5 Min)</aside>
+
+* Specifies what happens if content overflows an element's box.
+* Possible values:
+  * visible (default)
+  * hidden
+  * scroll, scroll-x, scroll-y
+  * auto (browser dependent)
 
 
 
@@ -51,6 +64,7 @@ Kit Yuen & Mart van de Ven
 
 * Nothing about style
 * A tag for modern browser integration says add this datetime to an event calendar
+* [The HTML5 Doctor - The time element](http://html5doctor.com/the-time-element/)
 * Example
 
 ```
@@ -58,7 +72,7 @@ Kit Yuen & Mart van de Ven
 
 <p>I had a date on <time datetime="2014-02-14">Valentines day</time>.</p>
 
-<p>We finally hit the road at <time datetime="2013-06-17T19:00-22:00">the last FWED course.</time>.</p>
+<p>We finally hit the road at <time datetime="2013-06-17T19:00-22:00">the last FWED course</time>.</p>
 ```
 
 

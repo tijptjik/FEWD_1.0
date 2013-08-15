@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>HTML 5 MEDIA DEMONSTRATION</title>
-	</head>
-	<body>
-	
-		<video width="320" height="240" controls="controls">
-  		  <source src="video/128.mp4" type="video/mp4" />
-  		  <source src="video/128.ogv" type="video/ogg" />
-  			
-  			<!-- fallback to flash if no support for HTML5 -->
-  			<object width="320" height="240">
-			  <param name="movie" value="flash/video_player.swf">
-			  <param name="flashvars" value="file=../video/128.mp4">
-			  <embed src="flash/video_player.swf" width="320" height="240" flashvars="file=../video/128.mp4">
-			</object>
-  			
-		</video>
-		
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML 5 MEDIA DEMONSTRATION</title>
+  </head>
+  <body>
+  
+    <video width="320" height="240" controls="controls">
+      <source src="video/128.mp4" type="video/mp4" />
+      <source src="video/128.ogv" type="video/ogg" />
+      
+      <!-- fallback to flash if no support for HTML5 -->
+      <object width="320" height="240">
+        <param name="movie" value="flash/video_player.swf">
+        <param name="flashvars" value="file=../video/128.mp4">
+        <embed src="flash/video_player.swf" width="320" height="240" flashvars="file=../video/128.mp4">
+      </object>   
+    </video>
+    
+    <audio controls="controls">
+      <source src="audio/rupture.mp3" type="audio/mp3">
+      <source src="audio/rupture.ogg" type="audio/ogg">
+      
+      <!-- fallback to flash if no support for HTML5 -->
+      <object type="application/x-shockwave-flash" data="flash/audio_player.swf" width="200" height="20">
+        <param name="movie" value="flash/audio_player.swf">
+        <param name="bgcolor" value="#efefef">
+        <param name="FlashVars" value="mp3=audio/rupture.mp3">
+      </object>
+    </audio>
 
-		
-		<audio controls="controls">
-		  <source src="audio/rupture.mp3" type="audio/mp3">
-		  <source src="audio/rupture.ogg" type="audio/ogg">
-		  
-		    <!-- fallback to flash if no support for HTML5 -->
-		 	<object type="application/x-shockwave-flash" data="flash/audio_player.swf" width="200" height="20">
-    		  <param name="movie" value="flash/audio_player.swf">
-    		  <param name="bgcolor" value="#efefef">
-     		  <param name="FlashVars" value="mp3=audio/rupture.mp3">
-			</object>
-		  
-		</audio>
-		
-	</body>
+  </body>
 </html>
 
 <!-- 
