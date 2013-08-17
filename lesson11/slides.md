@@ -1,7 +1,7 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 11
 
-## Variables and Data Types
+## Introducing JavaScript & jQuery
 
 ### Instructors
 Kit Yuen & Mart van de Ven 
@@ -29,17 +29,22 @@ Let's visit: [Best jQuery](http://www.bestjquery.com)
 
 
 
-## Adding the `<script>`
+## Include an external JavaScript file
 <aside class="notes">Kit (20 Min)</aside>
 
-<script src="path to your js file" type="text/javascript">&#60;/script&#62;
+&lt;script src="path to your js file" type="text/javascript"&gt;&lt;/script&gt;
 
 
 
-## Adding the `<script>`
+
+## Write JavaScript code in HTML file
 <aside class="notes">Kit (20 Min)</aside>
 
-    <script type="text/javascript">YOUR JS CODE</script>
+&lt;script type="text/javascript"&gt;
+
+  // YOUR JS CODE
+
+&lt;/script&gt;
 
 
 
@@ -61,15 +66,6 @@ Let's visit: [Best jQuery](http://www.bestjquery.com)
 
 
 
-## The inevitable return of the Cookie Monster
-<aside class="notes">Mart (40 Min)</aside>
-
-```(.html(), .css(). .click and document ready)``` 
-
-**In Class Lab** : Cookie Monster
-
-
-
 ## jQuery: Hitting the road
 <aside class="notes">Kit (30 Min)</aside>
 
@@ -78,6 +74,15 @@ Let's visit: [Best jQuery](http://www.bestjquery.com)
 * `$(".abc").css("color", 'red');`
 * `$("#def").css("color", 'green');`
 * `$("#def p").css("color", 'black');`
+
+
+
+## The inevitable return of the Cookie Monster
+<aside class="notes">Mart (40 Min)</aside>
+
+```(.html(), .css(). .click and document ready)``` 
+
+**In Class Lab** : Cookie Monster
 
 
 

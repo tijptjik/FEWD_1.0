@@ -1,7 +1,7 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 12
 
-## Conditional Logic
+## Variables, Data Types and Conditional Logic
 
 ### Instructors
 Kit Yuen & Mart van de Ven 
@@ -11,22 +11,10 @@ Kit Yuen & Mart van de Ven
 ## Agenda
 <aside class="notes"></aside>
 
-* Quiz
 * Intro to Computational Thinking
 * Introducing the Console
 * Variables and Data Types
 * Conditional Statements
-
-
-
-## Quiz
-<aside class="notes"></aside>
-
-* What tag is used to include a .js file?
-* What is jQuery?
-* How do you add jQuery to a webpage?
-* How do you add comments to JavaScript code?
-* What is the $() function?
 
 
 
@@ -72,7 +60,7 @@ JavaScript (really all programming languages) programs executes:
 ## Web Developer Console
 <aside class="notes">Kit (25 Min)</aside>
 
-* console.log(“Message to log”);
+* console.log("Message to log");
 * prompt('What is your first name?');
 * Math
   * Addition: +
@@ -106,7 +94,7 @@ Review answers as a class. There is no answer key.
 
 **Declaration and initialization** : var age = 21;
 
-**Re-assignmen** : var name = “Jo” : name = “Mich”;
+**Re-assignmen** : var name = "Jo" : name = "Mich";
 
 
 
@@ -131,12 +119,14 @@ Review answers as a class. There is no answer key.
 ## Data Types: Boolean
 <aside class="notes"></aside>
 
-Binary, two possible values:
-  
+Binary, two possible values:  
+
   * true & false
 
+<br>
+
 Has driver license:
-  
+
   * If driver has license: true
   * If driver does not have license: false
 
@@ -161,6 +151,8 @@ Stores textual information:
   * 'They "purchased" it'
   * "It's a beautiful day"
 
+<br>
+
 **Escaping**
   
   * "They \"purchased\" it"
@@ -176,10 +168,14 @@ Stores textual information:
   * int:         42
   * float:      3.14159265
 
+<br>
+
 **Signed**
 
   * int:         +6
   * float:      -8.2
+
+<br>
 
 Can perform arithmetic on number data types
 
@@ -201,7 +197,7 @@ Can perform arithmetic on number data types
 ## undefined
 <aside class="notes"></aside>
 
-* var name = “J”;
+* var name = "J";
 * name.surname;
 * surname property is not on name, therefore it’s undefined
 
@@ -259,7 +255,7 @@ When / why would you convert a data types?
 
 These also work
 
-    parseInt("4”);
+    parseInt("4");
     parseFloat("3.14159");
     parseInt("3.5");   //gives 3
 
@@ -308,7 +304,7 @@ Why and when we need comparisons
 
     10 == 10 // true
     10 == 5 // false
-    “hi” == “hi” // true
+    "hi" == "hi" // true
 
 
 
@@ -348,10 +344,10 @@ You can come in if: you are a GA students
 
 **Code**
     
-    var student = “GA”
+    var student = "GA";
 
-    if (student == “GA”) {
-        console.log(“Come on in!”);
+    if (student == "GA") {
+        console.log("Come on in!");
     }
 
 
@@ -360,11 +356,11 @@ You can come in if: you are a GA students
 <aside class="notes"></aside>
 
     if(true) {
-        console.log(“The condition is true”);
+        console.log("The condition is true");
     }
 
     if(false) {
-        console.log(“You won’t see this”);
+        console.log("You won’t see this");
     }
 
 
@@ -373,9 +369,9 @@ You can come in if: you are a GA students
 <aside class="notes"></aside>
 
     if(condition is true) {
-        console.log(“The condition is true”);
+        console.log("The condition is true");
     } else {
-        console.log (“The condition was false”)
+        console.log ("The condition was false")
     }
 
 
@@ -399,13 +395,13 @@ You can come in if: you are a GA students
 <aside class="notes"></aside>
 
     // And
-    if (name == “GA”  && password == “YellowPencil”){
-        console.log (“can access the internet”)
+    if (name == "GA" && password == "YellowPencil"){
+        console.log ("can access the internet")
     }
 
     // Or
-    if (day == “Monday”  || day == “Wednesday”){
-        console.log (“You have class today”)
+    if (day == "Monday" || day == "Thursday"){
+        console.log ("You have class today")
     }
 
 
