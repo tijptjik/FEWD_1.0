@@ -1,7 +1,7 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 11
 
-## Variables and Data Types
+## Introducing JavaScript & jQuery
 
 ### Instructors
 Kit Yuen & Mart van de Ven 
@@ -29,17 +29,42 @@ Let's visit: [Best jQuery](http://www.bestjquery.com)
 
 
 
+## Include an external JavaScript file
+<aside class="notes">Kit (20 Min)</aside>
+
+&lt;script src="path to your js file" type="text/javascript"&gt;&lt;/script&gt;
+
+
+
+
+## Write JavaScript code in HTML file
+<aside class="notes">Kit (20 Min)</aside>
+
+&lt;script type="text/javascript"&gt;
+
+  // YOUR JS CODE
+
+&lt;/script&gt;
+
+
+
+## What is jQuery?
+<aside class="notes">Kit (20 Min)</aside>
+
+* Just a .js file
+* It's a Javasript library
+* Allow writing Javascript in a simplified syntax
+* Many Javascript library is written in powered by jQuery
+* Sometimes we will call those libraries as jQuery Plugin
+* Available in [Google CDN](https://developers.google.com/speed/libraries/devguide)
+* [jQuery.com](http://jquery.com/)
+
+
+
 ## Adding the `<script>`
 <aside class="notes">Kit (20 Min)</aside>
 
-<script src="path to your js file" type="text/javascript">&#60;/script&#62;
-
-
-
-## Adding the `<script>`
-<aside class="notes">Kit (20 Min)</aside>
-
-    <script type="text/javascript">YOUR JS CODE</script>
+**In Class Lab** : Adding Scripts
 
 
 
@@ -54,10 +79,14 @@ Let's visit: [Best jQuery](http://www.bestjquery.com)
 
 
 
-## Adding the `<script>`
-<aside class="notes">Kit (20 Min)</aside>
+## jQuery: Hitting the road
+<aside class="notes">Kit (30 Min)</aside>
 
-**In Class Lab** : Adding Scripts
+* `$("p").html("General Assembly");`
+* `$("h1").css("color", 'blue');`
+* `$(".abc").css("color", 'red');`
+* `$("#def").css("color", 'green');`
+* `$("#def p").css("color", 'black');`
 
 
 
@@ -67,17 +96,6 @@ Let's visit: [Best jQuery](http://www.bestjquery.com)
 ```(.html(), .css(). .click and document ready)``` 
 
 **In Class Lab** : Cookie Monster
-
-
-
-## jQuery: Hitting the road
-<aside class="notes">Kit (30 Min)</aside>
-
-* `$("p").html("General Assembly");`
-* `$("h1").css("color", 'blue');`
-* `$(".abc").css("color", 'red');`
-* `$("#def").css("color", 'green');`
-* `$("#def p").css("color", 'black');`
 
 
 

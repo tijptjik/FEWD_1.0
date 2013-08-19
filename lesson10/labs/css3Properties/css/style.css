@@ -1,11 +1,15 @@
 /* CSS Box Aesthetics */
 
 .box {
+<<<<<<< HEAD
 	background-color: pink;
 	width: 200px;
 	height: 200px;
 	
 	float: left;
+=======
+	
+>>>>>>> upstream/gh-pages
 }
 
 .bgimg1 {

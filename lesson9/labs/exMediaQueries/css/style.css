@@ -50,6 +50,7 @@ nav a:hover {
 	height:0;
 }
 
+<<<<<<< HEAD
 @media only screen and (min-width: 992px){
 		body{
 			background-color: #efefef;
@@ -71,12 +72,15 @@ nav a:hover {
 
 		}
 }
+=======
+>>>>>>> upstream/gh-pages
 /* Tablet Layout: 768px.
  * Gutters: 24px.
  * Outer margins: 28px.
  * Inherits styles from: Default Layout.
  */
 
+<<<<<<< HEAD
 @media only screen and (min-width: 480px) and (max-width: 767px){
 	body{
 		background-color: lime;
@@ -120,6 +124,10 @@ nav a:hover {
 		float: none;
 	}
 }
+=======
+
+
+>>>>>>> upstream/gh-pages
 /* Mobile Layout: 320px.
  * Gutters: 24px.
  * Outer margins: 34px.
@@ -128,6 +136,14 @@ nav a:hover {
 
 
 
+<<<<<<< HEAD
+=======
+/* Wide Mobile Layout: 480px.
+ * Gutters: 24px.
+ * Outer margins: 22px.
+ * Inherits styles from: Default Layout, Mobile Layout.
+ */
+>>>>>>> upstream/gh-pages
 
 
 

@@ -14,6 +14,7 @@ body {
 	overflow: hidden;
 }
 .span-one-third {
+<<<<<<< HEAD
 	overflow: hidden;
 	background-color: red;
 	width: 100%;
@@ -22,6 +23,11 @@ body {
 	margin: 4px;
 	box-sizing: border box;
 
+=======
+	display: inline;
+	float: left;
+	margin: 4px;
+>>>>>>> upstream/gh-pages
 }
 
 h1 {
@@ -41,6 +47,7 @@ a:hover {
 .clear {
 	clear: both;
 }
+<<<<<<< HEAD
 
 @media (min-width: 479px) and (max-width: 559px) {
 	#container {
@@ -98,3 +105,6 @@ a:hover {
 		width: ;
 	}
 }
+=======
+	
+>>>>>>> upstream/gh-pages

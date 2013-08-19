@@ -12,6 +12,7 @@ Kit Yuen & Mart van de Ven
 <aside class="notes"></aside>
 
 * Placholderisms
+* CSS: Overflow
 * The 5 in HTML5, 3 in CSS3
 * Web Forms: Talking to a server 
 * Rollin' with GitHub
@@ -28,6 +29,22 @@ Kit Yuen & Mart van de Ven
 
 
 
+<<<<<<< HEAD
+=======
+## CSS: Overflow
+<aside class="notes">Kit (5 Min)</aside>
+
+* Specifies what happens if content overflows an element's box.
+* Possible values:
+  * visible (default)
+  * hidden
+  * scroll
+  * auto (browser dependent)
+* Overflow in 1 axis: overflow-x, overflow-y
+
+
+
+>>>>>>> upstream/gh-pages
 ## The 5 in HTML5
 <aside class="notes">Kit (20 Min)</aside>
 
@@ -51,6 +68,10 @@ Kit Yuen & Mart van de Ven
 
 * Nothing about style
 * A tag for modern browser integration says add this datetime to an event calendar
+<<<<<<< HEAD
+=======
+* [The HTML5 Doctor - The time element](http://html5doctor.com/the-time-element/)
+>>>>>>> upstream/gh-pages
 * Example
 
 ```
@@ -58,7 +79,11 @@ Kit Yuen & Mart van de Ven
 
 <p>I had a date on <time datetime="2014-02-14">Valentines day</time>.</p>
 
+<<<<<<< HEAD
 <p>We finally hit the road at <time datetime="2013-06-17T19:00-22:00">the last FWED course.</time>.</p>
+=======
+<p>We finally hit the road at <time datetime="2013-06-17T19:00-22:00">the last FWED course</time>.</p>
+>>>>>>> upstream/gh-pages
 ```
 
 
@@ -215,9 +240,15 @@ div {
 <aside class="notes">Mart (30 Min)</aside>
 
 ### The `ls` command
+<<<<<<< HEAD
 
 The `ls` command is a listing command, almost the same as the `dir` command from DOS, but with more options attached. Basically with the `ls` command you can list the contents of the present directory or subdirectory.
 
+=======
+
+The `ls` command is a listing command, almost the same as the `dir` command from DOS, but with more options attached. Basically with the `ls` command you can list the contents of the present directory or subdirectory.
+
+>>>>>>> upstream/gh-pages
 * `ls -a` : List all the files in directory/subdirectory, without the hidden files
 * `ls -l` : Displays a more detailed listing of the present directory, including size, owner, date, permissions etc
 
@@ -256,11 +287,19 @@ This command copies directories or files from a spot to another ( stands for cop
 ### The mkdir command
 
 The `mkdir` command creates a new directory (make directory).
+<<<<<<< HEAD
 
 * `mkdir` _dirname_
 
 <br>
 
+=======
+
+* `mkdir` _dirname_
+
+<br>
+
+>>>>>>> upstream/gh-pages
 ### The `pwd` command
 
 This command returns the path in which you are present at that moment
