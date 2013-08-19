@@ -48,6 +48,26 @@ Let's visit: [Best jQuery](http://www.bestjquery.com)
 
 
 
+## What is jQuery?
+<aside class="notes">Kit (20 Min)</aside>
+
+* Just a .js file
+* It's a Javasript library
+* Allow writing Javascript in a simplified syntax
+* Many Javascript library is written in powered by jQuery
+* Sometimes we will call those libraries as jQuery Plugin
+* Available in [Google CDN](https://developers.google.com/speed/libraries/devguide)
+* [jQuery.com](http://jquery.com/)
+
+
+
+## Adding the `<script>`
+<aside class="notes">Kit (20 Min)</aside>
+
+**In Class Lab** : Adding Scripts
+
+
+
 ## Adding the `<script>`
 <aside class="notes">Kit (20 Min)</aside>
 
@@ -56,13 +76,6 @@ Let's visit: [Best jQuery](http://www.bestjquery.com)
 * Putting it in `<head>`, need to wait for the .js to be completely loaded
 * Putting just before the `</body>` can increase page load speed
 * You can also consider making use of CDN like Google CDN
-
-
-
-## Adding the `<script>`
-<aside class="notes">Kit (20 Min)</aside>
-
-**In Class Lab** : Adding Scripts
 
 
 
