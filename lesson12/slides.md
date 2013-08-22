@@ -302,6 +302,8 @@ Sometimes we also need to the type of variables too
 ## Conditional Logic: Comparison operators
 <aside class="notes"></aside>
 
+    var x = 3;
+
 ![Logical Operators](assets/images/operators.png)
 
 
