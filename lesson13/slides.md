@@ -7,6 +7,7 @@
 Kit Yuen & Mart van de Ven 
 
 
+
 ## Agenda
 <aside class="notes"></aside>
 
@@ -16,11 +17,11 @@ Kit Yuen & Mart van de Ven
 * Iterating Over Arrays Using Loops
 
 
+
 ## Conditional Review
 <aside class="notes">Both (20 Min)
 Students create a JS ATM application. Instructions are in the student file. Review answers as a class.
 </aside>
-
 
 **In Class Lab** : ATM Conditional
 
@@ -92,11 +93,8 @@ here are two ways to add new properties to an object:
 We can overwrite all the elements of an array simply by giving the array new values. Or passing one array into another.
 
     var fruits = ['Apples', 'Oranges', 'Pears', 'Bananas'];
-
     myArr = fruits;
-
     console.log(myArr); //prints Apples, Oranges, Pears, Bananas
-
     myArr = ['Apples', 'Oranges', 'Pears', 'Bananas'];
 
 What if I would like to know how long my array is (how many elements)?
@@ -135,9 +133,11 @@ Notice Strawberries is now missing.
 ## Arrays
 <aside class="notes"></aside>
 
-    myArr.splice(2, 0, 'Tiger'); //This goes to index position 2 and after it removes 0 (none) and adds new value of 'Tiger'.
+    //This goes to index position 2 and after it removes 0 (none) and adds new value of 'Tiger'.
+    myArr.splice(2, 0, 'Tiger');
 
-    console.log(myArr); //prints Apples, Oranges, Tiger, Pears, Bananas where previously was Apples, Oranges, Pears, Bananas. 
+    //prints Apples, Oranges, Tiger, Pears, Bananas where previously was Apples, Oranges, Pears, Bananas. 
+    console.log(myArr); 
 
 Tiger has been inserted After Oranges an the others followered have been bumped forward 1 index.
 
@@ -151,7 +151,7 @@ See [MDN](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_O
 Show students array syntax and have them create a colleagues array where they put the names of 5 classmates and use document.write() to display all the names. Use another document.write() to write the 2nd element in the array to the browser.
 </aside>
 
-**In Class Lab** : Code Along My Colleagues Array
+**In Class Lab** : Code Along My Colleagues Array on codepen.io
 
 
 

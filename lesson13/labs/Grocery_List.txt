@@ -1,0 +1,8 @@
+Array and Loops Grocery List
+
+We're going to help users create a shopping list.
+
+Prompt users to  add items to their grocery list or quit.
+Add every item the user enters into an array. When the user indicates that they are complete, print the list to the console.
+
+BONUS	-   Stop and alert (alert("")) the user from entering the same item twice.
