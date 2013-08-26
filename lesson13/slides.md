@@ -1,7 +1,7 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 13
 
-## JavaScript Objects
+## Arrays and Iterations
 
 ### Instructors
 Kit Yuen & Mart van de Ven 
@@ -164,28 +164,28 @@ Students complete the exercise.js file by answering questions and printing to th
 
 
 
-## Iterations : For
-<aside class="notes"> Kit (30 Min)</aside>
-
-A for loop repeats until a specified condition evaluates to false.
+## Iterations : While Loop
+<aside class="notes"></aside>
 
 ```
-SYNTAX: for ([initialExpression]; [condition]; [incrementExpression]){
+//SYNTAX: while (condition){
   statement
 }
 ```
 ```
-var vegetables = ['Broccoli','Peas','Carrots'];
+var fish = ['Snapper', 'Tuna', 'Salmon'];
+var i = 0;
 
-for (var i = 0; i < vegetables.length; i++) {
-  console.log(vegetables[i]);
+while (i < fish.length) {
+console.log(fish[i]);
+i += 1;
 }
 ```
-prints Broccoli, Peas, Carrots
+prints Snapper, Tuna, Salmon
 
 
 
-## Iterations : Do, While
+## Iterations : Do-While Loop
 <aside class="notes"></aside>
 
 A while statement executes its statements as long as a specified
@@ -210,24 +210,24 @@ prints Corvette, Mustang, Porsche
 
 
 
-## Iterations : Do, While
-<aside class="notes"></aside>
+## Iterations : For Loop
+<aside class="notes"> Kit (30 Min)</aside>
+
+A for loop repeats until a specified condition evaluates to false.
 
 ```
-//SYNTAX: while (condition){
+SYNTAX: for ([initialExpression]; [condition]; [incrementExpression]){
   statement
 }
 ```
 ```
-var fish = ['Snapper', 'Tuna', 'Salmon'];
-var i = 0;
+var vegetables = ['Broccoli','Peas','Carrots'];
 
-while (i < fish.length) {
-console.log(fish[i]);
-i += 1;
+for (var i = 0; i < vegetables.length; i++) {
+  console.log(vegetables[i]);
 }
 ```
-prints Snapper, Tuna, Salmon
+prints Broccoli, Peas, Carrots
 
 
 
