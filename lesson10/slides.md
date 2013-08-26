@@ -36,8 +36,9 @@ Kit Yuen & Mart van de Ven
 * Possible values:
   * visible (default)
   * hidden
-  * scroll, scroll-x, scroll-y
+  * scroll
   * auto (browser dependent)
+* Overflow in 1 axis: overflow-x, overflow-y
 
 
 
