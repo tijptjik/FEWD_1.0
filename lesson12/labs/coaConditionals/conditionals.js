@@ -26,6 +26,7 @@
 	
 	//Verify if the first name is "General" and the last name is NOT "Assembly"
 
+<<<<<<< HEAD
 
 var firstName = prompt("what's your first name?")
 var lastName = prompt("what's your last name?")
@@ -45,3 +46,5 @@ if (age<18) {
 if (firstName=="General" && lastName!="Assembly") {
 	alert("alrighty")
 }
+=======
+>>>>>>> upstream/gh-pages

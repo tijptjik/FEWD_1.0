@@ -211,27 +211,6 @@ Can perform arithmetic on number data types
 
 
 
-## null vs undefined
-<aside class="notes"></aside>
-
-```
-var x;               // undefined
-
-x == null            // true
-x == undefined       // true
-x === null           // false
-x === undefined      // true
-
-var y = null;        // null
-
-x == null            // true
-x == undefined       // true
-x === null           // true
-x === undefined      // false
-```
-
-
-
 ## In Class Lab: data_types
 <aside class="notes">
 * Open exercise.js and follow instructions.
@@ -323,7 +302,30 @@ Sometimes we also need to the type of variables too
 ## Conditional Logic: Comparison operators
 <aside class="notes"></aside>
 
+    var x = 3;
+
 ![Logical Operators](assets/images/operators.png)
+
+
+
+## null vs undefined
+<aside class="notes"></aside>
+
+```
+var x;               // undefined
+
+x == null            // true
+x == undefined       // true
+x === null           // false
+x === undefined      // true
+
+var y = null;        // null
+
+x == null            // true
+x == undefined       // true
+x === null           // true
+x === undefined      // false
+```
 
 
 

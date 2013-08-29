@@ -15,14 +15,22 @@ console.log(q1);
  * Using double quotes, create a string from the following text: What's the time?
  */
 
+<<<<<<< HEAD
 var q2="What's the time?"
+=======
+
+>>>>>>> upstream/gh-pages
 
 /**
  * Question 3
  * Using single quotes, create a string from the following text: Title "JavaScript Programming"
  */
 
+<<<<<<< HEAD
 var q3='Title "JavaScript Programming"'
+=======
+
+>>>>>>> upstream/gh-pages
 
 
 /**
@@ -30,14 +38,21 @@ var q3='Title "JavaScript Programming"'
  * Using double quotes, create a string from the following text, using escaping techniques: Escape "me"
  */
 
+<<<<<<< HEAD
 var q4="Escape \"me\""
+=======
+
+>>>>>>> upstream/gh-pages
 
 /**
  * Question 5
  * Using mathematical equation, output the number 8.
  */
 
+<<<<<<< HEAD
 var q5=8
+=======
+>>>>>>> upstream/gh-pages
 
 
 /**
@@ -45,7 +60,11 @@ var q5=8
  * Using mathematical equation, output the number 1.5.
  */
 
+<<<<<<< HEAD
 var q6=1.5
+=======
+
+>>>>>>> upstream/gh-pages
 
 /**
  * Question 7
@@ -53,5 +72,9 @@ var q6=1.5
  */
 
 
+<<<<<<< HEAD
 var q7=-5
+=======
+
+>>>>>>> upstream/gh-pages
 
