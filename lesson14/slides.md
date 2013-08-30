@@ -208,6 +208,7 @@ function calculateTax(income, allowances) {
 * An object can also has behaviours (method/function)
 
 
+
 ## Javascript Object
 <aside class="notes"></aside>
 
