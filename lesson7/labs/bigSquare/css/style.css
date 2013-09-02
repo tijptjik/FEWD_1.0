@@ -27,6 +27,7 @@ body {
 	font-size: 13px;
 	line-height: 1.1;
 	background: #FFF;
+	margin: 0 auto;
 }
 
 
@@ -75,8 +76,8 @@ a {
 	text-decoration:none;
 }
 
-p { margin: 0px 0px 15px 0px; } /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb */
-
+p { margin: 0px 0px 15px 0px; } /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb 
+*/
 
 /*----------------------------------------------------------------------------- 
 =04 NAV 

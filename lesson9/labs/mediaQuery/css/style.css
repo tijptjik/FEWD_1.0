@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.3;
+	color: #555;
+}
+
+#container {
+	margin: 0 5px;
+}
+.row {
+	overflow: hidden;
+}
+.span-one-third {
+<<<<<<< HEAD
+	overflow: hidden;
+	background-color: red;
+	width: 100%;
+	display: inline;
+	float: left;
+	margin: 4px;
+	box-sizing: border box;
+
+=======
+	display: inline;
+	float: left;
+	margin: 4px;
+>>>>>>> upstream/gh-pages
+}
+
+h1 {
+	font-size: 300%;
+	margin: 20px 0;
+	background: #CCC;
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+	
+.clear {
+	clear: both;
+}
+<<<<<<< HEAD
+
+@media (min-width: 479px) and (max-width: 559px) {
+	#container {
+		width: 100%
+	}
+	.span-one-third {
+		background-color: rgb(238,17,0);
+		color:rgb(59,12,189);
+		float: none;
+		width: 100%;
+	}
+}
+@media (min-width: 559px) {
+	#container {
+		
+		margin: 0 auto;
+	}
+	.span-one-third {
+		
+		width: 31%;
+		
+	}
+}
+
+@media (min-width: 559px) and (max-width: 768px) {
+	#container {
+		width: 540px;
+		margin: 0 auto;
+	}
+	.span-one-third {
+		color: blue;
+		float: left;
+		width: 31%;
+		background-color: 
+	}
+}
+@media (min-width: 767px) and (max-width: 959px) {
+	#container {
+		width: 760px;
+	}
+	.span-one-third {
+		color:;
+		float: ;
+		width: ;
+	}
+}
+@media (min-width: 958px) and (max-width: 1159px) {
+	#container {
+		width: 940px;
+
+	}
+	.span-one-third {
+		color:;
+		float: ;
+		width: ;
+	}
+}
+=======
+	
+>>>>>>> upstream/gh-pages

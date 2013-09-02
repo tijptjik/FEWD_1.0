@@ -1,0 +1,21 @@
+HTML
+<body>
+  <h1>Hello JavaScript</h1>
+  <h2> I <img src ="http://1.bp.blogspot.com/-cp2P2FzZ7h4/TnDbQDCCQjI/AAAAAAAABGw/FVdriMxrMLA/s1600/491px-Heart_icon_red_hollow.svg.png"> jQuery </h2>
+</body>
+
+
+
+
+
+
+CSS
+body{
+  background:#efefef;
+	margin:0;
+	padding:0;
+}
+
+img{
+  height: 50px;
+}

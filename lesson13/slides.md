@@ -1,10 +1,11 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 13
 
-## JavaScript Objects
+## Arrays and Iterations
 
 ### Instructors
 Kit Yuen & Mart van de Ven 
+
 
 
 ## Agenda
@@ -16,11 +17,11 @@ Kit Yuen & Mart van de Ven
 * Iterating Over Arrays Using Loops
 
 
+
 ## Conditional Review
 <aside class="notes">Both (20 Min)
 Students create a JS ATM application. Instructions are in the student file. Review answers as a class.
 </aside>
-
 
 **In Class Lab** : ATM Conditional
 
@@ -92,11 +93,8 @@ here are two ways to add new properties to an object:
 We can overwrite all the elements of an array simply by giving the array new values. Or passing one array into another.
 
     var fruits = ['Apples', 'Oranges', 'Pears', 'Bananas'];
-
     myArr = fruits;
-
     console.log(myArr); //prints Apples, Oranges, Pears, Bananas
-
     myArr = ['Apples', 'Oranges', 'Pears', 'Bananas'];
 
 What if I would like to know how long my array is (how many elements)?
@@ -135,9 +133,11 @@ Notice Strawberries is now missing.
 ## Arrays
 <aside class="notes"></aside>
 
-    myArr.splice(2, 0, 'Tiger'); //This goes to index position 2 and after it removes 0 (none) and adds new value of 'Tiger'.
+    //This goes to index position 2 and after it removes 0 (none) and adds new value of 'Tiger'.
+    myArr.splice(2, 0, 'Tiger');
 
-    console.log(myArr); //prints Apples, Oranges, Tiger, Pears, Bananas where previously was Apples, Oranges, Pears, Bananas. 
+    //prints Apples, Oranges, Tiger, Pears, Bananas where previously was Apples, Oranges, Pears, Bananas. 
+    console.log(myArr); 
 
 Tiger has been inserted After Oranges an the others followered have been bumped forward 1 index.
 
@@ -151,7 +151,7 @@ See [MDN](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_O
 Show students array syntax and have them create a colleagues array where they put the names of 5 classmates and use document.write() to display all the names. Use another document.write() to write the 2nd element in the array to the browser.
 </aside>
 
-**In Class Lab** : Code Along My Colleagues Array
+**In Class Lab** : Code Along My Colleagues Array on codepen.io
 
 
 
@@ -164,28 +164,28 @@ Students complete the exercise.js file by answering questions and printing to th
 
 
 
-## Iterations : For
-<aside class="notes"> Kit (30 Min)</aside>
-
-A for loop repeats until a specified condition evaluates to false.
+## Iterations : While Loop
+<aside class="notes"></aside>
 
 ```
-SYNTAX: for ([initialExpression]; [condition]; [incrementExpression]){
+//SYNTAX: while (condition){
   statement
 }
 ```
 ```
-var vegetables = ['Broccoli','Peas','Carrots'];
+var fish = ['Snapper', 'Tuna', 'Salmon'];
+var i = 0;
 
-for (var i = 0; i < vegetables.length; i++) {
-  console.log(vegetables[i]);
+while (i < fish.length) {
+console.log(fish[i]);
+i += 1;
 }
 ```
-prints Broccoli, Peas, Carrots
+prints Snapper, Tuna, Salmon
 
 
 
-## Iterations : Do, While
+## Iterations : Do-While Loop
 <aside class="notes"></aside>
 
 A while statement executes its statements as long as a specified
@@ -210,24 +210,24 @@ prints Corvette, Mustang, Porsche
 
 
 
-## Iterations : Do, While
-<aside class="notes"></aside>
+## Iterations : For Loop
+<aside class="notes"> Kit (30 Min)</aside>
+
+A for loop repeats until a specified condition evaluates to false.
 
 ```
-//SYNTAX: while (condition){
+SYNTAX: for ([initialExpression]; [condition]; [incrementExpression]){
   statement
 }
 ```
 ```
-var fish = ['Snapper', 'Tuna', 'Salmon'];
-var i = 0;
+var vegetables = ['Broccoli','Peas','Carrots'];
 
-while (i < fish.length) {
-console.log(fish[i]);
-i += 1;
+for (var i = 0; i < vegetables.length; i++) {
+  console.log(vegetables[i]);
 }
 ```
-prints Snapper, Tuna, Salmon
+prints Broccoli, Peas, Carrots
 
 
 

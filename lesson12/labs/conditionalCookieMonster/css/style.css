@@ -1,0 +1,84 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig 
+Updated for JS curriculum by: Alex Notov | http://twitter.com/zealoushacker
+Developed @ General Assembly in NYC & SF
+
+*/
+
+
+/* General Styles */
+
+body {
+	color: white;	/* set the font color to white for all the content between the HTML <body></body> tags  */
+	font-size: 16px; /* specify the default font size for your site */
+
+  /* load these off screen for use in swapping the bg image */
+  /* we are doing this to preload the images before they are used */ 
+  background-image: url("../images/bg1.jpg") -9999px -9999px;
+  background-image: url("../images/bg2.jpg") -9999px -9999px;
+  background-image: url("../images/bg3.jpg") -9999px -9999px;
+  background-image: url("../images/bg4.jpg") -9999px -9999px;
+
+	/* set up the first background image */
+	background-image: url('../images/bg3.jpg');
+  background-repeat: no-repeat;
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 80px;
+}
+
+h2 {
+	background: #35C0F2;
+	color: black;
+	padding: 5px;
+
+	-webkit-border-radius: 5px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
+	border-radius: 5px; 
+}
+
+a {
+	color: #35C0F2;
+	text-decoration: none;
+}
+
+.transparent {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+#stopSwapping {
+  margin-top: 5px;
+  float: right;
+	-webkit-border-radius: 2px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
+	border-radius: 5px; 
+}
+
+/* allows us to start elements off as invisible */
+.hide {
+  display: none;
+}
+
+/* Layout */
+
+#main {
+	padding: 15px; /* add a bit of padding around all the content inside our container */
+	background: black; /* set the container's background to black */
+	width: 420px;
+
+	-webkit-border-bottom-right-radius: 25px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
+	border-bottom-right-radius: 25px; 
+}
