@@ -39,6 +39,9 @@ var stations = [
 		sequence:67,
 		media:'sw.mp4',
 		caption:'Fruits of the seas',
+	}
+
+
 ]
 var SheungWan = new Station(stations[0])
 

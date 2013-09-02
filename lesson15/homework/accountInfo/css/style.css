@@ -1,0 +1,104 @@
+/* 
+Author: General Assembly & Chris Castiglione
+Project: Page Layout
+*/
+
+
+/* General Styles */
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: black; 
+	line-height: 1.4;
+	padding: 10px;
+	background: url('../images/pattern2.png'); /* by default background images repeat */
+}
+
+h1,h2,h3,h4,h5,h6, p, ul, ol {
+	margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 70px;
+  color: #FFFFFF;
+  letter-spacing: -3px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+	a:visited, a:hover, a:active {
+		color: red;
+	}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+}
+
+blockquote {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-style: italic;
+    color: #333333;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/* Layout */
+
+#container {
+	background: yellow;
+	margin: 0 auto;
+	width: 690px;
+}
+
+#header {
+	background: #FF6666;
+	padding: 20px;	
+}
+
+#main {
+	background: white;
+	padding: 20px;
+}
+
+#footer {
+	background: #FF6666; 
+	padding: 20px;
+	text-align: right;
+}
+
+
+

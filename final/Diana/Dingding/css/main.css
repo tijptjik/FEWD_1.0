@@ -21,8 +21,26 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    color: white;
 }
 
+header {
+    background-color: #373738;
+    height: 100px;
+}
+section {
+    background-color: white;
+    height: 500px;
+
+}
+
+article {
+    float: left;
+}
+footer {
+    background-color: #373738;
+    height: 100px;
+}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
