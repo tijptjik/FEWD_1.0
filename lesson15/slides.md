@@ -193,13 +193,13 @@ $("body");       // Select by tag name
 **In Class Lab** : Changing Cookie Monster
 
 1. Create the js folder and include jQuery on google cdn
-1. Apply your favourite background color on `h2` by call `css()`
+1. Apply your favourite background color on `h2` by calling `.css()`
 1. Use the following jQuery functions to modify the HTML DOM
   * `before()`, `after()`, `wrap()`, `append()`, `prepend()`
 1. Add `#container.colored-container { background-color: <color>; }` to style.css
 1. Add the following line at the end of your .js file inside document ready
 ```
-  id = setInterval($('#container').toggleClass('colored-container');)
+  id = setInterval("$('#container').toggleClass('colored-container')", 1000);
 ```
 
 
