@@ -17,6 +17,7 @@ Kit Yuen & Mart van de Ven
 * Attribute manipulation
 * Hide and show
 * Practice!
+* Create a simple slideshow!
 
 
 
@@ -73,13 +74,24 @@ Homework or any other concept for reviews
   * :nth-child(n)
   * :last-child
   * :nth-last-child(n)
+  * :nth-child(odd)
+  * :nth-child(even)
+  * :nth-child(2n+1)
+
+
+
+## More on selectors
+<aside class="notes"></aside>
+
+**Select specific child**
+
+* CSS3
   * :first-of-type
   * :nth-of-type(n)
   * :last-of-type
   * :nth-last-of-type(n)
-  * :nth-child(odd)
-  * :nth-child(even)
-  * :nth-child(2n+1)
+
+[The Difference Between :nth-child and :nth-of-type](http://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/)
 
 
 
@@ -94,7 +106,20 @@ Homework or any other concept for reviews
   * :nth-child(n)
   * :nth-child(odd)
   * :nth-child(even)
-  * eq(index) // start from 0
+  * :eq(index) // start from 0
+
+
+
+## More on selectors
+<aside class="notes"></aside>
+
+**NOT THE END!**
+
+* X + Y
+* X > Y
+* X ~ Y
+* ...
+* [The 30 CSS Selectors you Must Memorize](http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/)
 
 
 
@@ -255,8 +280,8 @@ $('[name="instructor"]').val('Mart');
   * Hides all matched elements by setting their inline style to display: none;
 * .show()
   * Reveals all matched elements by setting their inline style to display: block. If the element was originally inline, than display: inline will be used.
-* .hide(slow/fast/<time in ms>)
-* .show(slow/fast/<time in ms>)
+* .hide(`slow` / `fast` / `<time in ms>`)
+* .show(`slow` / `fast` / `<time in ms>`)
 
 
 
@@ -289,3 +314,10 @@ $('h1').hide('slow');
 * Code Along Hide / show exercises
 * Exercise My_jQuery
 * Exercise Grocery List
+
+
+
+## Create a simple slideshow!
+<aside class="notes">Both (50 Min)</aside>
+
+[jQuery Cycle Plugin](http://jquery.malsup.com/cycle/)
