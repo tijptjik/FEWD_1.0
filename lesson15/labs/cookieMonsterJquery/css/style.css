@@ -1,0 +1,61 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig 
+Developed @ General Assembly in NYC
+
+*/
+
+
+/* General Styles */
+
+body {
+	color: white;	/* set the font color to white for all the content between the HTML <body></body> tags  */
+	font-size: 16px; /* specify the default font size for your site */
+
+	/* set up a background image */
+	background: url('../images/cookie-monster.jpg') no-repeat;
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 80px;
+}
+
+h2 {
+	background: #35C0F2;
+	color: black;
+	padding: 5px;
+
+	-webkit-border-radius: 5px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
+	border-radius: 5px; 
+}
+
+a {
+	color: #35C0F2;
+	text-decoration: none;
+}
+
+
+/* Layout */
+
+
+#container {
+	padding: 15px; /* add a bit of padding around all the content inside our container */
+	background: black; /* set the container's background to black */
+	width: 420px;
+
+	-webkit-border-bottom-right-radius: 25px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
+	border-bottom-right-radius: 25px;
+
+	-webkit-transition: all 3s;
+}

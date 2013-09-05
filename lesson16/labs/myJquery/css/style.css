@@ -1,0 +1,14 @@
+.box {
+	width:200px;
+	height:200px;
+	background:orange;
+	border:1px solid black;
+}
+
+.box2 {
+	width:200px;
+	height:200px;
+	background:orange;
+	border:1px solid black;
+	display: none;
+}

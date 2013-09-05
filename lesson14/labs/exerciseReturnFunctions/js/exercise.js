@@ -79,7 +79,7 @@ var q5 = smallNumber
 
 /**
  * Question 7:
- * Write a function named "sumArray" that takes an array as its only argument
+ * Write a function named "addArray" that takes an array as its only argument
  * and finds the sum of all the numbers in an array. 
  * There is an array provided below to test with.
  * Hint: Use you for loops!
