@@ -1,7 +1,7 @@
 /** body, fonts and stuff **/
 
 body {
-	background: rgb(126, 73, 230);
+background: rgb(126, 73, 230);
 background: -moz-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
 background: -webkit-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
 background: -o-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
@@ -10,35 +10,52 @@ background: linear-gradient(120deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%
 transition: all 0.5s linear;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, a {
 	font-family: Georgia, serif; 
 	color: #FFFFFF;
 	font-style: italic;
 }
 
-/** navbar **/
-
-#navbar h1 {
-	font-size: 1.5em;
-	padding-bottom: 30px;
+.container_wrapper {
+	width: 600px;
+	height: 100%;
+	margin: 30px auto;
 }
 
-#navbar 
+	.container_background {
+		background-color: black;
+		opacity: 0.3;
+		width: 600px;
+		height: 100%;
+		margin: 30px auto;
+	}
 
-/** header **/
+	.navbar {
+		width: 600px;
+		height: 50px;
+		position: absolute;
+		top: 30px;
+		margin: 0 auto;
+	}
 
-#navbar {
-	width: 300px;
-	margin: 50px;
-}
+		ul li a {
+			display: inline;
+			float: right;
+			padding-right: 20px;
+			text-decoration: none;
+			color: white;
+			line-height: 50px;
+			font-style: normal;
+		}
 
-/*ul {
-	float: right;
-}*/
-
-ul li a {
-	text-decoration: none;
-}
+		ul li:nth-child(1) {
+			display: inline;
+			float: left;
+			padding-left: 20px;
+			text-decoration: none;
+			color: white;
+			line-height: 50px;
+		}
 
 /*@media all and (max-width:1200px) {
 	.colourbox {

@@ -9,8 +9,12 @@
  * Create a 'for' loop that populates an array with the numbers 1 through 10 
  */
    var myArray = [];
+   		//initial; checking; update value
+   for (i = 10; i >=1; i--) {
+   	myArray.push(i);
+   }
 
-
+  	myArray.reverse();
 
 /**
  * Question 2
@@ -20,7 +24,11 @@
 var sub = 100;
 var start = 1;
 
-
+while (start <= 10) {
+	sub = sub - start;
+	start++;
+	console.log(sub);
+}
 
 /**
  * Question 3
@@ -30,7 +38,12 @@ var start = 1;
 var someNums = [3, 1, 88, -1, 33, 96, 35, 12, 72];
 var largest_num = someNums[0];
 
-
+//  (							) <<- common pattern when working with an array, start at i=0 is convention
+for (i = 0; i < someNums.length; i++) {
+	if (largest_num < someNums[i]) {
+		largest_num = someNums[i];
+	}
+}
 
 /**
  * Question 4
@@ -38,6 +51,12 @@ var largest_num = someNums[0];
  * Store that number in "small"
  */
 var small = someNums[0];
+
+for (i=0; i < someNums.length; i++) {
+	if (someNums[i]<small) {
+		small = someNums[i]
+	}
+}
 
 /**
  * Question 5
@@ -47,9 +66,20 @@ var small = someNums[0];
  */
 var firstArray = ['peaches', 'apples', 'pears', 'oranges', 'plums', 'water melon', 'strawberries'];
 var secondArray = ['blueberries', 'water melon', 'tomatoes', 'apples', 'plums', 'oranges', 'cantaloupe'];
+var resultSet = [];
 var totalDuplicates = 0;
 
+for (i=0; i<firstArray.length; i++) {
+	console.log(firstArray[i]);
+	if (firstArray[i] == secondArray[i]) {
+		totalDuplicates++
+		resultSet.push(firstArray[i])
+	}
+}
 
+checkLength = [firstArray.length, secondArray.length]
+checkLength.sort()
+iteration = checkLength.length-1
 /**
  * Question 6 - ******BONUS******
  * Count the number of unique elements are in the array. In other words, in the 
@@ -59,4 +89,10 @@ var totalDuplicates = 0;
 
 var numbers = [3, 7, 1, 3, 23, 7, 98, 26, 1];
 var totalUniques = 0;
+
+for (i=0; i<numbers.length; i++) {
+	numbers[i] == 
+}
+
+
 

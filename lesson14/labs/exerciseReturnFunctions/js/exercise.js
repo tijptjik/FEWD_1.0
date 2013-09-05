@@ -7,7 +7,7 @@
  * Modify the "booleanValue" function so that it returns "true" when it's called.
  */
 function booleanValue() {
-  return false;
+  return true;
 }
 
 
@@ -17,8 +17,9 @@ function booleanValue() {
  * Notice that the function is being executed and the result stored in the variable "q2"
  */
 function helloWorld() {
-
+	return "Hello World!";
 }
+
 var q2 = helloWorld();
 
 
@@ -28,7 +29,7 @@ var q2 = helloWorld();
  * Notice that the result of that function is being stored in q3
  */
 function join(left, right) {
-
+	return(left + right);
 }
 var q3 = join("1 + 1 = ", "2");
 
@@ -40,18 +41,40 @@ var q3 = join("1 + 1 = ", "2");
  * with the number 42 and 3257 and store the result in variable "q4".
  */
 
+function multiply(x, y) {
+	return x*y;
+}
+
+var q4 = multiply(42, 3257);
 
 /**
  * Question 5:
  * Write a function named "smallNumber" that compares two number and returns that one. 
  */
 
+function smallNumber(x, y) {
+	if (x>y) {
+		return x;
+	} else {
+		return y;
+	}
+}
+
+// return x < y ? x: y;
+
+//(conditions)? xxx : yyy;
+//if true then xxx, otherwise yyy
+//xxx n yyy are return values
+
+
+var q5 = smallNumber
 
 /**
  * Question 6:
  * Similar to question 5, write a function called "bigNumber" which returns the larger of the
  * two number passed in as arguments
  */
+
 
 
 /**
@@ -62,6 +85,15 @@ var q3 = join("1 + 1 = ", "2");
  * Hint: Use you for loops!
  */
 var testArray = [1, 5, 4, 3, 2, 9, 8, 7, 6, 10];
+
+function sumArray(array) {
+	var result = 0;
+	for (i=0; i< array.length; i++) {
+		result = result + array[i]
+		console.log(result);
+	}
+	return result;
+}
 
 
 /**
