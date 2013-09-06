@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.warn {
+  color: #aa0000;
+  font-weight: bold;
+}
+
+.success {
+  color: #00aa00;
+  font-style: italic;
+}
+
+#mouseBox {
+  height: 400px;
+  background: rgb(100, 100, 200);
+  line-height: 400px;
+  text-align: center;
+  
+  color: white;
+  font-size: 30px;
+}
+
+#mouseBox.clicked {
+  background: rgb(200, 100, 100);
+}
