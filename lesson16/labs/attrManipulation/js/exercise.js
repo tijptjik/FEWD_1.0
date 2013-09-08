@@ -9,7 +9,7 @@
  * Print q1 to the console.
  */
 var q1 = $('#fig1 img').attr('src');
-
+console.log(q1)
 
 /**
  * Question 2:
@@ -17,6 +17,7 @@ var q1 = $('#fig1 img').attr('src');
  * "http://placekitten.com/500/200"
  */
 
+var q2 = $('#fig1 img').attr('src', 'http://placekitten.com/500/200');
 
 /**
  * Question 3:
@@ -25,12 +26,15 @@ var q1 = $('#fig1 img').attr('src');
  * Print q3 variable to the console.
  */
 
+var q3 = $('header').attr('role');
+
 
 /**
  * Question 4:
  * Add the "success" class to each of "the-fact" list items
  */
 
+var q4 = $('#the-fact').wrap("<class = "success"></class>")
 
 /**
  * Question 5:
