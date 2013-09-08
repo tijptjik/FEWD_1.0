@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Validation</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	  	<h1>View completed site <a href="https://googledrive.com/host/0B7yK_e1LsbdVMW54akNoUnlVSUE/index.html">Here</a></h1>
+  	<h3>Your Job is to replicate the demo</h3>
+	<div id="wrapper">
+	
+		<h1>Validation</h1>
+		
+		<form id="add_user_data" action="#" method="post">
+			<label for="user_name">Name:</label>
+			<input type="text" id="user_name" name="user_name" placeholder="username">
+			<span id="user_name_error">Name must be more than 3 characters!</span>
+			<label for="user_age">Age:</label>
+			<input type="text" id="user_age" name="user_age" placeholder="age">
+			<span id="user_age_error">Age must be a number!</span>
+			<label for="user_ph">Phone:</label>
+			<input type="tel" id="user_ph" name="user_ph" placeholder="phone">
+			<span id="user_ph_error">Phone must be valid (555-555-5555)!</span>
+			<label for="user_email">Email:</label>
+			<input type="email" id="user_email" name="user_email" placeholder="email">
+			<span id="user_email_error">Email must be valid!</span>
+			<br>
+			<input type="submit" value="update">
+		</form><!-- #add_user_data -->
+		
+		<ul id="display_data"></ul><!-- #display_data -->
+		<div id="clear_box">
+			<button id="clear">clear</button>
+		</div><!-- #clear_box -->
+		
+	</div><!-- #wrapper -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.0.min.js"><\/script>')</script>
+	<script src="js/userdata.js"></script>
+	
+</body>
+</html>

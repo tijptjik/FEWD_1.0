@@ -1,0 +1,86 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: #666;
+	color:#000;
+	padding:20px;
+}
+
+#wrapper {
+	width:600px;
+	margin:0 auto;
+}
+
+span {
+	color:#f00;
+}
+
+form, #display_data, #clear_box {
+	border:1px solid #333;
+	background: #fff;
+	padding:15px 20px 18px 18px;
+	border-radius:5px;
+	margin:0 2% 2% 0;
+	box-shadow: 5px 5px 0px #333;
+}
+
+label {
+	display:block;
+	margin:0 0 5px;
+}
+input {
+	margin:0 10px 10px 0;
+}
+
+label {
+	color:#666;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+	padding: 5px;
+	font-size:14px;
+	border:1px solid #666;
+	border-radius:5px;
+	background:#efefef;
+	box-shadow: 2px 2px 0px #666;
+}
+
+input[type="submit"], #clear {
+	background:#ccc;
+	padding:5px 10px;
+	border:1px solid #333;
+	color:#000;
+	border-radius:5px;
+	box-shadow: 2px 2px 0px #666;
+	font-weight:bold;
+	font-size:14px;
+	margin:5px 0 0 0;
+}
+
+#add_user_data input[type="submit"]:hover {
+	background:#333;
+	color:#0f0;
+	box-shadow: 2px 2px 0px rgba(0,255,0,.5);
+}
+
+#clear:hover {
+	background:#333;
+	color:#f00;
+	box-shadow: 2px 2px 0px rgba(255,0,0,.5);
+}
+
+h1 {
+	color:#fff;
+	text-shadow: 2px 2px 0px #333;
+	margin:0 0 5px;
+	font-size:32px;
+	font-weight:bold;
+}
+
+li {
+	list-style:none;
+	color:#000;
+	font-size:24px;
+	margin:0 0 5px 0;
+	border-bottom:1px dotted #ccc;
+	padding:2px;
+}

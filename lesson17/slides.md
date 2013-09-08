@@ -119,7 +119,7 @@ $("#fire-alarm").ring(function(event) {
 <html>
   <head>
     <title>Events</title>
-    <!-- Uncomment the the following line -->
+    <!-- Uncomment the the following line to include the jQuery -->
     <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script-->
   </head>
   <body>
@@ -151,7 +151,7 @@ $('#btn').click(function(event){
 ## Mouse events
 <aside class="notes"></aside>
 
-**In Class Lab** : coa_MouseEvents
+**In Class Lab** : Mouse events
 
 
 
@@ -320,7 +320,7 @@ $('textarea').keypress(function(event){
 ## Keyboard events
 <aside class="notes"></aside>
 
-**In Class Lab** : coa_KeyboardEvents
+**In Class Lab** : Keyboard events
 
 
 
@@ -397,7 +397,7 @@ clearInterval(timerId);
 <html>
   <head>
     <title>Events</title>
-    <!-- Uncomment the the following line -->
+    <!-- Uncomment the the following line to include the jQuery -->
     <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script-->
   </head>
   <body>
@@ -498,4 +498,4 @@ $('#colors').on('click', '.color', function(event){
 ## Events
 <aside class="notes"></aside>
 
-**In Class Lab** : coa_colors_events
+**In Class Lab** : Colors events
