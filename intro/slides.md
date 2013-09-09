@@ -25,13 +25,20 @@ This class provides a beginner's overview and examples of:
 #### About General Assembly
 <aside class="notes">Allison 2 Min: What is General Assembly</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
+
+
 
 #### General Assembly's Core Values
 <aside class="notes">Allison 3 Min: How does General Assembly operate</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
+
 
 
 ## PEOPLE BEFORE THE MACHINE
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
 
 > While we value powerful ideas and innovative start-ups, the lifeblood of any community is the individuals involved. We believe in empathy and reciprocity — and that community can enable individual pursuits. 
 
@@ -40,6 +47,8 @@ This class provides a beginner's overview and examples of:
 ## LEARNING BY DOING
 <aside class="notes">Allison</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
+
 > We believe that self-actualization is gained through applied, hands- on experience. We are here not to seek or to hope for the future, but actively construct it with our hands. If we get it wrong, we modify and try again; real progress only comes through reflection and relentless iteration. 
 
 
@@ -47,12 +56,15 @@ This class provides a beginner's overview and examples of:
 ## JOURNEY OVER DESTINATION
 <aside class="notes">Allison</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
+
 > General Assembly is about the shared experience of fellow builders taking risks — about embracing failure as much as success. When great companies fail, they’re gone forever. When great people fail, they learn from their experiences and go on to pursue new ventures with a greater chance of success.
 
 
 
+#### Why get into Web Development?
 
-#### Why get into Web Development? 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
 
 
 
@@ -66,6 +78,8 @@ This class provides a beginner's overview and examples of:
 
 
 #### Web Technology Primer
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
 
 
 
@@ -97,6 +111,8 @@ Kit 3 Min
 
 #### The Front End Web Stack
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
+
 
 
 ## FEWD STACK
@@ -109,7 +125,7 @@ Kit 3 Min
 
 <aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
 
-![How Internet Works](http://tijptjik.github.io/FEWD/assets/images/html5.png)
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/html5.png)
 
 
 
@@ -133,6 +149,8 @@ Kit 3 Min
 
 ## JAVASCRIPT as the PROGRAMMING LINGUA FRANCA
 <aside class="notes">Answer why of all the languages out there javascript is the best language to pick up</aside>
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
 
 
 
@@ -188,6 +206,8 @@ STEP22 : TRANSITION GRACEFULLY
 
 </aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
+
 **Favourite Quotes Post It Board!**
 
 
@@ -217,6 +237,8 @@ STEP22 : TRANSITION GRACEFULLY
 
 ## The GA Community
 <aside class="notes">Allison 3 Min</aside>
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
 
 * Practical, dynamic content 
 * Strong, diverse community of makers
@@ -252,7 +274,7 @@ STEP22 : TRANSITION GRACEFULLY
 * Payment plans are available
 * No pre-requisites
 * Maximum class size of 15 people
-* Registration ends Oct 1
+* Registration ends Oct 1st
 
 
 
@@ -271,8 +293,9 @@ STEP22 : TRANSITION GRACEFULLY
 ## Alumni: FEWD Ninja!
 <aside class="notes">Denis 10 Min</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
+
 
 
 #### Q & A
 <aside class="notes">All - 20 Min</aside>
-
