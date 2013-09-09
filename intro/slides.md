@@ -23,11 +23,11 @@ This class provides a beginner's overview and examples of:
 
 
 #### About General Assembly
-<aside class="notes">Allison 2 Min: What is General Assembly</aside>
+<aside class="notes">Kalina 2 Min: What is General Assembly</aside>
 
 
 #### General Assembly's Core Values
-<aside class="notes">Allison 3 Min: How does General Assembly operate</aside>
+<aside class="notes">Kalina 3 Min: How does General Assembly operate</aside>
 
 
 
@@ -217,7 +217,7 @@ STEP22 : TRANSITION GRACEFULLY
 
 
 ## The GA Community
-<aside class="notes">Allison 3 Min</aside>
+<aside class="notes">Kalina 3 Min</aside>
 
 * Practical, dynamic content 
 * Strong, diverse community of makers
@@ -242,18 +242,18 @@ STEP22 : TRANSITION GRACEFULLY
 
 
 ## About the course
-<aside class="notes">Allison 2 Min</aside>
+<aside class="notes">Kalina 2 Min</aside>
 
 **THE DETAILS**
 
 * Instructors: Kit Yuen & Mart v/d Ven
-* July 15th – Sept 23nd, 2013
+* October 14 – December 19th, 2013
 * Meets Monday and Thursday from 7-10pm at CoCoon
 * Tuition is $25,000HKD
 * Payment plans are available
 * No pre-requisites
 * Maximum class size of 15 people
-* Registration ends July 12th
+* Registration ends October 11th
 
 
 
