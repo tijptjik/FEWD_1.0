@@ -79,25 +79,19 @@ Kit 3 Min
 
 
 
-<aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
-
-![How Internet Works](http://tijptjik.github.io/FEWD/assets/images/html5.png)
-
-
-
-## Tooling Up
-<aside class="notes"></aside>
-**Text Editor**
-
-![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/sublime.png)
-
-
-
 ## Tooling Up
 <aside class="notes"></aside>
 **Web Server**
 
 ![Apache & NginX](http://tijptjik.github.io/FEWD/assets/images/servers.png)
+
+
+
+## Tooling Up
+<aside class="notes"> Mart 2 Min</aside>
+**Text Editor**
+
+![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/sublime.png)
 
 
 
@@ -110,6 +104,12 @@ Kit 3 Min
 **HTML5 for STRUCTURE**
 
 ![How Internet Works](http://tijptjik.github.io/FEWD/assets/images/blocks.gif)
+
+
+
+<aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
+
+![How Internet Works](http://tijptjik.github.io/FEWD/assets/images/html5.png)
 
 
 
@@ -143,7 +143,6 @@ Kit 3 Min
 * Transferable Programming Concepts / Syntax 
 * Interact just about any third-party API 
 * Customise the applications of the future 
-* Build native apps for Windows 8 / Windows Phone 8 
 * Apps for Android and Iphone 
 * Server-side language : Node.JS 
 
@@ -159,7 +158,7 @@ Kit 3 Min
 
 
 ## All together now: HTML + CSS + JS
-<aside class="notes">Develop a simple postit note demo to showcase the functionality and role of HTML and CSS
+<aside class="notes">Develop a simple post-it note demo to showcase the functionality and role of HTML and CSS
 Kit Code & Mart Talk 30 Min
 
 STEP1 : HTML
@@ -210,8 +209,8 @@ STEP22 : TRANSITION GRACEFULLY
 * Liberty to work, to work at liberty
   * Global employability 
   * Many multinationals, NGOs and Governments have their own web departments 
-* Transforming from a a thinker a to creator
-* Lead the charge for any initative with a web strategy.  
+* Going from 'living in the clouds' to 'controlling from the clouds'
+* Lead the charge for any initiative with a web strategy.  
 * Learn from and collaborate with the open source community. 
 
 
@@ -247,13 +246,13 @@ STEP22 : TRANSITION GRACEFULLY
 **THE DETAILS**
 
 * Instructors: Kit Yuen & Mart v/d Ven
-* July 15th – Sept 23nd, 2013
-* Meets Monday and Thursday from 7-10pm at CoCoon
+* Oct 14th – Dec 18th, 2013
+* Meets Monday and Wednesday from 7-10pm at CoCoon
 * Tuition is $25,000HKD
 * Payment plans are available
 * No pre-requisites
 * Maximum class size of 15 people
-* Registration ends July 12th
+* Registration ends Oct 1
 
 
 
@@ -269,7 +268,7 @@ STEP22 : TRANSITION GRACEFULLY
 
 
 
-## FEWD Alumni: Denis Tsoi
+## Alumni: FEWD Ninja!
 <aside class="notes">Denis 10 Min</aside>
 
 
