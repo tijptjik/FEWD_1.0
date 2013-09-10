@@ -68,12 +68,16 @@ This class provides a beginner's overview and examples of:
 
 
 
-## The perks of being a web dev
+## POWERED BY WEB DEVELOPMENT
 <aside class="notes">Mart 5 Min: Answer the high-level question what's so good about being a developer</aside>
 
-* **Personal development**, one line at a time
-* **Community**, for support and inspiration
-* **Dream up a project**, build it yourself
+* Going from 'living in the clouds' to 'ruling from the clouds'
+* Personal development, one line at a time
+* Liberty to work, to work at liberty
+  * Global employability
+  * Many multinationals, NGOs and Governments have their own web departments
+* Lead the charge for any initiative with a web strategy.
+* Learn from and collaborate with the open source community.
 
 
 
@@ -94,7 +98,7 @@ Kit 3 Min
 
 
 ## Tooling Up
-<aside class="notes"></aside>
+<aside class="notes">Mart 2 Min</aside>
 **Web Server**
 
 ![Apache & NginX](http://tijptjik.github.io/FEWD/assets/images/servers.png)
@@ -102,7 +106,7 @@ Kit 3 Min
 
 
 ## Tooling Up
-<aside class="notes"> Mart 2 Min</aside>
+<aside class="notes"> </aside>
 **Text Editor**
 
 ![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/sublime.png)
@@ -116,14 +120,14 @@ Kit 3 Min
 
 
 ## FEWD STACK
-<aside class="notes"></aside>
+<aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
 **HTML5 for STRUCTURE**
 
 ![How Internet Works](http://tijptjik.github.io/FEWD/assets/images/blocks.gif)
 
 
 
-<aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
+<aside class="notes"></aside>
 
 ![fullscreen](http://tijptjik.github.io/FEWD/assets/images/html5.png)
 
@@ -157,12 +161,12 @@ Kit 3 Min
 ## JAVASCRIPT as the PROGRAMMING LINGUA FRANCA
 <aside class="notes">Mart 3 Min</aside>
 
-* FutureProof 
-* Transferable Programming Concepts / Syntax 
-* Interact just about any third-party API 
-* Customise the applications of the future 
-* Apps for Android and Iphone 
-* Server-side language : Node.JS 
+* [FutureProof](https://github.com/jashkenas/coffee-script/wiki/List-of-languages-that-compile-to-JS)
+* Transferable Programming Concepts / Syntax
+* Interact with just about any third-party API
+* Take control of the web
+* Apps for Android and Iphone
+* Now on the server too! Node.JS
 
 
 
@@ -223,24 +227,12 @@ STEP22 : TRANSITION GRACEFULLY
 
 
 
-## POWERED BY WEB DEVELOPMENT
-<aside class="notes">Mart 5 Min</aside>
-
-* Liberty to work, to work at liberty
-  * Global employability 
-  * Many multinationals, NGOs and Governments have their own web departments 
-* Going from 'living in the clouds' to 'controlling from the clouds'
-* Lead the charge for any initiative with a web strategy.  
-* Learn from and collaborate with the open source community. 
-
-
-
 ## The GA Community
 <aside class="notes">Allison 3 Min</aside>
 
 ![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
 
-* Practical, dynamic content 
+* Practical, dynamic content
 * Strong, diverse community of makers
 * Personalized instruction and support
 * 3 free classes to supplement your coursework
@@ -286,7 +278,7 @@ STEP22 : TRANSITION GRACEFULLY
 * Bring Your Own Laptop.
 * OSX/Linux is preferred, Windows is also OK.
 * Chrome Browser
-* Sublime Text Editor 
+* Sublime Text Editor
 
 
 
