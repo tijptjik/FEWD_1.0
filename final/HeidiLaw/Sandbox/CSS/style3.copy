@@ -1,7 +1,7 @@
 /** body, fonts and stuff **/
 
 body {
-/*background: colourPalette[3];*/
+background: rgb(126, 73, 230);
 background: -moz-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
 background: -webkit-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
 background: -o-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
@@ -9,12 +9,6 @@ background: -ms-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 
 background: linear-gradient(120deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
 transition: all 0.5s linear;
 }
-
-body {
-	background-color: colourPalette[3];
-}
-
-//does not work again?!?!?!?!?!?!?!
 
 h1, h2, h3, h4, h5, h6, a {
 	font-family: Georgia, serif; 
@@ -63,43 +57,7 @@ h1, h2, h3, h4, h5, h6, a {
 			line-height: 50px;
 		}
 
-		.styleChange {
-			color: black;
-			font: normal bold 60px/45px arial, sans-serif;
-			float: right;
-			text-align: right;
-			letter-spacing: -5;
-			position: absolute;
-			left: 10px;
-			top: 10px;
-		}
-
-		.styleChangeNav {
-			color: black;
-		}
-
-/** the buttons **/
-.buttons {
-	height: 50px;
-	width: 50px;
-	bottom: 0px;
-	margin: 10px 10px;
-	position: fixed;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-}
-
-.changeForm {
-	background-color: pink;
-	left: 55px;
-/*	display: none;*/
-}
-
-.changeColor{
-	background-color: green;
-}
-
-/*@media all and (max-width:1200px) {
+		/*@media all and (max-width:1200px) {
 	.colourbox {
 		background-color: #fa8072;
 	}

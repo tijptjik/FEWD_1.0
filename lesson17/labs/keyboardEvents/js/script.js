@@ -9,3 +9,7 @@
  *    be typed in it. 
  *    Hint, remeber what event.preventDefault() does? 
  */
+
+$('input').keypress(function(event){
+	console.log(event.keyCode)
+});
