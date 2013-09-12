@@ -205,7 +205,7 @@ $("body").on("mousedown mouseup", function(event) {
 ## Form events
 <aside class="notes"></aside>
 
-**List of available \<input\>**
+**List of available `<input>`**
 
     <!-- Simple textbox -->
     <input type="text"><br>

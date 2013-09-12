@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Apple",
+    "color": "red",
+    "origin": "U.S."
+  },
+  {
+    "name": "Orange",
+    "color": "orange",
+    "origin": "U.K."
+  },
+  {
+    "name": "Strawberry",
+    "color": "red",
+    "origin": "Japan"
+  }
+]

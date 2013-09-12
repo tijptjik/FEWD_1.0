@@ -25,13 +25,20 @@ This class provides a beginner's overview and examples of:
 #### About General Assembly
 <aside class="notes">Allison 2 Min: What is General Assembly</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
+
+
 
 #### General Assembly's Core Values
 <aside class="notes">Allison 3 Min: How does General Assembly operate</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
+
 
 
 ## PEOPLE BEFORE THE MACHINE
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
 
 > While we value powerful ideas and innovative start-ups, the lifeblood of any community is the individuals involved. We believe in empathy and reciprocity — and that community can enable individual pursuits. 
 
@@ -40,6 +47,8 @@ This class provides a beginner's overview and examples of:
 ## LEARNING BY DOING
 <aside class="notes">Allison</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
+
 > We believe that self-actualization is gained through applied, hands- on experience. We are here not to seek or to hope for the future, but actively construct it with our hands. If we get it wrong, we modify and try again; real progress only comes through reflection and relentless iteration. 
 
 
@@ -47,25 +56,34 @@ This class provides a beginner's overview and examples of:
 ## JOURNEY OVER DESTINATION
 <aside class="notes">Allison</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
+
 > General Assembly is about the shared experience of fellow builders taking risks — about embracing failure as much as success. When great companies fail, they’re gone forever. When great people fail, they learn from their experiences and go on to pursue new ventures with a greater chance of success.
 
 
 
+#### Why get into Web Development?
 
-#### Why get into Web Development? 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
 
 
 
-## The perks of being a web dev
+## POWERED BY WEB DEVELOPMENT
 <aside class="notes">Mart 5 Min: Answer the high-level question what's so good about being a developer</aside>
 
-* **Personal development**, one line at a time
-* **Community**, for support and inspiration
-* **Dream up a project**, build it yourself
+* Going from 'living in the clouds' to 'ruling from the clouds'
+* Personal development, one line at a time
+* Liberty to work, to work at liberty
+  * Global employability
+  * Many multinationals, NGOs and Governments have their own web departments
+* Lead the charge for any initiative with a web strategy.
+* Learn from and collaborate with the open source community.
 
 
 
 #### Web Technology Primer
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
 
 
 
@@ -79,37 +97,39 @@ Kit 3 Min
 
 
 
-<aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
-
-![How Internet Works](http://tijptjik.github.io/FEWD/assets/images/html5.png)
-
-
-
 ## Tooling Up
-<aside class="notes"></aside>
-**Text Editor**
-
-![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/sublime.png)
-
-
-
-## Tooling Up
-<aside class="notes"></aside>
+<aside class="notes">Mart 2 Min</aside>
 **Web Server**
 
 ![Apache & NginX](http://tijptjik.github.io/FEWD/assets/images/servers.png)
 
 
 
+## Tooling Up
+<aside class="notes"> </aside>
+**Text Editor**
+
+![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/sublime.png)
+
+
+
 #### The Front End Web Stack
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
 
 
 
 ## FEWD STACK
-<aside class="notes"></aside>
+<aside class="notes">Kit 3 Min: Give insight into how HTML is the structural backbone of a web property</aside>
 **HTML5 for STRUCTURE**
 
 ![How Internet Works](http://tijptjik.github.io/FEWD/assets/images/blocks.gif)
+
+
+
+<aside class="notes"></aside>
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/html5.png)
 
 
 
@@ -134,18 +154,19 @@ Kit 3 Min
 ## JAVASCRIPT as the PROGRAMMING LINGUA FRANCA
 <aside class="notes">Answer why of all the languages out there javascript is the best language to pick up</aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
+
 
 
 ## JAVASCRIPT as the PROGRAMMING LINGUA FRANCA
 <aside class="notes">Mart 3 Min</aside>
 
-* FutureProof 
-* Transferable Programming Concepts / Syntax 
-* Interact just about any third-party API 
-* Customise the applications of the future 
-* Build native apps for Windows 8 / Windows Phone 8 
-* Apps for Android and Iphone 
-* Server-side language : Node.JS 
+* [FutureProof](https://github.com/jashkenas/coffee-script/wiki/List-of-languages-that-compile-to-JS)
+* Transferable Programming Concepts / Syntax
+* Interact with just about any third-party API
+* Take control of the web
+* Apps for Android and Iphone
+* Now on the server too! Node.JS
 
 
 
@@ -159,7 +180,7 @@ Kit 3 Min
 
 
 ## All together now: HTML + CSS + JS
-<aside class="notes">Develop a simple postit note demo to showcase the functionality and role of HTML and CSS
+<aside class="notes">Develop a simple post-it note demo to showcase the functionality and role of HTML and CSS
 Kit Code & Mart Talk 30 Min
 
 STEP1 : HTML
@@ -189,6 +210,8 @@ STEP22 : TRANSITION GRACEFULLY
 
 </aside>
 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
+
 **Favourite Quotes Post It Board!**
 
 
@@ -204,22 +227,12 @@ STEP22 : TRANSITION GRACEFULLY
 
 
 
-## POWERED BY WEB DEVELOPMENT
-<aside class="notes">Mart 5 Min</aside>
-
-* Liberty to work, to work at liberty
-  * Global employability 
-  * Many multinationals, NGOs and Governments have their own web departments 
-* Transforming from a a thinker a to creator
-* Lead the charge for any initative with a web strategy.  
-* Learn from and collaborate with the open source community. 
-
-
-
 ## The GA Community
 <aside class="notes">Allison 3 Min</aside>
 
-* Practical, dynamic content 
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
+
+* Practical, dynamic content
 * Strong, diverse community of makers
 * Personalized instruction and support
 * 3 free classes to supplement your coursework
@@ -247,13 +260,13 @@ STEP22 : TRANSITION GRACEFULLY
 **THE DETAILS**
 
 * Instructors: Kit Yuen & Mart v/d Ven
-* July 15th – Sept 23nd, 2013
-* Meets Monday and Thursday from 7-10pm at CoCoon
+* Oct 14th – Dec 18th, 2013
+* Meets Monday and Wednesday from 7-10pm at CoCoon
 * Tuition is $25,000HKD
 * Payment plans are available
 * No pre-requisites
 * Maximum class size of 15 people
-* Registration ends July 12th
+* Registration ends Oct 1st
 
 
 
@@ -265,15 +278,16 @@ STEP22 : TRANSITION GRACEFULLY
 * Bring Your Own Laptop.
 * OSX/Linux is preferred, Windows is also OK.
 * Chrome Browser
-* Sublime Text Editor 
+* Sublime Text Editor
 
 
 
-## FEWD Alumni: Denis Tsoi
+## Alumni: FEWD Ninja!
 <aside class="notes">Denis 10 Min</aside>
+
+![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-student.png)
 
 
 
 #### Q & A
 <aside class="notes">All - 20 Min</aside>
-

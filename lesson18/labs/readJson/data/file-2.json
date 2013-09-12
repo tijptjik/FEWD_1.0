@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Banana",
+    "color": "yellow",
+    "origin": "Singapore"
+  },
+  {
+    "name": "Pineapple",
+    "color": "greenish yellow",
+    "origin": "Malaysia"
+  },
+  {
+    "name": "Watermelon",
+    "color": "green",
+    "origin": "Taiwan"
+  }
+]
