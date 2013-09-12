@@ -16,12 +16,45 @@ Hint: Research the .click(), .text() in jQuery documentation
 */
 
 //Here is some code to get you started:
+console.log('this');
 
 var total = 0;
 
+
 $(function(){
+	$('#app').on('click', '.mathrow > div', update)
+	$('#app').on('click', '.row > div', updateColour)
+})
 
-	//$(box to be updated).click(function call);
+function update(event) {
+	total = total + parseInt($(this).text());
+	$('#out').text(total);
+}
 
+function updateColour(event) {
+	var col = $(this).text();
+	$('#out').css("backgroundColor", col)
+}
 
-});
+// $(function(){
+
+// 	//$(box to be updated).click(function call);
+// 	$("#a10").click(a10);
+// 	$("#a20").click(a20);
+// 	$("#a30").click(a30);
+// 	$("#red").click(function(){colour("red");});)
+// 	$("#blue").click(blue);
+
+// });
+
+// function colour(colour) {
+// 	$("#out").css("backgroundColor", )
+// }
+
+// function red() {
+// 	$("#out").css("backgroundColor", "red");
+// }
+
+// function blue() {
+// 	$("#out").css("backgroundColor", "blue");
+// }

@@ -1,9 +1,9 @@
-/** this time with alternating colour codes for each hexagon **/
+/** with thicker borders **/
 
 .hex {
     float: left;
-    margin-left: 3px;
-    margin-bottom: -26px;
+    margin-left: 14px;
+    margin-bottom: -18px;
 }
 
 .hex .top {
@@ -32,7 +32,7 @@ border-right: 52px solid transparent;
 }
 
 .hex-row.even {
-  margin-left: 53px;
+  margin-left: 57px;
 }
 
 .hex .1 .top {
@@ -41,9 +41,9 @@ border-right: 52px solid transparent;
 
 .hex .1 .middle
 
-.disappear {
+/*.disappear {
 	display: none;
-}
+}*/
 //this does not work and will not load to the file?! but edit through console worked though!
 
 /** 
