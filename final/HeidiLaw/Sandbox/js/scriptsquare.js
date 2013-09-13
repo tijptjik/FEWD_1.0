@@ -1,5 +1,11 @@
+var colourPalette = [
+    'rgb(255,154,0)',
+    'rgb(255,198,0)',
+    'rgb(255,89,0)'
+]
+
 $(function(){ // Document-ready shorthand
-	
+
 	$('.boxes:eq(4)').css({ //select boxes by index specified as 4: WORKS
     	backgroundColor: "black"
 	})
@@ -10,12 +16,6 @@ $(function(){ // Document-ready shorthand
 	$('.boxes:nth-of-type("+colourCounter+")').css({
 	    backgroundColor: "+colourPalette[colourCounter]+"
 	})
-
-	var colourPalette = [
-	    'rgb(255,154,0)',
-	    'rgb(255,198,0)',
-	    'rgb(255,89,0)'
-	]
 
 	colourCounter = 0;
 
