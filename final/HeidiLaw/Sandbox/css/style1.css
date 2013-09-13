@@ -1,0 +1,51 @@
+.colourbox {
+	width:400px;
+	height:600px;
+	background-color: #e9967a;
+}
+
+@media all and (max-width:1200px) {
+	.colourbox {
+		background-color: #fa8072;
+	}
+}
+@media all and (max-width:1100px) {
+	.colourbox {
+		background-color: #ffa07a;
+	}
+}
+@media all and (max-width:1000px) {
+	.colourbox {
+		background-color: #ffa500;
+	}
+}
+@media all and (max-width:900px) {
+	.colourbox {
+		background-color: #ff8c00;
+	}
+}
+@media all and (max-width: 800px) {
+	.colourbox {
+		background-color: #ff7f50;
+	}
+}
+@media all and (max-width:700px) {
+	.colourbox {
+		background-color: #f08080;
+	}
+}
+@media all and (max-width:600px) {
+	.colourbox {
+		background-color: #ff6347;
+	}
+}
+@media all and (max-width:500px) {
+	.colourbox {
+		background-color: #ff4500;
+	}
+}
+@media all and (max-width:400px) {
+	.colourbox {
+		background-color: #ff0000;
+	}
+}
