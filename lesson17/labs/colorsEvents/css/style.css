@@ -1,0 +1,50 @@
+#app
+{
+	width: 500px;
+	margin: 0px auto;
+	margin-top: 50px;
+	padding: 10px;
+	font-family: monospace;
+}
+
+#left, #right
+{
+	float: left;
+}
+
+#controls
+{
+	padding: 10px 10px 10px 0px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+input[type='text']
+{
+	width: 350px;
+}
+
+input
+{
+	height: 30px;
+	font-size: 20px;
+	padding: 3px;
+	font-family: monospace;	
+}
+
+.color
+{
+	border: 3px solid #ffffff;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px 10px 0px;
+}
+
+.selected
+{
+	border: 3px solid #252525;
+}

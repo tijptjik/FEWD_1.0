@@ -1,7 +1,7 @@
 ![General Assembly](assets/images/ga.png)
 # FEWD LESSON 14
 
-## Functions
+## Functions & Javascript Objects
 
 ### Instructors
 Kit Yuen & Mart van de Ven 
@@ -175,9 +175,6 @@ function calculateTax(income, allowances) {
 1. The piece of code is used more than 1 time in your program.
 1. You code looks like spaghetti. (LOOOOOOOOOOOOOOOOOOOONG)
 
-**Where do we place the functions?**
-Codepen demo by Kit
-
 
 
 ## Functions
@@ -196,7 +193,8 @@ Codepen demo by Kit
 <aside class="notes">Kit (30 + 15 Min)</aside>
 
 **In Class Lab** : Exercise Return Functions
-**In Class Lab** : ATM_Functions
+
+**In Class Lab** : ATM Functions
 
 
 
@@ -208,6 +206,7 @@ Codepen demo by Kit
 * Object Oriented Programming VS Procedural Programming
 * An object stores its own values (states)
 * An object can also has behaviours (method/function)
+
 
 
 ## Javascript Object
@@ -419,4 +418,4 @@ JSON.parse(string);
 ## Homework
 <aside class="notes"></aside>
 
-**Homework** : ATM_Objects
+**Homework** : ATM Objects

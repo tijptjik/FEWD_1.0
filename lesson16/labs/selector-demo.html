@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body { font-size: 20px; background-color: grey; }
+      body p:first-child { color: red; }
+      body p:nth-child(2) { color: orange; }
+      body p:nth-child(3) { color: yellow; }
+      body p:nth-last-of-type(3) { color: green; }
+      body p:nth-last-of-type(2) { color: violet; }
+      body p:last-of-type { color: pink; }
+      body div:last-child { color: red; } /* Not implemented well */
+    </style>
+  </head>
+  <body>
+    <p>1st paragraph</p>
+    <p>2nd paragraph</p>
+    <p>3rd paragraph</p>
+    <p>4th paragraph</p>
+    <p>5th paragraph</p>
+    <p>6th paragraph</p>
+    <div>7th div</div>
+    <div>8th div</div>
+    <div>9th div</div>
+  </body>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+  <script>
+    //$('p:nth-child(2)').css('background-color', 'pink');
+    //http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_last-child
+  </script>
+</html>

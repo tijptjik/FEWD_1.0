@@ -4,6 +4,9 @@ body {
 
 /* STEP6 : DEFINING PROPERTIES */
 	background: #f6f0d8;
+/* STEP6.2 : BACKGROUND IMAGE */
+	background-image:  url(http://fc01.deviantart.net/fs30/f/2008/148/c/3/Wood_floor_by_gnrbishop.jpg);
+	background-repeat: repeat;
 
 /* STEP8 : SETTING TYPEFACE PROPERTIES */
 	font-family:'Open Sans';
@@ -18,12 +21,12 @@ body {
 /* STEP10 : CORRESPOND TO CLASS */
 
 .postit {
-	background: #a93629;
+	background: #FFFFE0;
 
 	/* STEP11 : EVERYTHING IS A BOX */
 	width: 200px;
 	height: 200px;
-	
+
 	/* STEP12 : EVERYTHING HAS SPATIAL PROPERTIES */
 	margin:20px;
 	padding:12px;
