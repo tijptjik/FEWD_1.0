@@ -1,7 +1,7 @@
 /** with thicker borders **/
 .container {
 	width: 1440px; 
-	overflow-y: hidden;
+	overflow: hidden;
 }
 .wrapper {
 	width: 1440px;
