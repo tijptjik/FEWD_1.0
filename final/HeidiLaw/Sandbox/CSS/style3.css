@@ -1,6 +1,6 @@
 /** body, fonts and stuff **/
 
-body {
+/*body {
 background: colourPalette[3];
 background: -moz-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
 background: -webkit-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
@@ -8,12 +8,11 @@ background: -o-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 7
 background: -ms-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
 background: linear-gradient(120deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
 transition: all 0.5s linear;
-}
-body {
-	background-color: #FF8100;
-}
+}*/
 
-//does not work again?!?!?!?!?!?!?!
+body {
+	background: black;
+}
 
 h1, h2, h3, h4, h5, h6, a {
 	font-family: Georgia, serif; 
