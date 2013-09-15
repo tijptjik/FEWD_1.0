@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <title>Facebook Integration</title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script type="text/javascript">
+    // Setup the FB object
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '112525318815589', // App ID
+        channelUrl : '//studio.generalassemb.ly/HK/FEWD1/Kit/fb/channel.html', // Channel File
+        status     : true, // check login status
+        cookie     : true, // enable cookies to allow the server to access the session
+        xfbml      : true  // parse XFBML
+      });
+
+      FB.Event.subscribe('auth.authResponseChange', function(response) {
+        if (response.status === 'connected') {
+          // The user has already logged in to facebook and authorized your app before
+          testAPI();
+          $('#fblogout').append('<div><a href="javascript:void(logout());">Logout</a></div>');
+        } else if (response.status === 'not_authorized') {
+          // The user has already logged in to facebook but not yet authorized your app
+          //FB.login();
+        } else {
+          // The user hasn't logged in to fb yet
+          //FB.login();
+        }
+      });
+    };
+
+    // Load the SDK asynchronously
+    (function(d){
+      var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement('script'); js.id = id; js.async = true;
+      js.src = "//connect.facebook.net/en_US/all.js";
+      ref.parentNode.insertBefore(js, ref);
+    }(document));
+
+    // Print the fb username to log after successful login
+    function testAPI() {
+      console.log('Welcome!  Fetching your information.... ');
+      FB.api('/me', function(response) {
+        console.log('Good to see you, ' + response.name + '.');
+      });
+    }
+
+    // Implement the logout function
+    function logout() {
+      console.log('logout');
+      FB.logout(function(response) {
+        // Refresh the page after logout
+        window.location.reload();
+      });
+    }
+
+    // Implement the facebook like button by the FB.api() call
+    function postLike() {
+      FB.api(
+        'https://graph.facebook.com/me/og.likes',
+        'post',
+        { object: 'http://eureka.ykyuen.info',
+        privacy: {'value': 'SELF'} },
+        function(response) {
+          if (!response) {
+            alert('Error occurred.');
+          } else if (response.error) {
+            document.getElementById('result').innerHTML = 'Error: ' + response.error.message;
+          } else {
+            document.getElementById('result').innerHTML =
+            '<a href=\"https://www.facebook.com/me/activity/' + response.id + '\">' +
+            'Story created.  ID is ' + response.id + '</a>';
+          }
+        }
+      );
+    }
+  </script>
+  <h1>Hello World</h1>
+  <fb:login-button show-faces="true" width="200" max-rows="1" perms="publish_actions, user_birthday, email, user_location"></fb:login-button>
+  <div>
+    <input type="button" value="Like" onclick="postLike();">
+  </div>
+  <div id="result"></div>
+  <div id="fblogout"></div>
+</body>
+</html>

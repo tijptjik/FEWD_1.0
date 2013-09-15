@@ -4,7 +4,7 @@
 ## Advanced Topics
 
 ### Instructors
-Kit Yuen & Mart van de Ven 
+Kit Yuen & Mart van de Ven
 
 
 
@@ -12,8 +12,9 @@ Kit Yuen & Mart van de Ven
 <aside class="notes"></aside>
 
 * Scalable and Modular Architecture for CSS
-* By request: `data-` and `void(0)`
-* Object Oriented Javascript
+* Javascript: `data-` and `void(0)`
+* MapBox
+* Google Map API
 * Facebook Integration : Authentication
 * Facebook Integration : API Calls
 
@@ -29,7 +30,7 @@ Kit Yuen & Mart van de Ven
 - Weight war
 - Coupling
 
-SMACSS is more style guide than rigid framework - an attempt to document a consistent approach to site development when using CSS.
+[SMACSS](http://smacss.com/) is more style guide than rigid framework - an attempt to document a consistent approach to site development when using CSS.
 
 
 
@@ -158,48 +159,39 @@ void is a reserved Javascript keyword. It evaluates the expression and always re
 <a href="javascript:void(document.body.style.backgroundColor='green');">Click here for green background</a>
 ```
 
-When a browser follows a javascript: URI, it evaluates the code in the URI and then replaces the contents of the page with the returned value, unless the returned value is undefined. The void operator can be used to return undefined. For example:
 
 
-## Object Oriented Javascript
-<aside class="notes">Mart - 20 Min</aside>
+## MapBox
+<aside class="notes">Kit - 20 Min</aside>
+
+[Create your own map style @ MapBox](http://www.mapbox.com/)
 
 
+## Google Map API
+<aside class="notes">Kit - 10 Min</aside>
 
-## OOJS : Duck Typing
-<aside class="notes"></aside>
-
-### "If it looks like a duck and quacks like a duck, it's a duck".
-
-`Duck typing` is a style of dynamic typing in which an object's current set of methods and properties determines the valid semantics, rather than its inheritance from a particular class or implementation of a specific interface.
-
-## OOJS :
-<aside class="notes"></aside>
-
-
-
-## OOJS :
-<aside class="notes"></aside>
-
-
-
-## OOJS :
-<aside class="notes"></aside>
+[Google Maps JavaScript API v3](https://developers.google.com/maps/documentation/javascript/tutorial?hl=en-us)
 
 
 
 ## Facebook Integration : Authentication
 <aside class="notes">Kit - 40 Min</aside>
 
-
-
-## Facebook Integration : API Calls
-<aside class="notes">Mart - 40 Min</aside>
+[Getting Started with Facebook Login for Web](https://developers.facebook.com/docs/facebook-login/getting-started-web/)
 
 
 
 ## Facebook Integration : API Calls
 <aside class="notes">Mart - 40 Min</aside>
+
+[Facebook SDK for JavaScript](https://developers.facebook.com/docs/javascript/gettingstarted/)
+
+
+
+## Facebook Integration : API Calls
+<aside class="notes">Mart - 40 Min</aside>
+
+[Create a Facebook App](https://developers.facebook.com/docs/opengraph/getting-started/#create-app)
 
 
 
