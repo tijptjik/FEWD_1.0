@@ -56,6 +56,21 @@ Each category comes with a set of more ore less loosely defined naming conventio
 
 They are almost exclusively single element selectors.
 
+```
+body, form {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #039;
+}
+
+a:hover {
+  color: #03F;    
+}
+```
+
 
 
 ## SMACSS : Layout
@@ -65,7 +80,25 @@ They are almost exclusively single element selectors.
 
 Layouts hold one or more modules together. 
 
-All selectors in this category should be prefixed with .layout- (e.g. .layout-header, .layout-sidebar).
+```
+#article { /* Basic layout rule */
+    width: 80%;
+    float: left;
+}
+
+#sidebar {
+    width: 20%;
+    float: right;
+}
+
+.l-fixed #article { /* A highe level layout may help too */
+    width: 600px;
+}
+
+.l-fixed #sidebar {
+    width: 200px;
+}
+```
 
 
 
@@ -75,6 +108,36 @@ All selectors in this category should be prefixed with .layout- (e.g. .layout-he
 ### Modules are the reusable, modular parts of our design. 
 
 They are the callouts, the sidebar sections, the product lists and so on.
+Better use class instead of ID.
+
+```
+<!-- This could be regarded as a module in HTML -->
+<div class="fld">
+  <span class="fld-name">Folder Name</span> 
+  <span class="fld-items">(32 items)</span>
+</div>
+```
+
+
+
+
+## SMACSS : Modules
+<aside class="notes"></aside>
+
+### Make use of of sub class
+
+```
+<!-- This could be regarded as a module in HTML -->
+<div class="fld fld-system">
+  <span class="fld-name">Folder Name</span> 
+  <span class="fld-items">(32 items)</span>
+</div>
+
+<div class="fld fld-personal">
+  <span class="fld-name">Folder Name</span> 
+  <span class="fld-items">(32 items)</span>
+</div>
+```
 
 
 
@@ -85,12 +148,36 @@ They are the callouts, the sidebar sections, the product lists and so on.
 
 Is it hidden or expanded?
 
+```
+.tab {
+    background-color: purple;
+    color: white;
+}
+
+.is-tab-active {
+    background-color: white;
+    color: black;
+}
+```
+
 
 
 ## SMACSS : Themes
 <aside class="notes"></aside>
 
 ### Theme rules describe how the layout or modules might look.
+
+```
+// in module-name.css
+.mod {
+    border: 1px solid;
+}
+
+// in module-name-theme-A.css
+.mod {
+    border-color: blue;
+}
+```
 
 
 
