@@ -11,7 +11,7 @@ body {
 /* STEP8 : SETTING TYPEFACE PROPERTIES */
 	font-family:'Open Sans';
 	font-size: 22px;
-	color:white;
+	color: white;
 }
 
 /* STEP9 : CORRESPOND TO ID */
@@ -21,7 +21,7 @@ body {
 /* STEP10 : CORRESPOND TO CLASS */
 
 .postit {
-	background: #FFFFE0;
+	background: #F59DB9;
 
 	/* STEP11 : EVERYTHING IS A BOX */
 	width: 200px;
@@ -42,19 +42,21 @@ body {
 /* STEP16 : PSEUDO-CLASSES */
 #board div.postit:hover{
 	/* STEP16 : STYLES FOR STATE */
-	background-color: #e24b3b;
+	background-color: #FFDD2A;
 	box-shadow:10px 10px 7px rgba(0,0,0,.7); 
 
 	/* STEP17 : ADDITIONAL ENTROPY BY DISPLACING THE POST-ITS */
-	position:relative;
+  /*
+  position:relative;
 	top:0px;
+  */
 
 	/* STEP20 : BROWSER PRE-FIXES + TRANSFORM  */
 	-webkit-transform:rotate(0deg);  
 	-webkit-transform: scale(1.25);  
 	
 	/* STEP21 : DON'T MOVE ANYONE ELSE!*/
-	z-index:5;
+	/*z-index:5;*/
 
 	/* STEP22 : TRANSITION GRACEFULLY */
 	transition: 0.2s all;
@@ -62,21 +64,27 @@ body {
 
 /* STEP18 : PSEUDO-SELECTORS */
 #board div:nth-child(even){  
+  /*
   position:relative;  
   top:5	px;
+  */
   
   /* STEP19 : SCATTERED ROTATION PATTERNS!*/
   -webkit-transform:rotate(4deg);  
 }
 
 #board div:nth-child(3n){  
+  /*
   position:relative;  
-  top:-5px;  
+  top:-5px;
+  */ 
   -webkit-transform:rotate(-3deg);  
 }  
 
 #board div:nth-child(5n){  
+  /*
   position:relative;  
-  top:-10px;  
+  top:-10px;
+  */
   -webkit-transform:rotate(5deg);  
 } 

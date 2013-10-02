@@ -1,0 +1,92 @@
+STEP1
+  - Setup the basic html
+
+STEP2
+  - Explain <head> and <body>
+
+STEP3
+  - Create the section#board
+
+STEP4
+  - Add "<div>On the Internet, nobody knows you're a dog.</div>" inside section#board
+  - Link up the CSS file. "<link rel="stylesheet" type="text/css" href="style.css">"
+
+STEP5
+  - Go to edit style.css
+
+STEP6
+  - Add background-color to body (whatever color u like)
+  - Then add the background-image (background-image:  url(http://fc01.deviantart.net/fs30/f/2008/148/c/3/Wood_floor_by_gnrbishop.jpg);)
+  - Set background-repeat: repeat;
+
+STEP7
+  - Add webfont
+
+STEP8
+  - Add the following style to body
+    * font-family:'Open Sans';
+    * font-size: 22px;
+    * color: white;
+
+STEP9
+  - Demonstrate the use of id by adding the following style
+    * #board {
+    *   background-color: <color>;
+    * }
+  - Remove the background-color after showing to the audiences
+
+STEP10
+  - Create .postit {} in style.css with the following style
+    * background: #F59DB9;
+  - Add the postit class to the div in the index.html
+
+STEP11
+  - Add the following to the .postit {} in style.css
+    * width: 200px;
+    * height: 200px;
+
+STEP12
+  - Add the following to the .postit {} in style.css
+    * margin:20px;
+    * padding:12px;
+
+STEP13
+  - Add the following to the .postit {} in style.css
+    * float: left;
+
+STEP14
+  - Add the following to the .postit {} in style.css
+    * box-shadow: 5px 5px 7px rgba(33,33,33,.7); 
+
+STEP15
+  - Add more div.postit in the index.html.
+
+STEP16
+  - Create #board div.postit:hover {} in style.css with the following style
+    * background-color: #FFDD2A;
+    * box-shadow:10px 10px 7px rgba(0,0,0,.7);
+
+STEP17
+  - SKIP THIS STEP
+
+STEP18
+  - Create #board div:nth-child(even) {} in style.css
+
+STEP19
+  - Add the following to the div:nth-child(even) {} in style.css
+    * -webkit-transform:rotate(4deg);
+  - Also create the following styles
+    * #board div:nth-child(3n){ -webkit-transform:rotate(-3deg); }
+    * #board div:nth-child(5n){ -webkit-transform:rotate(5deg); }
+
+STEP20
+  - Add the following to the div.postit:hover {} in style.css
+    * -webkit-transform:rotate(0deg);
+    * -webkit-transform: scale(1.25);
+
+STEP21
+  - SKIP THIS STEP
+
+STEP22
+  - Add the following to the div.postit:hover {} in style.css
+    * transition: 0.2s all;
