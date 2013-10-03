@@ -93,7 +93,7 @@ Kit 3 Min
 
 **THE INTERNET MACHINE**
 
-![How Internet Works](http://tijptjik.github.io/FEWD/assets/images/internet.png)
+![How Internet Works?](http://tijptjik.github.io/FEWD/assets/images/internet.png)
 
 
 
