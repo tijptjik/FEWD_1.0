@@ -98,18 +98,26 @@ Kit 3 Min
 
 
 ## Tooling Up
-<aside class="notes">Mart 2 Min</aside>
-**Web Server**
+<aside class="notes"> </aside>
+**Text Editor**
 
-![Apache & NginX](http://tijptjik.github.io/FEWD/assets/images/servers.png)
+![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/sublime.png)
 
 
 
 ## Tooling Up
 <aside class="notes"> </aside>
-**Text Editor**
+**Version Control**
 
-![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/sublime.png)
+![Sublime Text](http://tijptjik.github.io/FEWD/assets/images/github.png)
+
+
+
+## Tooling Up
+<aside class="notes">Mart 2 Min</aside>
+**Web Server**
+
+![Apache & NginX](http://tijptjik.github.io/FEWD/assets/images/servers.png)
 
 
 
