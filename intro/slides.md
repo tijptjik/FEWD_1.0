@@ -232,10 +232,10 @@ STEP22 : TRANSITION GRACEFULLY
 
 ![fullscreen](http://tijptjik.github.io/FEWD/assets/images/bg-red.png)
 
-* Practical, dynamic content
+* Practical, dynamic content developed by curriculum design team & adapted by local instructors
 * Strong, diverse community of makers
 * Personalized instruction and support
-* 3 free classes to supplement your coursework
+* Free 3 month membership to GA Front Row
 * Permanent access to all course resources
 
 
@@ -260,13 +260,12 @@ STEP22 : TRANSITION GRACEFULLY
 **THE DETAILS**
 
 * Instructors: Kit Yuen & Mart v/d Ven
-* Oct 14th – Dec 18th, 2013
+* Oct 16th – Dec 18th, 2013
 * Meets Monday and Wednesday from 7-10pm at CoCoon
 * Tuition is $25,000HKD
 * Payment plans are available
 * No pre-requisites
 * Maximum class size of 15 people
-* Registration ends Oct 1st
 
 
 
