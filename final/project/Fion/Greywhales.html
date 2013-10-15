@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>wwwild</title>
+        <meta name="WWWild, wild, animals, wildlife, nature" content="Capture and Share the World's Wildlife. WWWild is a fun and beautiful way to map the natural world onto the world wide web.">
+        <meta name="viewport" content="width=device-width">
+        <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+        <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+          <!--[if lte IE 8]>
+            <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet'>
+          <![endif]-->
+
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/960_12_col.css">
+    </head>
+    <body>
+
+    <div id="headerwrapper" class="clearfix"> 
+            <header>
+                <h1>wwwild</h1>
+      <!--           <h2>Mapping the natural world onto the world wide web</h2> -->
+            </header>
+            <div id="search">
+              <input type="text" name="search" placeholder="Grey Whales"/> 
+            </div>
+
+            <div>
+              <a href="index.html"><img id="mapicon" src="images/map.jpg" width="50px"></a> 
+            </div>
+
+            <div>
+              <a href="viewall.html"><img id="listicon" src="images/list.jpg" width="50px"></a>
+            </div>
+
+           
+
+            <div>
+              <a id="signin" href="#">Sign In</a> 
+              <a id="checkin" href="#">Check In</a>
+            </div> 
+
+  
+  <div id='map'></div>
+  <!-- <div id='info'></div> -->
+  <style>
+  .popup {
+      text-align: center;
+  }
+  .popup img {
+      width: 100%;
+  }
+  </style>
+
+  <script>
+  var map = L.mapbox.map('map', 'dileung.map-exkigsjo');
+  var geocoder = L.mapbox.geocoder('dileung.map-exkigsjo'); 
+
+
+  function showMap(err, data) {
+       map.fitBounds(data.lbounds);
+  }
+
+  var click = document.getElementById('click'),
+    mousemove = document.getElementById('mousemove');
+
+  map.on('mousemove click', function(e) {
+    window[e.type].innerHTML = e.containerPoint.toString() + ', ' + e.latlng.toString();
+  });
+
+// markers 
+
+var geoJson = {
+    type: 'FeatureCollection',
+    features: [{
+        type: 'Feature',
+        properties: {
+            title: 'Grey Whale',
+      description: 'Sighting',    
+      'marker-size': 'medium',
+          'marker-color': '#f0a',
+          "image": "images/greywhale2.jpg"
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-127.61719, 39.36828]
+        },
+    },
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Grey Whale',
+            description: 'Sighting!',    
+      'marker-size': 'medium',
+          'marker-color': '#f0a', 
+          'image': 'images/greywhale3.jpg'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-120.23437, 32.84267]
+        },
+    }, 
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Grey Whale',
+            description: 'Sighting',    
+            'marker-size': 'medium',
+            'marker-color': '#f0a', 
+            'image': 'images/greywhale4.jpg'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [1.05463, 3.16406]
+        }, 
+    }, 
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Grey Whale',
+            description: 'Sighting',    
+            'marker-size': 'medium',
+            'marker-color': '#f0a', 
+            'image': 'images/greywhale5.jpg'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [132.1875, 25.79989]
+        }
+
+    }, 
+    
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Grey whale',
+            description: 'Saw 20 grey whales feeding in the bay area!',    
+            'marker-size': 'medium',
+            'marker-color': '#f0a', 
+            'image': 'images/greywhale.jpg'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-125.96701 , 49.14904]
+        }
+
+    },
+   {
+        type: 'Feature',
+        properties: {
+            title: 'Grey Whale',
+            description: 'Just wow',    
+            'marker-size': 'medium',
+            'marker-color': '#f0a', 
+            'image': 'images/greywhale6.jpg'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [148.71094, 47.04018]
+        }
+
+    }, 
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Grey Whale',
+            description: 'Sighting',    
+            'marker-size': 'medium',
+            'marker-color': '#f0a', 
+            'image': 'images/greywhale7.jpg'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [130.07813, -35.46067]
+        }
+
+    }, 
+    {
+        type: 'Feature',
+        properties: {
+            title: 'Grey Whale',
+            description: 'just chilling',    
+            'marker-size': 'medium',
+            'marker-color': '#f0a', 
+            'image': 'images/greywhale8.jpg'
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: [-58.00781, 15.96133]
+        }
+
+    }
+
+    ]}; 
+
+
+map.markerLayer.on('layeradd', function(e) {
+    var marker = e.layer,
+        feature = marker.feature;
+
+    // Create custom popup content
+    var popupContent =  '<a target="_blank" class="popup" href="' + feature.properties.url + '">' +
+                            '<img src="' + feature.properties.image + '">' +
+                        '   <h2>' + feature.properties.title + '</h2>' + '<p>' + feature.properties.description + '</p>' + 
+                        '</a>';
+
+    // http://leafletjs.com/reference.html#popup
+    marker.bindPopup(popupContent,{
+        closeButton: false,
+        minWidth: 320
+    }).on('mouseover', function() { marker.openPopup(); }).on('mouseout', function() { marker.closePopup(); });
+
+});
+
+map.markerLayer.setGeoJSON(geoJson); 
+
+</script>
+
+</body>
+</html>
+<!-- 
+POP UP WINDOW 
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+    popupWindow = window.open(
+        url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+<a href="JavaScript:newPopup('http://www.quackit.com/html/html_help.cfm');">Open a popup window</a> -->

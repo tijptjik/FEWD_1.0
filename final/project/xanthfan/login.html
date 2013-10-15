@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Login iframe</title>
+	<link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<form>
+	
+		<div class="login">Username: <input type="text" name="firstname"></div>
+		<div class="login">Password: <input type="text" name="lastname"></div>
+		<div class="submit"><button id="btn">Submit</button></div>
+	</div>
+</form>
+</body>
+
+<script>
+function alertMessage(message) {
+	alert(message);
+}
+
+btn.addEventListener("click", function() {
+	alertMessage("clicked the button");
+	if (sessionStorage.clickcount)
+	  {
+	  sessionStorage.clickcount=Number(sessionStorage.clickcount)+1;
+	  console.log(sessionStorage.clickcount);
+	  }
+	else
+	  {
+	  sessionStorage.clickcount=1;
+	  console.log(sessionStorage.clickcount);
+	  }
+	}, false);
+
+</script>
+</html>

@@ -1,0 +1,38 @@
+li a {
+	display: block;
+  background-image: url(sprite.jpg);
+  width: 72px;
+  height: 72px;
+  text-indent: -9000px;
+}
+
+#socialMedia {
+	float: right;
+}
+
+
+#socialMedia ul li.pinterest {
+	background:url(sprite.jpg) 0px 64px;
+}
+#socialMedia ul li.twitter {
+	background:url(sprite.jpg) -60px 64px; 
+}
+
+#socialMedia ul li.facebook {
+	background:url(sprite.jpg) -120px 64px; 
+}
+
+
+
+
+
+#socialMedia ul li.pinterest:hover {
+	background:url(sprite.jpg) 0px 0px; 
+}
+
+#socialMedia ul li.twitter:hover {
+	background:url(sprite.jpg) -60px 0px; 
+}
+
+#socialMedia ul li.facebook:hover {
+	background:url(sprite.jpg) -120px 0px; 

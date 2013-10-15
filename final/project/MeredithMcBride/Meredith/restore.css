@@ -1,0 +1,61 @@
+/*Clearfix*/
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/*Header*/
+
+ header {
+ 	background-color: gray;
+ 	height: 60px;
+ 	font: helvetica, sans-serif, arial;
+ 	font-size: 24px;
+ 	font-color: white;
+ }
+
+/* Nav */
+
+nav a {
+	height: 100%;
+	text-align: center;
+	border:1px solid #ccc;
+	padding: 12px 0px;
+	padding-color: black;
+}
+
+nav a:hover {
+	background:#ccc;
+}
+
+nav ul li {
+		margin-right: 20px;	
+	}
+
+/* Social Media */
+
+li a {
+	display: block;
+  background-image: url(images/sprite.jpg);
+  width: 72px;
+  height: 72px;
+  text-indent: -9000px;
+}
+
+#socialMedia {
+	float: right;
+}
+
+.pinterest a {background-position: 0px 0px;}
+.facebook a {background-position: -72px 144px;}
+.twitter a {background-position: -144px -144px;}
+.mail a {background-position: -432px -72px;}
+
+.pinterest a:hover {background-position: 0px -288px;}
+.facebook a:hover {background-position: -72px -288px;}
+.twitter a:hover {background-position: -144px -288px;}
+.mail a:hover {background-position: -432px -288px;}

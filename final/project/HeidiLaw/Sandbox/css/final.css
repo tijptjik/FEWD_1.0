@@ -1,0 +1,168 @@
+/** OVERAL **/
+.transition{
+	background-color: black;
+	opacity: 0.8;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	width: 1440px;
+	overflow: hidden;
+}
+.buttons {
+	height: 50px;
+	width: 50px;
+	bottom: 0px;
+	margin: 10px 10px;
+	position: fixed;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.buttons .gohex a {
+	background-color: gray;
+	opacity: .8;
+	left: 70px;
+	height: 50px;
+	width: 50px;
+	bottom: 0px;
+	margin: 10px 10px;
+	position: fixed;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: georgia;
+	text-indent: 20px;
+/*	display: none;*/
+}
+
+.buttons .gosquare a{
+	background-color: gray;
+	opacity: .8;
+	height: 50px;
+	width: 50px;
+	bottom: 0px;
+	margin: 10px 10px;
+	position: fixed;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: georgia;
+	text-indent: 20px;
+}
+
+.buttons .textinput a {
+		background-color: gray;
+	opacity: .8;
+	height: 50px;
+	width: 50px;
+	bottom: 0px;
+	margin: 10px 10px;
+	position: fixed;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: georgia;
+	text-indent: 20px;
+	left: 132px;
+}
+.text {
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	top: 40%;
+	font-family: 'Montserrat', arial;
+	font-size: 70px;
+}
+/** HEX **/
+
+.hex .container {
+	width: 1440px; 
+	height:880px;
+/*  overflow: hidden;
+*/}
+
+
+.hex .wrapper {
+width: 1880px;
+margin-top: -60px;
+margin-left: -100px;
+}
+
+.hex {
+    float: left;
+    margin-left: 14px;
+    margin-bottom: -18px;
+}
+
+.hex .top {
+width: 0;
+/*border-top: 30px solid #C66;*/
+border-bottom: 30px solid white;
+border-left: 52px solid transparent;
+border-right: 52px solid transparent;
+}
+
+.hex .middle {
+  width: 104px;
+height: 60px;
+background-color: white;
+}
+
+.hex .bottom {
+width: 0;
+border-top: 30px solid white;
+border-left: 52px solid transparent;
+border-right: 52px solid transparent;
+}
+
+.hex-row {
+  clear:left;
+}
+
+.hex-row.even {
+  margin-left: 57px;
+}
+
+.hex .1 .top {
+	border-bottom: 30px solid #FF8100;
+}
+/** SQUARES **/
+.boxes {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	float: left;
+}
+
+.row {
+	width: 100%;
+}
+
+.square .wrapper {
+	overflow: hidden;
+	width: 1880px;
+}
+
+.square .container {
+	width: 100%;
+}
+
+/** toggle **/
+.active {
+	display: block;
+}
+
+.disappear {
+	display: none;
+}

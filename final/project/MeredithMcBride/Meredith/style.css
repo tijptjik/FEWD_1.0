@@ -1,0 +1,392 @@
+/*Clearfix*/
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/* Body */
+@font-face {
+  font-family: "LatoBold";
+  src: url(http://www.latofonts.com/lato-free-fonts/) 
+  format("truetype");
+}
+body { 
+	width: 960px; margin: 0 auto;
+	text-align: left;
+	font-family: "Lato";
+	font-color: white;
+
+	background-image: url('images/witewall_3.png');}
+
+	a:link {color: white; text-decoration: none; }
+	a:active {color: white;}
+	a:visited {color: white;}
+	a:hover {color: #0D8ABF; text-decoration: none; }
+
+	/*background-image: url('images/hong-kong.jpg');
+  background-repeat: no-repeat;
+
+	
+	background-position: center;
+	background-attachment: fixed;*/
+	/*-webkit-background-size: cover; 
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+
+/*Header*/
+
+ header {
+ 	background-color: gray; opacity: .85;
+ 	padding: 10px;
+ 	padding-color: black;
+ 	border: 20px;
+ 	border-color: gray;
+ 	height: 80px;
+ 	width: 960px;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	z-index: 5;
+ 	
+		-webkit-border-bottom-right-radius: 15px; 
+		border-bottom-right-radius: 15px; 
+
+		-webkit-border-top-right-radius: 15px; 
+		border-top-right-radius: 15px; 
+
+		-webkit-border-top-left-radius: 15px; 
+		border-top-left-radius: 15px; 
+
+		-webkit-border-bottom-left-radius: 15px; 
+		border-bottom-left-radius: 15px; 
+ }
+
+ #header {
+ 	width: 960px;
+ 	text-align: right;
+ }
+
+ #header-wrapper {
+	width: 960px;
+	float: right;
+	font-family: "LatoBold", helvetica, sans-serif;
+	/*font: helvetica, sans-serif, arial;*/
+ 	font-size: 24px;
+ 	font-color: white;
+
+}
+
+
+
+/* Nav */
+
+nav a {
+
+	height: 100%;
+	text-align: center;
+	padding: 12px 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border:2px solid #ccc;
+
+/*	float: center;*/
+
+}
+
+.logo {
+	background: url(images/SupportLocal.png) no-repeat 0 0 transparent;
+	height: 180px;
+	width: 180px;
+	position: fixed;
+	left: 200px;
+	top: -18px;
+	z-index:3;
+
+}
+
+
+
+
+nav a:hover {
+	background:#ccc;
+}
+
+nav ul li {
+		/*margin-right: 20px;	*/
+	}
+
+ul {
+	list-style-type: none;
+	float: right;
+}
+/* Social Media */
+
+li a {
+	width: 960px;
+ 	margin: 0 auto;
+	display: block;
+  	background-image: url(images/sprite.png);
+  	width: 72px;
+  	height: 72px;
+  	/*z-index: 5;*/
+/*  text-indent: -9000px;*/
+}
+
+#socialMedia {
+	float: right;
+}
+
+#socialMedia li a {
+	text-indent: 1000px;
+	z-index: 6;
+}
+
+.pinterest a {background-position: 0px 0px;}
+.facebook a {background-position: -72px 144px;}
+.twitter a {background-position: -144px -144px;}
+.mail a {background-position: -432px -72px;}
+
+.pinterest a:hover {background-position: 0px -288px;}
+.facebook a:hover {background-position: -72px -288px;}
+.twitter a:hover {background-position: -144px -288px;}
+.mail a:hover {background-position: -432px -288px;}
+
+
+
+
+.sliderkit {  
+    padding: 0;  
+    margin:  0;  
+} 
+ 
+.sliderkit img {  
+    padding: 10px;  
+    border:  1px solid #ccc;  
+    background-color: #eee;  
+  /*  width:  200px; 
+    height: 200px; */
+    top:  0; 
+    left: 0;
+    /*position: center;
+    z-index: 1;*/
+
+
+    position:absolute;
+left:0px;
+top:0px;
+z-index:-1;
+} 
+
+
+.advertisement p {
+	font-size: 24px;
+	color: white;
+	line-height: 24px;
+	padding: 14px;
+	background: transparent;
+/*	position: fixed; z-index: 2;*/
+}
+
+.overlay {
+		
+		top: 264px;
+	 	background: rgb(50,50,50); opacity: .85; 
+		display: block;
+		height: 260px;
+		width: 360px;
+		font-family: "Lato", helvetica, sans-serif;
+		position: fixed;
+		left: 202px;
+/*		position: fixed; z-index: 2;*/
+
+		-webkit-border-bottom-right-radius: 15px; 
+	border-bottom-right-radius: 15px; 
+
+	-webkit-border-top-right-radius: 15px; 
+	border-top-right-radius: 15px; 
+		
+	}
+		/*.overlaytext {
+			position: fixed;
+			bottom: 0px;
+			right: 0px;
+			font-size: 120px;
+			padding-right: 30px;
+			z-inde:;
+		}
+*/
+
+
+/*Body Content*/
+
+h1 {
+	font: helvetica, sans-serif, arial;
+	font-color: white;
+	font-size: 28px;
+	text-indent: 2000px;
+}
+
+#main {
+	background-color: black;
+	padding: 20px;
+	width: 300px;
+
+	-webkit-border-bottom-right-radius: 15px; 
+	border-bottom-right-radius: 15px; 
+
+	-webkit-border-top-right-radius: 15px; 
+	border-top-right-radius: 15px; 
+}
+
+/* Box Model Hack */
+
+
+
+
+
+
+/*Footer*/
+
+
+ #footer {
+ 	width: 960px;
+ 	text-align: left;
+ 	background-color: gray; opacity: .85;
+ 	padding: 10px;
+ 	padding-color: black;
+ 	border: 20px;
+ 	border-color: gray;
+ 	height: 60px;
+ 	width: 960px;
+ 	clear: both;
+ 	position: relative;
+ 	z-index: 10;
+ 	margin-top: -3em;
+
+ 	
+		-webkit-border-bottom-right-radius: 5px; 
+		border-bottom-right-radius: 5px; 
+
+		-webkit-border-top-right-radius: 5px; 
+		border-top-right-radius: 5px; 
+
+		-webkit-border-top-left-radius: 5px; 
+		border-top-left-radius: 5px; 
+
+		-webkit-border-bottom-left-radius: 5px; 
+		border-bottom-left-radius: 5px; 
+ }
+
+
+
+/*Media*/
+
+@media only screen and(min-width: 992px) and (max-width: 1159px){
+	body {
+		float: ;
+		width: ;
+	}
+
+	.logo {
+	height: 180px;
+	width: 180px;
+	position: fixed;
+	/*text-indent: -1000px;*/
+	left: 18px;
+	top: -18px;
+	}
+
+	.overlay {
+		position: fixed;
+		left: 0px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		float: ;
+		width: 800px;
+		margin: 24px;
+	}	
+
+	.logo {
+		height: 180px;
+	width: 180px;
+	position: fixed;
+	/*text-indent: -1000px;*/
+	left: 18px;
+	top: -18px;
+	}
+
+	.overlay {
+		position: fixed;
+		left: 0px;
+	}
+
+	nav a {
+
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	body {
+		width: 650px;
+		margin: 22px;
+	}
+
+	.logo {
+		height: 180px;
+	width: 180px;
+	position: fixed;
+	/*text-indent: -1000px;*/
+	left: 18px;
+	top: -18px;
+	}
+
+	.overlay {
+		position: fixed;
+		left: 0px;
+	}
+	nav a {
+		float: none;
+		font-size: 18px;
+	}
+
+}
+ 
+@media only screen and (min-width: 50px) and (max-width: 479px){
+	body {
+		background-color: gray;
+		background-image: none;
+		width: 450px;
+		margin: 34px;
+		padding: 24px;
+		width: 480px; margin: 0 auto; }
+
+	li a {
+		float: left;
+
+	}	
+	.logo {
+		height: 180px;
+	width: 180px;
+	position: fixed;
+	/*text-indent: -1000px;*/
+	left: 18px;
+	top: -18px;
+	}
+
+	.overlay {
+		position: fixed;
+		left: 18px;
+	}
+
+	nav a {
+		float: left;
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,19 @@
+li{
+	float:left;
+}
+li a {
+	display: block;
+  background-image: url(sprite.jpg);
+  width: 72px;
+  height: 72px;
+  text-indent: -300px;
+}
+
+.pinterest a {background-position: 0px 64px;}
+.twitter a {background-position: -60px 64px;}
+.facebook a {background-position: -120px 64px;}
+
+
+.pinterest a:hover {background-position: 0px 0px;}
+.twitter a:hover {background-position: -60px 0px;}
+.facebook a:hover {background-position: -120px 0px;}

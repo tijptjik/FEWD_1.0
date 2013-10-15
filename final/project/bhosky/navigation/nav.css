@@ -1,0 +1,180 @@
+
+
+a img{border:none;}
+
+#nav {
+	background:url('nav-background.png');
+	width:100%;
+	height:122px;
+	position:fixed;
+	top:0px;
+	z-index:100;
+}
+
+#nav-container {
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+}
+
+#logo {
+	position:absolute;
+	left:-8px;
+	top:10px;
+}
+
+#nav-black {
+	position:absolute;
+	top:12px;
+	right:35px;
+}
+
+#nav-black ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+#nav-black li {
+	float:left;
+	margin-right:20px;
+	margin-top:-2px;
+	background-image:url('dot.png');
+	background-position:right;
+	background-repeat:no-repeat;
+	padding-right:20px;
+}
+
+#nav-black a {
+	color:#CCC;	
+	text-decoration:none;
+}
+
+#nav-black a:hover {
+	color:#D82525;	
+	text-decoration:none;
+}
+
+#social-buttons {
+	position:absolute;
+	top:6px;
+	right:0px;
+}
+
+#social-buttons img {
+	margin-left:7px;	
+}
+
+#nav-white {
+	position:absolute;
+	top:67px;
+	right:-50px;
+}
+
+#nav-white ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#nav-white li {
+	float:left;
+	margin:0 55px 0 0;
+	color:black;
+	font-size:14px;
+}
+
+#nav-white .subtitle {
+	margin:10px 0;
+}
+
+#nav-white li strong {
+	color:#DC2828;
+}
+
+#nav-white span {
+	display:none;
+}
+
+
+#find-us {
+	background:url('find-us.png');
+	background-repeat:no-repeat;
+	width:75px;
+	height:24px;
+}
+
+#find-us a {
+	padding:10px 40px;
+}
+
+#shop {
+	background:url('shop.png');
+	background-repeat:no-repeat;
+	width:67px;
+	height:24px;
+}
+
+#shop a {
+	padding:10px 35px;
+}
+
+
+#shop-drop {
+	width:1022px;
+	height:730px;
+	background: url('shop-bg.png');
+	position:relative;
+	top:-35px;
+	left:-365px;
+	z-index:-10;
+	display:none;
+	padding-top:-40px;
+	
+}
+
+#shop-drop strong {
+	line-height:40px;	
+}
+
+#shop-drop a {
+	padding:0;
+	margin:0;	
+}
+
+
+#shop li {
+	float:none;
+	padding:0;
+	margin:0;
+}
+
+#beauty {
+	position:absolute;
+	top:85px;
+	left:370px;	
+}
+
+#Thoughts {
+	position:absolute;
+	top:85px;
+	left:675px;	
+}
+
+#Articles {
+	position:absolute;
+	top:85px;
+	left:85px;	
+}
+
+#Links {
+	position:absolute;
+	top:350px;
+	left:370px;		
+}
+
+
+
+#footer a:hover {
+	color:#999;
+}

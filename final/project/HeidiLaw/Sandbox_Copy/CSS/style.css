@@ -1,0 +1,99 @@
+/** colourboxes **/
+.colourbox {
+	width:200px;
+	height:200px;
+	background-color: #EB0000;
+	margin: 3px;
+}
+
+.colourbox2 {
+	background-color: #EB2900;
+	width:200px;
+	height:200px;
+	margin: 3px;
+}
+
+.colourbox3 {
+	background-color: #DC0027;
+	width:200px;
+	height:200px;
+	margin: 3px;
+}
+
+/** body **/
+body {
+	background-image: url('images/tweed.png');
+}
+.colourbox h3 {
+	color: white;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/** resize me **/
+.resize {
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-right: 30px solid orange;
+	border-bottom: 30px solid orange;
+	border-left: 30px solid transparent;
+	/*float: bottom right;*/
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/** media queries **/
+@media all and (max-width: 200px) {
+	.colourbox {
+		background-color: #B02C2C;
+	}
+	.colourbox2 {
+		background-color: #B0432C;
+	}
+	.colourbox3{
+	background-color: #A5293F;
+}
+}
+
+@media all and (max-width: 1000px) {
+	.colourbox {
+		background-color: #990000;
+	}
+	.colourbox2 {
+		background-color: #991B00;
+	}
+	.colourbox3{
+	background-color: #8F0019;
+}
+}
+
+@media all and (max-width: 900px) {
+	.colourbox {
+		background-color: #F53D3D;
+	}
+	.colourbox2 {
+		background-color: #F55D3D;
+	}
+	.colourbox3{
+	background-color: #EE3B5B;
+}
+}
+
+@media all and (max-width: 800px) {
+	.colourbox {
+		background-color: #F56E6E;
+	}
+	.colourbox2 {
+		background-color: #F5866E;
+	}
+	.colourbox3{
+	background-color: #EE6B82;
+}
+}

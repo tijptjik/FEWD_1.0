@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Health Village Front-End Template</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css"  />
+
+<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slideshow               :   1,			// Slideshow on/off
+					autoplay				:	1,			// Slideshow starts playing automatically
+					start_slide             :   1,			// Start slide (0 is random)
+					stop_loop				:	0,			// Pauses slideshow on last slide
+					random					: 	0,			// Randomize slide order (Ignores start slide)
+					slide_interval          :   6000,		// Length between transitions
+					transition              :   6, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	1000,		// Speed of transition
+					new_window				:	1,			// Image links open in new window/tab
+					pause_hover             :   0,			// Pause slideshow on hover
+					keyboard_nav            :   1,			// Keyboard navigation on/off
+					performance				:	1,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+					image_protect			:	0,			// Disables image dragging and right click with Javascript
+															   
+					// Size & Position						   
+					min_width		        :   0,			// Min width allowed (in pixels)
+					min_height		        :   0,			// Min height allowed (in pixels)
+					vertical_center         :   1,			// Vertically center background
+					horizontal_center       :   1,			// Horizontally center background
+					fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+					fit_portrait         	:   1,			// Portrait images will not exceed browser height
+					fit_landscape			:   0,			// Landscape images will not exceed browser width
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					thumb_links				:	1,			// Individual thumb links for each slide
+					thumbnail_navigation    :   0,			// Thumbnail navigation
+					slides 					:  	[			// Slideshow Images
+														{image : 'images/greenleaves.png', title : 'Green Leaves', thumb : 'images/greenleaves.png', url : '#'},
+														{image : 'images/sunflower.png', title : 'Image Credit: Bronwyn', thumb : 'images/sunflower.png', url : '#'},  
+													
+												],
+												
+					// Theme Options			   
+					progress_bar			:	0,			// Timer for each slide							
+					mouse_scrub				:	0
+					
+				});
+		    });
+		    
+		</script>		
+
+</head>
+
+<body>
+
+    <div id="nav">
+    	<div id="nav-container">
+        	<p> Health Village </p>
+            <div id="nav-black">
+            	<ul>
+                	<li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Connect</a></li>
+                </ul>
+            </div>
+            <div id="social-buttons">
+            	<img src="images/twitter.png" />
+                <img src="images/facebook.png" />
+            </div>
+            <div id="nav-white">
+                <ul>
+                    <li id="shop"><a href="#"><span>Shop</span></a></li>
+                    <li id="eat-drink"><a href="#"><span>About Us</span></a></li>
+                    <li id="find-us"><a href="#"><span>Find Us</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <div id="home-content">
+        	<div id="left">
+            	<div id="filter">
+                    <ul>
+                    	<li><strong>Show:</strong></li>
+                        <li><span class="selected">All</span></li>
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+                <div id="squares">
+                    <div class="square" id="square-1"></div>
+                    <div class="square" id="square-2"></div>
+                    <div class="square" id="square-3"></div>
+                    <div class="square" id="square-4"></div>
+                    <div class="square" id="square-5"></div>
+                    <div class="square" id="square-6"></div>
+                </div>
+            </div>
+            <div id="right">
+            	<div id="search">
+                <input type="text" placeholder="Search Retailers & Events" />
+                <a href="#"><img src="images/search-go.png" /></a>
+                </div>
+                <div id="blog">
+                <h3>Blog</h3>
+                 <div class="blog-post">
+                	<h4>Banana Muffins</h4>
+                   <p><strong>How to Make Gluten-Free Banana Muffins</strong></p>
+                </div>
+                <div class="blog-post">
+                	<h4>Banana Cake </h4>
+                    <p> <a href="#">Read More</a></p>
+                </div>
+                </div>
+               
+            </div>
+    	</div>
+    </div>
+    <footer>
+  <div id="footer-container"> 
+    <ul class="clearfix">
+      <li>Get in Touch</li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+    <ul>
+      <li>Policies</li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+    <ul>
+      <li>Social</li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </div>
+</footer>
+        </div>
+    </div>
+    
+</body>
+</html>

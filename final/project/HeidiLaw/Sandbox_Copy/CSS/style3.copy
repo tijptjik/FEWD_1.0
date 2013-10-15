@@ -1,0 +1,105 @@
+/** body, fonts and stuff **/
+
+body {
+background: rgb(126, 73, 230);
+background: -moz-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
+background: -webkit-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
+background: -o-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
+background: -ms-linear-gradient(30deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
+background: linear-gradient(120deg, rgb(126, 73, 230) 27%, rgb(90, 140, 250) 70%);
+transition: all 0.5s linear;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	font-family: Georgia, serif; 
+	color: #FFFFFF;
+	font-style: italic;
+}
+
+.container_wrapper {
+	width: 600px;
+	height: 100%;
+	margin: 30px auto;
+}
+
+	.container_background {
+		background-color: black;
+		opacity: 0.3;
+		width: 600px;
+		height: 100%;
+		margin: 30px auto;
+	}
+
+	.navbar {
+		width: 600px;
+		height: 50px;
+		position: absolute;
+		top: 30px;
+		margin: 0 auto;
+	}
+
+		ul li a {
+			display: inline;
+			float: right;
+			padding-right: 20px;
+			text-decoration: none;
+			color: white;
+			line-height: 50px;
+			font-style: normal;
+		}
+
+		ul li:nth-child(1) {
+			display: inline;
+			float: left;
+			padding-left: 20px;
+			text-decoration: none;
+			color: white;
+			line-height: 50px;
+		}
+
+		/*@media all and (max-width:1200px) {
+	.colourbox {
+		background-color: #fa8072;
+	}
+}
+@media all and (max-width:1100px) {
+	.colourbox {
+		background-color: 
+
+	}
+}
+@media all and (max-width:1000px) {
+	.colourbox {
+		background-color: #ffa500;
+	}
+}*/
+/*@media all and (max-width:900px) {
+	.colourbox {
+		background-color: #ff8c00;
+	}
+}*/
+/*@media all and (max-width: 800px) {
+	.colourbox {
+		background-color: #ff7f50;
+	}
+}
+@media all and (max-width:700px) {
+	.colourbox {
+		background-color: #f08080;
+	}
+}
+@media all and (max-width:600px) {
+	.colourbox {
+		background-color: #ff6347;
+	}
+}
+@media all and (max-width:500px) {
+	.colourbox {
+		background-color: #ff4500;
+	}
+}
+@media all and (max-width:400px) {
+	.colourbox {
+		background-color: #ff0000;
+	}
+}*/
