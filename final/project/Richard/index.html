@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+    <title>Richard de Waal</title>
+    <link href="css/reset.css" media="all" rel="stylesheet" />
+    <link href="css/style.css" media="all" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Richard de Waal</h1>
+
+            <nav>
+                <ul>
+                    <li class="Home">
+                        <a data-target="home" href="#">Home</a>
+                    </li>
+
+                    <li class="About">
+                        <a data-target="about" href="#">About</a>
+                    </li>
+
+                    <li class="Graphics">
+                        <a data-target="graphics" href="#">Graphic Design</a>
+                    </li>
+
+                    <li class="Concept">
+                        <a data-target="concept" href="#">Concept Art</a>
+                    </li>
+
+                    <li class="Contact">
+                        <a data-target="contactinfo" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="clear"></div>
+
+        <div id="container">
+
+            <!-- home -->
+            <div class="panel portfolio home active">
+
+                <div><img alt="Richard de Waal" src="images/welcome.png" /></div>
+
+            </div>
+
+
+            <!-- about -->
+            <div class="panel portfolio about">
+                <h2>My name is Richard de Waal, I'm 24 years old and grew up in Tilburg in the Netherlands. I live and work in Hong Kong as a graphic designer for Localiiz.com.
+                <br>
+                I started illustration at a very young age and have always had a passion for graphic design.
+                <br>
+                Although I am working full time I am always open to do freelance work when ever I am availible
+                <br>
+                Enjoy my work and leave a message!</h2>
+
+                <div><img alt="Richard de Waal" src="images/me.jpg" /></div>
+            </div>
+
+            <!-- concept -->
+            <div class="panel portfolio concept">
+                <div class="piece"><img alt="Bug person concept" src=
+                "images/bug-person.jpg" /></div>
+
+                <h3>Concept art</h3>
+
+                <p>A concept art piece I made after watching a couple of
+                B-movies.</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Photoshop</dd>
+                </dl>
+
+                <div class="piece"><img alt=
+                "batman suit concept" src=
+                "images/batman-concept.jpg" /></div>
+
+                <h3>Concept art</h3>
+
+                <p>A concept for a new batman design that I made in
+                Illustrator</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Illustrator</dd>
+                </dl>
+
+                                <div class="piece"><img alt=
+                "batman suit concept" src=
+                "images/goul.jpg" /></div>
+
+                <h3>Concept art</h3>
+
+                <p>A concept sketch of a undead goul</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Pencil and marker</dd>
+                </dl>
+
+            </div>
+
+            <!-- graphics -->
+            <div class="panel portfolio graphics">
+                <div class="piece"><img alt="Vector zombie illustion" src=
+                "images/zombie-design.jpg" /></div>
+
+                <h3>Vector Illustration</h3>
+
+                <p>A Vector imgae I made in Illustrator, because I like zombies
+                and was inspired to make a cool design,</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Illustrator</dd>
+                </dl>
+            </div>
+
+                        <div class="panel portfolio graphics">
+                <div class="piece"><img alt="The Joker on the run" src=
+                "images/joker-escape.jpg" /></div>
+
+                <h3>Photoshop Illustration</h3>
+
+                <p>This is a illustration I made of the Joker escaping from arkham asylum once again.</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Photoshop</dd>
+                </dl>
+            </div>
+
+                        <div class="panel portfolio graphics">
+                <div class="piece"><img alt="mayhem" src=
+                "images/black-metal.jpg" /></div>
+
+                <h3>Photoshop Illustration</h3>
+
+                <p>This piece was inspired after listening to some "mayhem"</p>
+
+                <dl>
+                    <dt>Client:</dt>
+
+                    <dd>Personal</dd>
+
+                    <dt>Tools:</dt>
+
+                    <dd>Photoshop</dd>
+                </dl>
+            </div>
+
+                <!-- contact -->
+            <div class="panel portfolio contactinfo contact">
+                <h2>Let me know what you think!</h2>
+
+ <form id="contact-form" name="contact-form" method="post" action="form-processing.php">
+    <p>
+      <label>Name:<br />
+        <input name="Name" type="text" id="FName" size="30" />
+      </label>
+    </p>
+    <p>
+      <label>Email:<br />
+        <input name="Email" type="text" id="Email" size="48" />
+      </label>
+    </p>
+    <p>
+      <label>Message:<br />
+        <textarea name="Message" id="Message" cols="50" rows="7"></textarea>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="button" type="submit" class="submit-button" id="button" value="Send" />
+      </label>
+    </p>
+  </form> 
+            </div>
+        </div>
+    </div><script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> <script>
+<![CDATA[
+    window.jQuery || document.write('<script src="js/jquery-1.8.0.min.js"><\/script>')
+    ]]>
+    </script> <script src="js/scripts.js"></script>
+</body>
+</html>

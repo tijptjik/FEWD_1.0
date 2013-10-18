@@ -1,0 +1,156 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, input, textarea, fieldset, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background: #7f9aae url(../images/bg-circles.jpeg);
+	background-color: rgb(124, 0, 0);
+	font: 16px/24px Helvetica, Arial, Sans-Serif; color: #fff;
+}
+
+	h1 {
+		margin-top: 60px;
+		margin-left: 70px;
+		float: left; 
+    	text-indent: 100%;
+    	white-space: nowrap;
+    	overflow: hidden;
+		width: 765px; height: 157px; 
+		background: url(../images/banner-h1.png); text-indent: -9999px;
+	}
+	
+	h2 {
+		font: 20px/40px Helvetica, Arial, Sans-Serif; 
+		letter-spacing: 1px; 
+		/*text-align: center;*/
+		text-shadow: 0px 2px 3px #546a7e; 
+		margin: 0 0 40px 0;
+	}
+	
+	h3 {
+		width: 338px; 
+		height: 46px; 
+		padding: 11px 0 0 22px;
+		background: url(../images/header.png) no-repeat;	
+		font: 27px/24px Helvetica, Arial, Sans-Serif; letter-spacing: 1px;
+	}
+
+
+#container {
+	width: 760px; margin: 60px auto;
+}
+
+.panel {
+	display: none;
+}
+.panel.active {
+	display: block;
+}
+
+
+	
+	.panel {
+		margin: 0 0 45px 0; 
+	}
+		.panel .piece {
+			height: 230px; overflow: hidden; margin: 0 0 24px 0;
+		}
+			.panel .piece:hover {
+				height: auto;
+			}
+
+/*Art info	*/
+	dl {
+		overflow: hidden;
+	}
+		dt { 
+			float: left; margin: 0 10px 0 0;
+		}
+		dd {
+			float: left; margin: 0 24px 0 0;
+		}
+
+/*Contact form	*/
+	form div {
+		float: left; 
+	}
+
+	
+	label {
+		display: block; margin: 0 0 5px 0;
+	}
+	input {
+		width: 330px; height: 43px; padding: 5px 15px 5px 15px; margin: 0 16px 17px 0;
+		background: #738ea0 url(../images/form-bg.png) repeat-x;
+		border: 1px solid #fff;
+		font: 16px Helvetica, Arial, Sans-Serif; color: #fff;
+	}
+		input:focus {
+			border: 1px solid #93b9b0;
+		}
+	textarea {
+		width: 350px; height: 223px; padding: 16px 15px; 
+		background: #738ea0 url(../images/form-bg.png) repeat-x;
+		border: 1px solid #fff;
+		font: 16px/24px Helvetica, Arial, Sans-Serif; color: #fff;
+	}
+		textarea:focus {
+			border: 1px solid #fff;
+		}
+	input.submit {
+		width: 196px; height: 49px; float: right; 
+		background: url(../images/submit.png); 
+		font: 22px Helvetica, Arial, Sans-Serif; letter-spacing: 1px;
+		border: none; padding: 0; cursor: pointer;
+	}
+	
+/*clearfix*/
+.clear {
+	clear:both;	
+}
+
+/*navigation*/
+nav ul {
+	margin: 0px;
+	padding: 116px;
+}
+
+nav ul li{
+	float:left;
+}
+
+nav ul {
+	display:block;
+	height:49px;
+	color:#ccc;
+	padding:39px 18px 0 18px;
+	font-size:17px; 
+	background-image: none;
+}
+
+li a {
+	display: block;
+	background-image: url(../images/nav-icons.png);
+	width: 54px;
+	height: 52px;
+	text-indent: -99999px;
+	margin-top: 100px;
+	margin-left: 31px;
+	margin-right: 7px;
+}
+
+/*normal state*/
+.Home a {background-position: 0px -66px;}
+.About a {background-position: -64px -66px;}
+.Graphics a {background-position: -128px -66px;}
+.Concept a {background-position: -192px -66px;}
+.Contact a {background-position: -256px -66px;}
+
+/*hover state*/
+.Home a:hover {background-position: 0px -1px;}
+.About a:hover {background-position: -64px -1px;}
+.Graphics a:hover {background-position: -128px -1px;}
+.Concept a:hover {background-position: -192px -1px;}
+.Contact a:hover {background-position: -256px -1px;}
+
+
