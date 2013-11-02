@@ -28,7 +28,12 @@ Kit Yuen & Mart van de Ven
 ## Pointing with GIT: Origin & Upstream 
 <aside class="notes">Both ~ 5 Min</aside>
 
-Merge latest changes from tijptjik/FEWD to your forked repo
+### Merge latest changes from tijptjik/FEWD to your forked repo
+
+
+
+## Pointing with GIT: Origin & Upstream 
+<aside class="notes">Both ~ 5 Min</aside>
 
 1. Open the Git shell / Terminal
 1. Goes to your repository root
