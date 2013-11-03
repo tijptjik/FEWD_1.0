@@ -1,0 +1,159 @@
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+header {
+     background-image: url("../images/header.png");
+     background-repeat: repeat-x;
+     background-position: 0px -100px;
+     height: 250px;
+     background-color: transparent;
+}
+
+#header-wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1.title {
+	color: #e4ddb1;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 75px;
+  margin-top: 0px;
+  margin-left: 320px;
+  padding-top: 75px;
+}
+
+h1.face {
+  width: 306px;
+  height: 313px;
+  background: url("../images/buscabulla_face.png");
+  float: left;
+}
+
+#menu{
+color: #774c67;
+text-decoration: none;
+cursor: auto;
+}
+
+body{
+    background-image: url("../images/beach_bg_light.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#cover {
+  background-image: url("../images/cover.jpg");
+  width: 960px;
+  height: 400px;
+}
+
+audio{
+  margin-left: 315px;
+  margin-top: 60px;
+}
+
+p{
+  font-family: 'Rokkitt', sans-serif;
+  font-style: bold;
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+  padding: 12px;
+}
+
+.pbox{
+  width: 960px;
+  background-color: #dfad7c;
+  opacity: 0.7;
+  margin-top: 60px;
+}
+
+#connect{
+float: left;
+width: 300px;
+height: 300px;
+}
+
+#connect-top {
+    width: 300px;
+    height: 140px;
+    background-image: url("../images/connect top.jpg");
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+#connect-bottom {
+    width: 300px;
+    height: 140px;
+    background-image: url("../images/connect bottom.jpg");
+}
+
+#watch {
+    width: 300px;
+    height: 300px;
+    background-image: url("../images/watch.jpg");
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+#listen {
+    width: 300px;
+    height: 300px;
+    background-image: url("../images/listen.jpg");
+    float: left;
+    margin-top: 80px;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav li {
+	 float: left;
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 20px;
+    color: #ff1326;
+    list-style: none;
+    margin: 24px;
+    font-weight: bold;
+}
+
+nav li a {
+	display: block;
+  color: #774c67;
+  text-decoration: none;
+  cursor: auto;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+footer {
+    font-family: 'Rokkitt', sans-serif;
+    background-image: url("../images/header.png");
+     background-repeat: repeat-x;
+     background-position: 0px -145px;
+     height: 250px;
+     background-color: transparent;
+  }
+
+#pfooter{
+  width: 960px;
+  opacity: 0.7;
+  margin-top: 60px;
+}
+

@@ -1,0 +1,101 @@
+http://vimeo.com/71159396 
+
+http://www.youtube.com/watch?v=gO0-uNEs_b0  
+
+https://soundcloud.com/buscabulla  
+
+https://www.facebook.com/pages/Buscabulla/427830910567151
+
+https://twitter.com/buscabullamusic
+
+contact Raquel at quimera32@gmail.com
+
+Buscabulla (Spanish slang for troublemaker) is the solo project of Puerto Rican 
+designer and Brooklyn resident, Raquel Berrios. Heavily influenced by vintage Latin music 
+like salsa gorda, Cuban psych and '80s Argentinian rock, the project combines both electronic 
+and live instrumentation. Her diverse influences make up a hybrid that combines a mellow 
+Caribbean sensibility with subversive wit.
+
+ 
+
+“Sono”
+
+Written and Produced by Raquel Berrios
+
+Video Direction by Roy Delgado
+
+
+
+The artist's debut video, is a hypnotic super 8 art film that collages understated 
+tropical imagery with geometric compositions, textural studies and plays of shadow and light.
+
+"Sono"'s spanish lyrics speak of sudden optimism and unexpected bursts of enlightenment. 
+The track samples Cuban psych group, Grupo de Experimentación Sonora del ICAIC over 90's 
+hip hop breaks, fuzz guitar and xylophones. 
+
+ 
+
+Also check out the SONOSOLAR summer mixtape that contains “Sono”.  
+"Sonosolar is a ride around Piñones, on acid, where old caribbean rhythms and 
+sonorous experiments are combined to evoke a journey through lost beaches and 
+tropical galaxies" says the DJ, artist, singer-songwriter, designer native from 
+Puerto Rico and based in Brooklyn, Raquel Berrios, aka Buscabulla.
+
+ 
+
+  
+
+Español: 
+
+Buscabulla es el proyecto musical independiente de Raquel Berrios, diseñadora puertorriqueña radicada en Brooklyn, NY. Grandemente influenciada por la música latina vieja como la salsa gorda, la psicodelia cubana y el rock argentino de los ochenta, esta propuesta incorpora instrumentación electronica y en vivo. Sus diversas influencias musicales aparecen transformadas en un nuevo híbrido musical que combina una calmada sensibilidad caribeña con ingenio subversivo.
+
+ 
+
+“Sono”
+Composición y producción musical por Raquel Berrios
+
+Dirección por Roy Delgado
+
+ 
+
+El primer video de la artista es una hipnótica pelicula experimental en formato super 8 que combina imagines tropicales minimalistas con composiciones geométricas, texturas y juegos de luz y sombra.
+
+ La letra de "Sono" habla de momentos de inspiración inesperada y optimismo espontáneo  . La composición incluye samples del Grupo de Experimentación Sonora de la ICAIC sobre ritmos de hip hop de los noventa e incorpora guitarras distorcionadas y xilófonos.
+
+ 
+
+Presten también sus oidos a SONOSOLAR un mixtape de verano que contiene el sencillo “Sono”. 
+"Sonosolar es un vueltón por Piñones en acido donde temas viejos caribeños y experimentos sonoros 
+nuevos se combinan en un viaje que evoca playas perdidas y galaxias tropicales." Dice la dj, artista, 
+diseñadora puertorriqueña radicada en Brooklyn; Raquel Berrios aka Buscabulla.
+
+
+<div id="socialmedia">
+			    	<ul class="clearfix">
+				        <li class="linkedin"><a href="#">LinkedIn</a></li>
+				        <li class="twitter"><a href="#">Twitter</a></li>
+				        <li class="facebook"><a href="#">Facebook</a></li>
+				        <li class="rss"><a href="#">RSS</a></li>
+			    	</ul>
+			    </div>
+
+
+#socialmedia li a {
+    display: block;
+    background-image: url(../images/socialNav.png);
+    width: 64px;
+    height: 56px;
+    text-indent: -9999px;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.linkedin a { background-position: 0px 64px; }
+.twitter a { background-position: -60px 64px; }
+.facebook a { background-position: -120px 64px; }
+.rss a { background-position: -180px 64px; }
+
+.linkedin a:hover { background-position: 0px 0px; }
+.twitter a:hover { background-position: -60px 0px; }
+.facebook a:hover { background-position: -120px 0px; }
+.rss a:hover { background-position: -180px 0px; }
